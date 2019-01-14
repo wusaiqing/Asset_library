@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="GTAPMExcel.dll" version="1.0.0.11" publicKeyToken="e53818c91e77c8b3" language="neutral" processorArchitecture="msil" type="win32" />
+  <description xmlns="urn:schemas-microsoft-com:asm.v1">GTAPMExcel</description>
+  <application />
+  <entryPoint>
+    <co.v1:customHostSpecified />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Office.Tools" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Office.Tools.Common" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Office.Tools.Excel" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Office.Tools.v4.0.Framework" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualStudio.Tools.Applications.Runtime" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="stdole" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GTAPMExcel.dll" size="59392">
+      <assemblyIdentity name="GTAPMExcel" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>tYnr7Eq3t7cTfc4k5W/winKKzj8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Office.Tools.Common.v4.0.Utilities.dll" size="32664">
+      <assemblyIdentity name="Microsoft.Office.Tools.Common.v4.0.Utilities" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>CtnCtseaMyfROIGe0ENdGO6arHg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.Office.Tools.Excel.v4.0.Utilities.dll" size="236952">
+      <assemblyIdentity name="Microsoft.Office.Tools.Excel.v4.0.Utilities" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>z3U61dJ85kEXnaWO4zChIMDZm9M=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <vstav3:addIn xmlns:vstav3="urn:schemas-microsoft-com:vsta.v3">
+    <vstav3:entryPointsCollection>
+      <vstav3:entryPoints>
+        <vstav3:entryPoint class="GTAPMExcel.ThisWorkbook">
+          <assemblyIdentity name="GTAPMExcel" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+        </vstav3:entryPoint>
+        <vstav3:entryPoint class="GTAPMExcel.Sheet1">
+          <assemblyIdentity name="GTAPMExcel" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+        </vstav3:entryPoint>
+        <vstav3:entryPoint class="GTAPMExcel.Sheet2">
+          <assemblyIdentity name="GTAPMExcel" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+        </vstav3:entryPoint>
+        <vstav3:entryPoint class="GTAPMExcel.Sheet4">
+          <assemblyIdentity name="GTAPMExcel" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+        </vstav3:entryPoint>
+        <vstav3:entryPoint class="GTAPMExcel.Sheet3">
+          <assemblyIdentity name="GTAPMExcel" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+        </vstav3:entryPoint>
+      </vstav3:entryPoints>
+    </vstav3:entryPointsCollection>
+    <vstav3:update enabled="true">
+      <vstav3:expiration maximumAge="7" unit="days" />
+    </vstav3:update>
+    <vstav3:application>
+      <vstov4:customizations xmlns:vstov4="urn:schemas-microsoft-com:vsto.v4">
+        <vstov4:customization>
+          <vstov4:document solutionId="27092e49-e05d-48dc-9747-af81afccf2ba" />
+        </vstov4:customization>
+      </vstov4:customizations>
+    </vstav3:application>
+  </vstav3:addIn>
+<publisherIdentity name="CN=HUANGW\Administrator" issuerKeyHash="2da7c645965cbc847c5ae53ab6af89a0a1461ae1" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>MvmoPkiyeLYC32gJUxDZIHXdnQw=</DigestValue></Reference></SignedInfo><SignatureValue>Jj3WK+zBhblrzd+LIQ95stwToon5Lxep9jKkQlbDcful4ACQKbvpfowUIvltaIgRwe5wscf6WzQmb1zhjGw3OdGOhAjKoeq7Owl+oRGhXIYllp4FcCcxGyrKBHxAVT35Y0Zq1Pqd8gcMru/yBa4AeefF9KBz868Q/dJlV5ZjrS4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vcyXkTG6RQoq4LY6JrHsdUd01+55ipnAuAAtnFSop2RIQsDCVzf5F6CP0/IXTv67Oy3ddSzU4Gjgd2pCBW/1UhrE3XrZHZy0lbzTmvsWHI22tl4m/OUjLiEbQhVAJEYaxvwICsa22uBvcychOK3N4IJ4nk2NXdFxtlr3T1jdgzE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0c9ddd7520d910530968df02b678b2483ea8f932" Description="" Url=""><as:assemblyIdentity name="GTAPMExcel.dll" version="1.0.0.11" publicKeyToken="e53818c91e77c8b3" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HUANGW\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Hr+YJHwR1iU5GVq1NU5Q1x/M40E=</DigestValue></Reference></SignedInfo><SignatureValue>A4Q0cRRsAtWhg+tNHvEquYLI6MTIEZsJsY6JmaHMbddfUCCCoBpCrd+PiuknZXUlT+igosjY9l07EhokNqwh3Bch4Am3d+a7WNW7GrIOxhb/O5XQLu3pmOge6y7M9NKTN35YrqncpjgZFa2ERMFRN1yINidWMTlDwzJ/SkBzXJU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vcyXkTG6RQoq4LY6JrHsdUd01+55ipnAuAAtnFSop2RIQsDCVzf5F6CP0/IXTv67Oy3ddSzU4Gjgd2pCBW/1UhrE3XrZHZy0lbzTmvsWHI22tl4m/OUjLiEbQhVAJEYaxvwICsa22uBvcychOK3N4IJ4nk2NXdFxtlr3T1jdgzE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAU6gAwIBAgIQRrN4JdLxt7pEDSXtN3hYPDAJBgUrDgMCHQUAMDMxMTAvBgNVBAMeKABIAFUAQQBOAEcAVwBcAEEAZABtAGkAbgBpAHMAdAByAGEAdABvAHIwHhcNMTExMTAyMDIzNDQ5WhcNMTIxMTAxMDgzNDQ5WjAzMTEwLwYDVQQDHigASABVAEEATgBHAFcAXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9zJeRMbpFCirgtjomsex1R3TX7nmKmcC4AC2cVKinZEhCwMJXN/kXoI/T8hdO/rs7Ld11LNTgaOB3akIFb/VSGsTdetkdnLSVvNOa+xYcjba2Xib85SMuIRtCFUAkRhrG/AgKxrba4G9zJyE4rc3ggnieTY1d0XG2WvdPWN2DMQIDAQABMAkGBSsOAwIdBQADgYEAIKyyJTbq+iJq6VLzwwSCvpxLZfNdpZf0ob7aZ562W/LkirH6WsfTgEkKRSCfkcB2LcegASyfuXwrQ9o58R8jDS+LRMV6oLCgGWhFSPcTTyJMbpxKEzc8ZaW9KdFbHOMUG9egdCzZ6ZtJhjTfETlbttOFahxihv3nN2iMB/xHV+Y=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

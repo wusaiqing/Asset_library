@@ -1,0 +1,2220 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../教师用户中心首页_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:192px;
+    top:250px;
+    width:224px;
+    height:230px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:230px;
+    height:236px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:107px;
+    width:220px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u4_container {
+    position:absolute;
+    left:22px;
+    top:0px;
+    width:62px;
+    height:20px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:68px;
+    height:26px;
+}
+
+.u5 {
+    position:absolute;
+    left:3px;
+    top:2px;
+    width:57px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    white-space:nowrap;
+}
+
+.u7_selected {
+    background-image: url('../教师中心导航_files/u7_selected.png');
+}
+
+.u7_normal {
+    background-image: url('../教师中心导航_files/u7_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:6px;
+    top:6px;
+    width:9px;
+    height:9px;
+}
+
+#u7_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:9px;
+    height:9px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:-4px;
+    width:5px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u9_container {
+    position:absolute;
+    left:22px;
+    top:0px;
+    width:62px;
+    height:20px;
+}
+
+#u9_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:68px;
+    height:26px;
+}
+
+.u10 {
+    position:absolute;
+    left:3px;
+    top:2px;
+    width:57px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    white-space:nowrap;
+}
+
+.u12_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u12_container {
+    position:absolute;
+    left:22px;
+    top:0px;
+    width:62px;
+    height:20px;
+}
+
+#u12_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:68px;
+    height:26px;
+}
+
+.u13 {
+    position:absolute;
+    left:3px;
+    top:2px;
+    width:57px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    white-space:nowrap;
+}
+
+.u15_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u15_container {
+    position:absolute;
+    left:22px;
+    top:0px;
+    width:62px;
+    height:20px;
+}
+
+#u15_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:68px;
+    height:26px;
+}
+
+.u16 {
+    position:absolute;
+    left:3px;
+    top:2px;
+    width:57px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    white-space:nowrap;
+}
+
+.u18_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u18_container {
+    position:absolute;
+    left:22px;
+    top:0px;
+    width:62px;
+    height:20px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:68px;
+    height:26px;
+}
+
+.u19 {
+    position:absolute;
+    left:3px;
+    top:2px;
+    width:57px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    white-space:nowrap;
+}
+
+.u21_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u21_container {
+    position:absolute;
+    left:22px;
+    top:0px;
+    width:62px;
+    height:20px;
+}
+
+#u21_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:68px;
+    height:26px;
+}
+
+.u22 {
+    position:absolute;
+    left:3px;
+    top:2px;
+    width:57px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    white-space:nowrap;
+}
+
+.u24_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u24_container {
+    position:absolute;
+    left:22px;
+    top:0px;
+    width:62px;
+    height:20px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:68px;
+    height:26px;
+}
+
+.u25 {
+    position:absolute;
+    left:3px;
+    top:2px;
+    width:57px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    white-space:nowrap;
+}
+
+.u27_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u27_container {
+    position:absolute;
+    left:22px;
+    top:0px;
+    width:62px;
+    height:20px;
+}
+
+#u27_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:68px;
+    height:26px;
+}
+
+.u28 {
+    position:absolute;
+    left:3px;
+    top:2px;
+    width:57px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    white-space:nowrap;
+}
+
+.u30_selected {
+    background-image: url('../教师中心导航_files/u7_selected.png');
+}
+
+.u30_normal {
+    background-image: url('../教师中心导航_files/u7_normal.png');
+}
+
+.u30_container {
+    position:absolute;
+    left:6px;
+    top:6px;
+    width:9px;
+    height:9px;
+}
+
+#u30_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:9px;
+    height:9px;
+}
+
+.u31 {
+    position:absolute;
+    left:2px;
+    top:-4px;
+    width:5px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u32_container {
+    position:absolute;
+    left:22px;
+    top:0px;
+    width:62px;
+    height:20px;
+}
+
+#u32_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:68px;
+    height:26px;
+}
+
+.u33 {
+    position:absolute;
+    left:3px;
+    top:2px;
+    width:57px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    white-space:nowrap;
+}
+
+.u35_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u35_container {
+    position:absolute;
+    left:22px;
+    top:0px;
+    width:48px;
+    height:20px;
+}
+
+#u35_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:54px;
+    height:26px;
+}
+
+.u36 {
+    position:absolute;
+    left:3px;
+    top:2px;
+    width:43px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    white-space:nowrap;
+}
+
+.u38_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u38_container {
+    position:absolute;
+    left:22px;
+    top:0px;
+    width:48px;
+    height:20px;
+}
+
+#u38_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:54px;
+    height:26px;
+}
+
+.u39 {
+    position:absolute;
+    left:3px;
+    top:2px;
+    width:43px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    white-space:nowrap;
+}
+
+.u41_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u41_container {
+    position:absolute;
+    left:22px;
+    top:0px;
+    width:62px;
+    height:20px;
+}
+
+#u41_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:68px;
+    height:26px;
+}
+
+.u42 {
+    position:absolute;
+    left:3px;
+    top:2px;
+    width:57px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    white-space:nowrap;
+}
+
+.u44_normal {
+    background-image: url('../resources/images/transparent.gif');
+}
+
+.u44_container {
+    position:absolute;
+    left:22px;
+    top:0px;
+    width:62px;
+    height:20px;
+}
+
+#u44_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:68px;
+    height:26px;
+}
+
+.u45 {
+    position:absolute;
+    left:3px;
+    top:2px;
+    width:57px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    white-space:nowrap;
+}
+
+.u47 {
+    position:absolute;
+    left:210px;
+    top:263px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48 {
+    position:absolute;
+    left:360px;
+    top:264px;
+    width:30px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49_normal {
+    background-image: url('../教师用户中心首页_files/u49_normal.png');
+}
+
+.u49_container {
+    position:absolute;
+    left:416px;
+    top:250px;
+    width:594px;
+    height:230px;
+}
+
+#u49_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:600px;
+    height:236px;
+}
+
+.u50 {
+    position:absolute;
+    left:2px;
+    top:107px;
+    width:590px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51 {
+    position:absolute;
+    left:440px;
+    top:264px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u52 {
+    position:absolute;
+    left:442px;
+    top:312px;
+    width:378px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u53 {
+    position:absolute;
+    left:820px;
+    top:312px;
+    width:75px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u54 {
+    position:absolute;
+    left:442px;
+    top:345px;
+    width:388px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u55 {
+    position:absolute;
+    left:820px;
+    top:345px;
+    width:75px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u56 {
+    position:absolute;
+    left:944px;
+    top:311px;
+    width:45px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u57 {
+    position:absolute;
+    left:944px;
+    top:344px;
+    width:45px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u58 {
+    position:absolute;
+    left:944px;
+    top:378px;
+    width:45px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u59_normal {
+    background-image: url('../教师用户中心首页_files/u59_normal.png');
+}
+
+.u59_container {
+    position:absolute;
+    left:910px;
+    top:264px;
+    width:83px;
+    height:25px;
+}
+
+#u59_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:89px;
+    height:31px;
+}
+
+.u60 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:79px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u61 {
+    position:absolute;
+    left:442px;
+    top:378px;
+    width:388px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u62 {
+    position:absolute;
+    left:442px;
+    top:411px;
+    width:388px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u63 {
+    position:absolute;
+    left:442px;
+    top:444px;
+    width:388px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u64 {
+    position:absolute;
+    left:820px;
+    top:378px;
+    width:75px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u65 {
+    position:absolute;
+    left:820px;
+    top:411px;
+    width:75px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u66 {
+    position:absolute;
+    left:820px;
+    top:444px;
+    width:75px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u67 {
+    position:absolute;
+    left:944px;
+    top:411px;
+    width:45px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u68 {
+    position:absolute;
+    left:944px;
+    top:444px;
+    width:45px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u69_normal {
+    background-image: url('../教师用户中心首页_files/u69_normal.png');
+}
+
+.u69_container {
+    position:absolute;
+    left:192px;
+    top:480px;
+    width:818px;
+    height:230px;
+}
+
+#u69_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:824px;
+    height:236px;
+}
+
+.u70 {
+    position:absolute;
+    left:2px;
+    top:107px;
+    width:814px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u71 {
+    position:absolute;
+    left:212px;
+    top:497px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u72 {
+    position:absolute;
+    left:214px;
+    top:542px;
+    width:378px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u73 {
+    position:absolute;
+    left:820px;
+    top:542px;
+    width:75px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u74 {
+    position:absolute;
+    left:214px;
+    top:575px;
+    width:388px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u75 {
+    position:absolute;
+    left:820px;
+    top:575px;
+    width:75px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u76 {
+    position:absolute;
+    left:945px;
+    top:541px;
+    width:45px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u77 {
+    position:absolute;
+    left:945px;
+    top:574px;
+    width:45px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u78 {
+    position:absolute;
+    left:945px;
+    top:608px;
+    width:45px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u79_normal {
+    background-image: url('../教师用户中心首页_files/u59_normal.png');
+}
+
+.u79_container {
+    position:absolute;
+    left:910px;
+    top:494px;
+    width:83px;
+    height:25px;
+}
+
+#u79_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:89px;
+    height:31px;
+}
+
+.u80 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:79px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u81 {
+    position:absolute;
+    left:214px;
+    top:608px;
+    width:388px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u82 {
+    position:absolute;
+    left:214px;
+    top:641px;
+    width:388px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u83 {
+    position:absolute;
+    left:214px;
+    top:674px;
+    width:388px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u84 {
+    position:absolute;
+    left:820px;
+    top:608px;
+    width:75px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u85 {
+    position:absolute;
+    left:820px;
+    top:641px;
+    width:75px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u86 {
+    position:absolute;
+    left:820px;
+    top:674px;
+    width:75px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u87 {
+    position:absolute;
+    left:945px;
+    top:641px;
+    width:45px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u88 {
+    position:absolute;
+    left:945px;
+    top:674px;
+    width:45px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u89_normal {
+    background-image: url('../教师用户中心首页_files/u89_normal.png');
+}
+
+.u89_container {
+    position:absolute;
+    left:192px;
+    top:710px;
+    width:818px;
+    height:250px;
+}
+
+#u89_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:824px;
+    height:256px;
+}
+
+.u90 {
+    position:absolute;
+    left:2px;
+    top:117px;
+    width:814px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u91 {
+    position:absolute;
+    left:210px;
+    top:724px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u92 {
+    position:absolute;
+    left:212px;
+    top:767px;
+    width:378px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u93 {
+    position:absolute;
+    left:962px;
+    top:805px;
+    width:38px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u94 {
+    position:absolute;
+    left:212px;
+    top:805px;
+    width:528px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u95 {
+    position:absolute;
+    left:865px;
+    top:805px;
+    width:75px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u96 {
+    position:absolute;
+    left:865px;
+    top:767px;
+    width:75px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u97_line {
+    background-image: url('../教师用户中心首页_files/u97_line.png');
+}
+
+.u97_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:778px;
+    height:3px;
+}
+
+.u97 {
+    position:absolute;
+    left:212px;
+    top:831px;
+    width:778px;
+    height:10px;
+    
+}
+
+.u98_line {
+    background-image: url('../教师用户中心首页_files/u98_line.png');
+}
+
+.u98_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:778px;
+    height:3px;
+}
+
+.u98 {
+    position:absolute;
+    left:212px;
+    top:788px;
+    width:778px;
+    height:10px;
+    
+}
+
+.u99 {
+    position:absolute;
+    left:962px;
+    top:767px;
+    width:38px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u100 {
+    position:absolute;
+    left:962px;
+    top:852px;
+    width:38px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u101 {
+    position:absolute;
+    left:212px;
+    top:852px;
+    width:528px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u102 {
+    position:absolute;
+    left:865px;
+    top:852px;
+    width:75px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u103_line {
+    background-image: url('../教师用户中心首页_files/u103_line.png');
+}
+
+.u103_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:778px;
+    height:3px;
+}
+
+.u103 {
+    position:absolute;
+    left:212px;
+    top:892px;
+    width:778px;
+    height:10px;
+    
+}
+
+.u104 {
+    position:absolute;
+    left:212px;
+    top:912px;
+    width:528px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u105_line {
+    background-image: url('../教师用户中心首页_files/u105_line.png');
+}
+
+.u105_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:778px;
+    height:3px;
+}
+
+.u105 {
+    position:absolute;
+    left:212px;
+    top:938px;
+    width:778px;
+    height:10px;
+    
+}
+
+.u106 {
+    position:absolute;
+    left:962px;
+    top:912px;
+    width:38px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u107 {
+    position:absolute;
+    left:865px;
+    top:912px;
+    width:75px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u108_normal {
+    background-image: url('../教师用户中心首页_files/u108_normal.png');
+}
+
+.u108_container {
+    position:absolute;
+    left:893px;
+    top:724px;
+    width:100px;
+    height:25px;
+}
+
+#u108_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:31px;
+}
+
+.u109 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u110_normal {
+    background-image: url('../教师中心头部_files/u110_normal.png');
+}
+
+.u110_container {
+    position:absolute;
+    left:30px;
+    top:50px;
+    width:980px;
+    height:150px;
+}
+
+#u110_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:986px;
+    height:156px;
+}
+
+.u111 {
+    position:absolute;
+    left:2px;
+    top:67px;
+    width:976px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u112_normal {
+    background-image: url('../教师中心头部_files/u112_normal.png');
+}
+
+.u112_container {
+    position:absolute;
+    left:50px;
+    top:63px;
+    width:121px;
+    height:124px;
+}
+
+#u112_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:121px;
+    height:124px;
+}
+
+.u113 {
+    position:absolute;
+    left:2px;
+    top:54px;
+    width:117px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u114 {
+    position:absolute;
+    left:194px;
+    top:66px;
+    width:99px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u115 {
+    position:absolute;
+    left:194px;
+    top:142px;
+    width:219px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u116 {
+    position:absolute;
+    left:582px;
+    top:75px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u117 {
+    position:absolute;
+    left:700px;
+    top:74px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u118 {
+    position:absolute;
+    left:452px;
+    top:74px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u119 {
+    position:absolute;
+    left:194px;
+    top:178px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u120_normal {
+    background-image: url('../教师中心头部_files/u120_normal.png');
+}
+
+.u120_container {
+    position:absolute;
+    left:194px;
+    top:100px;
+    width:50px;
+    height:31px;
+}
+
+#u120_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:56px;
+    height:37px;
+}
+
+.u121 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:46px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u122_normal {
+    background-image: url('../教师中心头部_files/u120_normal.png');
+}
+
+.u122_container {
+    position:absolute;
+    left:254px;
+    top:100px;
+    width:50px;
+    height:31px;
+}
+
+#u122_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:56px;
+    height:37px;
+}
+
+.u123 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:46px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u124_normal {
+    background-image: url('../教师中心头部_files/u124_normal.png');
+}
+
+.u124_container {
+    position:absolute;
+    left:840px;
+    top:101px;
+    width:110px;
+    height:39px;
+}
+
+#u124_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:116px;
+    height:45px;
+}
+
+.u125 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:106px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u126 {
+    position:absolute;
+    left:476px;
+    top:127px;
+    width:30px;
+    height:33px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u127 {
+    position:absolute;
+    left:602px;
+    top:127px;
+    width:36px;
+    height:33px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u128 {
+    position:absolute;
+    left:714px;
+    top:125px;
+    width:36px;
+    height:33px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u129_line {
+    background-image: url('../教师中心头部_files/u129_line.png');
+}
+
+.u129_line {
+    position:absolute;
+    left:4px;
+    top:0px;
+    width:3px;
+    height:121px;
+}
+
+.u129 {
+    position:absolute;
+    left:420px;
+    top:63px;
+    width:10px;
+    height:121px;
+    
+}
+
+.u130_line {
+    background-image: url('../教师中心头部_files/u130_line.png');
+}
+
+.u130_line {
+    position:absolute;
+    left:4px;
+    top:0px;
+    width:3px;
+    height:121px;
+}
+
+.u130 {
+    position:absolute;
+    left:550px;
+    top:65px;
+    width:10px;
+    height:121px;
+    
+}
+
+.u131_line {
+    background-image: url('../教师中心头部_files/u131_line.png');
+}
+
+.u131_line {
+    position:absolute;
+    left:4px;
+    top:0px;
+    width:3px;
+    height:121px;
+}
+
+.u131 {
+    position:absolute;
+    left:674px;
+    top:65px;
+    width:10px;
+    height:121px;
+    
+}
+
+.u132_line {
+    background-image: url('../教师中心头部_files/u132_line.png');
+}
+
+.u132_line {
+    position:absolute;
+    left:4px;
+    top:0px;
+    width:3px;
+    height:121px;
+}
+
+.u132 {
+    position:absolute;
+    left:789px;
+    top:65px;
+    width:10px;
+    height:121px;
+    
+}
+
+.u133_normal {
+    background-image: url('../教师中心头部_files/u133_normal.png');
+}
+
+.u133_container {
+    position:absolute;
+    left:840px;
+    top:157px;
+    width:110px;
+    height:25px;
+}
+
+#u133_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:116px;
+    height:31px;
+}
+
+.u134 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:106px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u136 {
+    position:absolute;
+    left:207px;
+    top:300px;
+    width:190px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u137 {
+    position:absolute;
+    left:207px;
+    top:321px;
+    width:190px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u138 {
+    position:absolute;
+    left:207px;
+    top:360px;
+    width:190px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u139 {
+    position:absolute;
+    left:207px;
+    top:380px;
+    width:190px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u140_line {
+    background-image: url('../教师用户中心首页_files/u140_line.png');
+}
+
+.u140_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:200px;
+    height:3px;
+}
+
+.u140 {
+    position:absolute;
+    left:207px;
+    top:343px;
+    width:200px;
+    height:10px;
+    
+}
+
+.u141 {
+    position:absolute;
+    left:206px;
+    top:419px;
+    width:190px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u142 {
+    position:absolute;
+    left:206px;
+    top:439px;
+    width:190px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u143_line {
+    background-image: url('../教师用户中心首页_files/u143_line.png');
+}
+
+.u143_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:200px;
+    height:3px;
+}
+
+.u143 {
+    position:absolute;
+    left:206px;
+    top:403px;
+    width:200px;
+    height:10px;
+    
+}
+
+.u144 {
+    position:absolute;
+    left:1030px;
+    top:250px;
+    width:150px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u145 {
+    position:absolute;
+    left:214px;
+    top:499px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u146_normal {
+    background-image: url('../教师端顶部_files/u146_normal.png');
+}
+
+.u146_container {
+    position:absolute;
+    left:30px;
+    top:1px;
+    width:980px;
+    height:26px;
+}
+
+#u146_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:986px;
+    height:32px;
+}
+
+.u147 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:976px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u148 {
+    position:absolute;
+    left:810px;
+    top:6px;
+    width:50px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u149_normal {
+    background-image: url('../教师端顶部_files/u149_normal.png');
+}
+
+.u149_container {
+    position:absolute;
+    left:870px;
+    top:7px;
+    width:20px;
+    height:16px;
+}
+
+#u149_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:26px;
+    height:22px;
+}
+
+.u150 {
+    position:absolute;
+    left:2px;
+    top:-2px;
+    width:16px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u151 {
+    position:absolute;
+    left:35px;
+    top:8px;
+    width:165px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u152_normal {
+    background-image: url('../教师端顶部_files/u152_normal.png');
+}
+
+.u152_container {
+    position:absolute;
+    left:900px;
+    top:3px;
+    width:78px;
+    height:23px;
+}
+
+#u152_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:84px;
+    height:29px;
+}
+
+.u153 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:74px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

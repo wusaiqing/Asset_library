@@ -1,0 +1,1221 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../教师中心头部_files/u110_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:30px;
+    top:50px;
+    width:980px;
+    height:150px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:986px;
+    height:156px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:67px;
+    width:976px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../教师中心头部_files/u112_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:50px;
+    top:63px;
+    width:121px;
+    height:124px;
+}
+
+#u2_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:121px;
+    height:124px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:54px;
+    width:117px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4 {
+    position:absolute;
+    left:194px;
+    top:66px;
+    width:99px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5 {
+    position:absolute;
+    left:194px;
+    top:142px;
+    width:219px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6 {
+    position:absolute;
+    left:582px;
+    top:75px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7 {
+    position:absolute;
+    left:700px;
+    top:74px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8 {
+    position:absolute;
+    left:452px;
+    top:74px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9 {
+    position:absolute;
+    left:194px;
+    top:178px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10_normal {
+    background-image: url('../教师中心头部_files/u120_normal.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:194px;
+    top:100px;
+    width:50px;
+    height:31px;
+}
+
+#u10_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:56px;
+    height:37px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:46px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12_normal {
+    background-image: url('../教师中心头部_files/u120_normal.png');
+}
+
+.u12_container {
+    position:absolute;
+    left:254px;
+    top:100px;
+    width:50px;
+    height:31px;
+}
+
+#u12_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:56px;
+    height:37px;
+}
+
+.u13 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:46px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_normal {
+    background-image: url('../教师中心头部_files/u124_normal.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:840px;
+    top:101px;
+    width:110px;
+    height:39px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:116px;
+    height:45px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:106px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16 {
+    position:absolute;
+    left:476px;
+    top:127px;
+    width:30px;
+    height:33px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u17 {
+    position:absolute;
+    left:602px;
+    top:127px;
+    width:36px;
+    height:33px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18 {
+    position:absolute;
+    left:714px;
+    top:125px;
+    width:36px;
+    height:33px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19_line {
+    background-image: url('../教师中心头部_files/u129_line.png');
+}
+
+.u19_line {
+    position:absolute;
+    left:4px;
+    top:0px;
+    width:3px;
+    height:121px;
+}
+
+.u19 {
+    position:absolute;
+    left:420px;
+    top:63px;
+    width:10px;
+    height:121px;
+    
+}
+
+.u20_line {
+    background-image: url('../教师中心头部_files/u130_line.png');
+}
+
+.u20_line {
+    position:absolute;
+    left:4px;
+    top:0px;
+    width:3px;
+    height:121px;
+}
+
+.u20 {
+    position:absolute;
+    left:550px;
+    top:65px;
+    width:10px;
+    height:121px;
+    
+}
+
+.u21_line {
+    background-image: url('../教师中心头部_files/u131_line.png');
+}
+
+.u21_line {
+    position:absolute;
+    left:4px;
+    top:0px;
+    width:3px;
+    height:121px;
+}
+
+.u21 {
+    position:absolute;
+    left:674px;
+    top:65px;
+    width:10px;
+    height:121px;
+    
+}
+
+.u22_line {
+    background-image: url('../教师中心头部_files/u132_line.png');
+}
+
+.u22_line {
+    position:absolute;
+    left:4px;
+    top:0px;
+    width:3px;
+    height:121px;
+}
+
+.u22 {
+    position:absolute;
+    left:789px;
+    top:65px;
+    width:10px;
+    height:121px;
+    
+}
+
+.u23_normal {
+    background-image: url('../教师中心头部_files/u133_normal.png');
+}
+
+.u23_container {
+    position:absolute;
+    left:840px;
+    top:157px;
+    width:110px;
+    height:25px;
+}
+
+#u23_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:116px;
+    height:31px;
+}
+
+.u24 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:106px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26_normal {
+    background-image: url('../foot_files/u79_normal.png');
+}
+
+.u26_container {
+    position:absolute;
+    left:50px;
+    top:1352px;
+    width:970px;
+    height:98px;
+}
+
+#u26_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:976px;
+    height:104px;
+}
+
+.u27 {
+    position:absolute;
+    left:2px;
+    top:41px;
+    width:966px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28 {
+    position:absolute;
+    left:242px;
+    top:1377px;
+    width:574px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29_normal {
+    background-image: url('../foot_files/u82_normal.png');
+}
+
+.u29_container {
+    position:absolute;
+    left:50px;
+    top:1312px;
+    width:970px;
+    height:40px;
+}
+
+#u29_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:976px;
+    height:46px;
+}
+
+.u30 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:966px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31_normal {
+    background-image: url('../foot_files/u84_normal.png');
+}
+
+.u31_container {
+    position:absolute;
+    left:306px;
+    top:1318px;
+    width:38px;
+    height:28px;
+}
+
+#u31_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:44px;
+    height:34px;
+}
+
+.u32 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:34px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u33 {
+    position:absolute;
+    left:354px;
+    top:1324px;
+    width:60px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34_normal {
+    background-image: url('../foot_files/u84_normal.png');
+}
+
+.u34_container {
+    position:absolute;
+    left:482px;
+    top:1318px;
+    width:38px;
+    height:28px;
+}
+
+#u34_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:44px;
+    height:34px;
+}
+
+.u35 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:34px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36 {
+    position:absolute;
+    left:530px;
+    top:1324px;
+    width:60px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u37_normal {
+    background-image: url('../foot_files/u84_normal.png');
+}
+
+.u37_container {
+    position:absolute;
+    left:658px;
+    top:1318px;
+    width:38px;
+    height:28px;
+}
+
+#u37_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:44px;
+    height:34px;
+}
+
+.u38 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:34px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u39 {
+    position:absolute;
+    left:706px;
+    top:1322px;
+    width:60px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u41 {
+    position:absolute;
+    left:30px;
+    top:250px;
+    width:150px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42_normal {
+    background-image: url('../批阅试题_files/u42_normal.png');
+}
+
+.u42_container {
+    position:absolute;
+    left:35px;
+    top:290px;
+    width:975px;
+    height:40px;
+}
+
+#u42_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:981px;
+    height:46px;
+}
+
+.u43 {
+    position:absolute;
+    left:2px;
+    top:9px;
+    width:971px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44 {
+    position:absolute;
+    left:35px;
+    top:352px;
+    width:120px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u45_normal {
+    background-image: url('../批阅试题_files/u45_normal.png');
+}
+
+.u45_container {
+    position:absolute;
+    left:35px;
+    top:470px;
+    width:975px;
+    height:230px;
+}
+
+#u45_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:981px;
+    height:236px;
+}
+
+.u46 {
+    position:absolute;
+    left:2px;
+    top:107px;
+    width:971px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u47 {
+    position:absolute;
+    left:50px;
+    top:484px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48 {
+    position:absolute;
+    left:35px;
+    top:720px;
+    width:45px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49 {
+    position:absolute;
+    left:80px;
+    top:717px;
+    width:180px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u50 {
+    position:absolute;
+    left:280px;
+    top:722px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51 {
+    position:absolute;
+    left:1020px;
+    top:667px;
+    width:260px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u52 {
+    position:absolute;
+    left:80px;
+    top:1160px;
+    width:100px;
+    height:25px;
+    ;
+    ;
+    text-align: center;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u53_normal {
+    background-image: url('../教师端顶部_files/u146_normal.png');
+}
+
+.u53_container {
+    position:absolute;
+    left:30px;
+    top:1px;
+    width:980px;
+    height:26px;
+}
+
+#u53_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:986px;
+    height:32px;
+}
+
+.u54 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:976px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u55 {
+    position:absolute;
+    left:810px;
+    top:6px;
+    width:50px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u56_normal {
+    background-image: url('../教师端顶部_files/u149_normal.png');
+}
+
+.u56_container {
+    position:absolute;
+    left:870px;
+    top:7px;
+    width:20px;
+    height:16px;
+}
+
+#u56_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:26px;
+    height:22px;
+}
+
+.u57 {
+    position:absolute;
+    left:2px;
+    top:-2px;
+    width:16px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u58 {
+    position:absolute;
+    left:35px;
+    top:8px;
+    width:165px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u59_normal {
+    background-image: url('../教师端顶部_files/u152_normal.png');
+}
+
+.u59_container {
+    position:absolute;
+    left:900px;
+    top:3px;
+    width:78px;
+    height:23px;
+}
+
+#u59_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:84px;
+    height:29px;
+}
+
+.u60 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:74px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u62_normal {
+    background-image: url('../批阅试题_files/u62_normal.png');
+}
+
+.u62_container {
+    position:absolute;
+    left:830px;
+    top:348px;
+    width:78px;
+    height:25px;
+}
+
+#u62_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:84px;
+    height:31px;
+}
+
+.u63 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:74px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u64_normal {
+    background-image: url('../批阅试题_files/u62_normal.png');
+}
+
+.u64_container {
+    position:absolute;
+    left:932px;
+    top:348px;
+    width:78px;
+    height:25px;
+}
+
+#u64_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:84px;
+    height:31px;
+}
+
+.u65 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:74px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u66 {
+    position:absolute;
+    left:35px;
+    top:396px;
+    width:120px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u67 {
+    position:absolute;
+    left:35px;
+    top:1100px;
+    width:120px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u68 {
+    position:absolute;
+    left:35px;
+    top:427px;
+    width:265px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u69_line {
+    background-image: url('../批阅试题_files/u69_line.png');
+}
+
+.u69_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:970px;
+    height:3px;
+}
+
+.u69 {
+    position:absolute;
+    left:40px;
+    top:376px;
+    width:970px;
+    height:10px;
+    
+}
+
+.u70_normal {
+    background-image: url('../批阅试题_files/u45_normal.png');
+}
+
+.u70_container {
+    position:absolute;
+    left:35px;
+    top:803px;
+    width:975px;
+    height:230px;
+}
+
+#u70_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:981px;
+    height:236px;
+}
+
+.u71 {
+    position:absolute;
+    left:2px;
+    top:107px;
+    width:971px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u72 {
+    position:absolute;
+    left:50px;
+    top:817px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u73 {
+    position:absolute;
+    left:35px;
+    top:1053px;
+    width:45px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u74 {
+    position:absolute;
+    left:80px;
+    top:1050px;
+    width:180px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u75 {
+    position:absolute;
+    left:280px;
+    top:1055px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u76 {
+    position:absolute;
+    left:35px;
+    top:760px;
+    width:265px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

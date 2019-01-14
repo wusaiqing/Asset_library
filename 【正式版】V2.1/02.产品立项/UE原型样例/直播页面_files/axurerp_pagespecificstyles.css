@@ -1,0 +1,3006 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../直播页面_files/u0_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:12px;
+    top:78px;
+    width:1058px;
+    height:549px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1064px;
+    height:555px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:266px;
+    width:1054px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../直播页面_files/u2_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:920px;
+    top:41px;
+    width:75px;
+    height:37px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:81px;
+    height:43px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:71px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../直播页面_files/u4_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:1070px;
+    height:26px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:1076px;
+    height:32px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:1066px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6 {
+    position:absolute;
+    left:978px;
+    top:5px;
+    width:50px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7_normal {
+    background-image: url('../直播页面_files/u7_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:1038px;
+    top:6px;
+    width:20px;
+    height:16px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:26px;
+    height:22px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:-2px;
+    width:16px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9 {
+    position:absolute;
+    left:893px;
+    top:3px;
+    width:100px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10 {
+    position:absolute;
+    left:5px;
+    top:7px;
+    width:110px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11_normal {
+    background-image: url('../直播页面_files/u11_normal.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:933px;
+    top:48px;
+    width:27px;
+    height:27px;
+}
+
+#u11_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:27px;
+    height:27px;
+}
+
+.u12 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:23px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13 {
+    position:absolute;
+    left:960px;
+    top:54px;
+    width:28px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u14 {
+    position:absolute;
+    left:-54px;
+    top:141px;
+    width:890px;
+    height:424px;
+    overflow:hidden;
+}
+
+#pd0u14 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:890px;
+    height:424px;
+    
+}
+
+.u15_normal {
+    background-image: url('../直播页面_files/视频主_u15_normal.png');
+}
+
+.u15_container {
+    position:absolute;
+    left:142px;
+    top:0px;
+    width:747px;
+    height:423px;
+}
+
+#u15_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:747px;
+    height:423px;
+}
+
+.u16 {
+    position:absolute;
+    left:2px;
+    top:204px;
+    width:743px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u17 {
+    position:absolute;
+    left:835px;
+    top:79px;
+    width:236px;
+    height:551px;
+    overflow:hidden;
+}
+
+#pd0u17 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:236px;
+    height:551px;
+    
+}
+
+.u18_normal {
+    background-image: url('../直播页面_files/u18_normal.png');
+}
+
+.u18_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:232px;
+    height:548px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:238px;
+    height:554px;
+}
+
+.u19 {
+    position:absolute;
+    left:2px;
+    top:266px;
+    width:228px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20 {
+    position:absolute;
+    left:2px;
+    top:435px;
+    width:230px;
+    height:80px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u21_normal {
+    background-image: url('../直播页面_files/u21_normal.png');
+}
+
+.u21_container {
+    position:absolute;
+    left:150px;
+    top:523px;
+    width:80px;
+    height:25px;
+}
+
+#u21_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:86px;
+    height:31px;
+}
+
+.u22 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:76px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u23 {
+    position:absolute;
+    left:6px;
+    top:10px;
+    width:223px;
+    height:151px;
+    overflow:hidden;
+}
+
+#pd0u23 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:223px;
+    height:151px;
+    
+}
+
+.u24_normal {
+    background-image: url('../直播页面_files/u24_normal.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:2px;
+    top:32px;
+    width:220px;
+    height:104px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:226px;
+    height:110px;
+}
+
+.u25 {
+    position:absolute;
+    left:2px;
+    top:44px;
+    width:216px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27 {
+    position:absolute;
+    left:6px;
+    top:36px;
+    width:200px;
+    height:112px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28 {
+    position:absolute;
+    left:12px;
+    top:44px;
+    width:150px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29_normal {
+    background-image: url('../foot_files/u79_normal.png');
+}
+
+.u29_container {
+    position:absolute;
+    left:17px;
+    top:985px;
+    width:970px;
+    height:98px;
+}
+
+#u29_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:976px;
+    height:104px;
+}
+
+.u30 {
+    position:absolute;
+    left:2px;
+    top:41px;
+    width:966px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u31 {
+    position:absolute;
+    left:209px;
+    top:1010px;
+    width:574px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32_normal {
+    background-image: url('../foot_files/u82_normal.png');
+}
+
+.u32_container {
+    position:absolute;
+    left:17px;
+    top:945px;
+    width:970px;
+    height:40px;
+}
+
+#u32_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:976px;
+    height:46px;
+}
+
+.u33 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:966px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34_normal {
+    background-image: url('../foot_files/u84_normal.png');
+}
+
+.u34_container {
+    position:absolute;
+    left:273px;
+    top:951px;
+    width:38px;
+    height:28px;
+}
+
+#u34_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:44px;
+    height:34px;
+}
+
+.u35 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:34px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36 {
+    position:absolute;
+    left:321px;
+    top:957px;
+    width:60px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u37_normal {
+    background-image: url('../foot_files/u84_normal.png');
+}
+
+.u37_container {
+    position:absolute;
+    left:449px;
+    top:951px;
+    width:38px;
+    height:28px;
+}
+
+#u37_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:44px;
+    height:34px;
+}
+
+.u38 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:34px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u39 {
+    position:absolute;
+    left:497px;
+    top:957px;
+    width:60px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40_normal {
+    background-image: url('../foot_files/u84_normal.png');
+}
+
+.u40_container {
+    position:absolute;
+    left:625px;
+    top:951px;
+    width:38px;
+    height:28px;
+}
+
+#u40_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:44px;
+    height:34px;
+}
+
+.u41 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:34px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42 {
+    position:absolute;
+    left:673px;
+    top:955px;
+    width:60px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44_normal {
+    background-image: url('../直播页面_files/u2_normal.png');
+}
+
+.u44_container {
+    position:absolute;
+    left:995px;
+    top:41px;
+    width:75px;
+    height:37px;
+}
+
+#u44_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:81px;
+    height:43px;
+}
+
+.u45 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:71px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u46 {
+    position:absolute;
+    left:1030px;
+    top:52px;
+    width:28px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u47_normal {
+    background-image: url('../直播页面_files/u47_normal.png');
+}
+
+.u47_container {
+    position:absolute;
+    left:1004px;
+    top:47px;
+    width:23px;
+    height:23px;
+}
+
+#u47_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:23px;
+    height:23px;
+}
+
+.u48 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:19px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u49 {
+    position:absolute;
+    left:835px;
+    top:79px;
+    width:236px;
+    height:551px;
+    overflow:hidden;
+}
+
+#pd0u49 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:236px;
+    height:551px;
+    
+}
+
+.u50_normal {
+    background-image: url('../直播页面_files/u50_normal.png');
+}
+
+.u50_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:232px;
+    height:550px;
+}
+
+#u50_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:238px;
+    height:556px;
+}
+
+.u51 {
+    position:absolute;
+    left:2px;
+    top:267px;
+    width:228px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u52 {
+    position:absolute;
+    left:2px;
+    top:430px;
+    width:230px;
+    height:80px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u53_normal {
+    background-image: url('../直播页面_files/u21_normal.png');
+}
+
+.u53_container {
+    position:absolute;
+    left:150px;
+    top:518px;
+    width:80px;
+    height:25px;
+}
+
+#u53_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:86px;
+    height:31px;
+}
+
+.u54 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:76px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u55 {
+    position:absolute;
+    left:6px;
+    top:10px;
+    width:223px;
+    height:111px;
+    overflow:hidden;
+}
+
+#pd0u55 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:223px;
+    height:111px;
+    
+}
+
+.u56_normal {
+    background-image: url('../直播页面_files/u56_normal.png');
+}
+
+.u56_container {
+    position:absolute;
+    left:2px;
+    top:47px;
+    width:220px;
+    height:52px;
+}
+
+#u56_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:226px;
+    height:58px;
+}
+
+.u57 {
+    position:absolute;
+    left:2px;
+    top:18px;
+    width:216px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u58 {
+    position:absolute;
+    left:110px;
+    top:25px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u59_normal {
+    background-image: url('../直播页面_files/u59_normal.png');
+}
+
+.u59_container {
+    position:absolute;
+    left:6px;
+    top:1px;
+    width:36px;
+    height:36px;
+}
+
+#u59_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:36px;
+    height:36px;
+}
+
+.u60 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:32px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u61_normal {
+    background-image: url('../直播页面_files/u61_normal.png');
+}
+
+.u61_container {
+    position:absolute;
+    left:14px;
+    top:41px;
+    width:20px;
+    height:19px;
+}
+
+#u61_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:26px;
+    height:25px;
+}
+
+.u62 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:16px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u63 {
+    position:absolute;
+    left:6px;
+    top:51px;
+    width:200px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u64 {
+    position:absolute;
+    left:8px;
+    top:136px;
+    width:223px;
+    height:85px;
+    overflow:hidden;
+}
+
+#pd0u64 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:223px;
+    height:85px;
+    
+}
+
+.u65_normal {
+    background-image: url('../直播页面_files/u65_normal.png');
+}
+
+.u65_container {
+    position:absolute;
+    left:2px;
+    top:51px;
+    width:220px;
+    height:29px;
+}
+
+#u65_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:226px;
+    height:35px;
+}
+
+.u66 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:216px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u67_normal {
+    background-image: url('../直播页面_files/u59_normal.png');
+}
+
+.u67_container {
+    position:absolute;
+    left:180px;
+    top:5px;
+    width:36px;
+    height:36px;
+}
+
+#u67_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:36px;
+    height:36px;
+}
+
+.u68 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:32px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u69_normal {
+    background-image: url('../直播页面_files/u61_normal.png');
+}
+
+.u69_container {
+    position:absolute;
+    left:188px;
+    top:41px;
+    width:20px;
+    height:19px;
+}
+
+#u69_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:26px;
+    height:25px;
+}
+
+.u70 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:16px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u71 {
+    position:absolute;
+    left:6px;
+    top:55px;
+    width:200px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u72 {
+    position:absolute;
+    left:1165px;
+    top:166px;
+    width:150px;
+    height:64px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u73_normal {
+    background-image: url('../直播页面_files/u73_normal.png');
+}
+
+.u73_container {
+    position:absolute;
+    left:730px;
+    top:43px;
+    width:25px;
+    height:26px;
+}
+
+#u73_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:25px;
+    height:26px;
+}
+
+.u74 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:21px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u75 {
+    position:absolute;
+    left:761px;
+    top:49px;
+    width:57px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u76 {
+    position:absolute;
+    left:650px;
+    top:48px;
+    width:53px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u77_normal {
+    background-image: url('../直播页面_files/u77_normal.png');
+}
+
+.u77_container {
+    position:absolute;
+    left:620px;
+    top:46px;
+    width:20px;
+    height:19px;
+}
+
+#u77_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:26px;
+    height:25px;
+}
+
+.u78 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:16px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u79 {
+    position:absolute;
+    left:835px;
+    top:79px;
+    width:236px;
+    height:551px;
+    overflow:hidden;
+}
+
+#pd0u79 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:236px;
+    height:551px;
+    
+}
+
+.u80_normal {
+    background-image: url('../直播页面_files/u80_normal.png');
+}
+
+.u80_container {
+    position:absolute;
+    left:1px;
+    top:1px;
+    width:229px;
+    height:539px;
+}
+
+#u80_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:235px;
+    height:545px;
+}
+
+.u81 {
+    position:absolute;
+    left:2px;
+    top:262px;
+    width:225px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u82_normal {
+    background-image: url('../直播页面_files/u82_normal.png');
+}
+
+.u82_container {
+    position:absolute;
+    left:4px;
+    top:4px;
+    width:21px;
+    height:20px;
+}
+
+#u82_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:27px;
+    height:26px;
+}
+
+.u83 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:17px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u84 {
+    position:absolute;
+    left:40px;
+    top:7px;
+    width:220px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u85_normal {
+    background-image: url('../直播页面_files/u85_normal.png');
+}
+
+.u85_container {
+    position:absolute;
+    left:10px;
+    top:8px;
+    width:10px;
+    height:13px;
+}
+
+#u85_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:16px;
+    height:19px;
+}
+
+.u86 {
+    position:absolute;
+    left:2px;
+    top:-2px;
+    width:6px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u87_normal {
+    background-image: url('../直播页面_files/u87_normal.png');
+}
+
+.u87_container {
+    position:absolute;
+    left:14px;
+    top:24px;
+    width:2px;
+    height:30px;
+}
+
+#u87_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:8px;
+    height:36px;
+}
+
+.u88 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:1px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u89_normal {
+    background-image: url('../直播页面_files/u82_normal.png');
+}
+
+.u89_container {
+    position:absolute;
+    left:4px;
+    top:50px;
+    width:21px;
+    height:20px;
+}
+
+#u89_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:27px;
+    height:26px;
+}
+
+.u90 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:17px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u91_normal {
+    background-image: url('../直播页面_files/u85_normal.png');
+}
+
+.u91_container {
+    position:absolute;
+    left:10px;
+    top:54px;
+    width:10px;
+    height:13px;
+}
+
+#u91_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:16px;
+    height:19px;
+}
+
+.u92 {
+    position:absolute;
+    left:2px;
+    top:-2px;
+    width:6px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u93 {
+    position:absolute;
+    left:40px;
+    top:50px;
+    width:220px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u94_normal {
+    background-image: url('../直播页面_files/u82_normal.png');
+}
+
+.u94_container {
+    position:absolute;
+    left:4px;
+    top:95px;
+    width:21px;
+    height:20px;
+}
+
+#u94_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:27px;
+    height:26px;
+}
+
+.u95 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:17px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u96_normal {
+    background-image: url('../直播页面_files/u85_normal.png');
+}
+
+.u96_container {
+    position:absolute;
+    left:10px;
+    top:99px;
+    width:10px;
+    height:13px;
+}
+
+#u96_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:16px;
+    height:19px;
+}
+
+.u97 {
+    position:absolute;
+    left:2px;
+    top:-2px;
+    width:6px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u98 {
+    position:absolute;
+    left:40px;
+    top:94px;
+    width:220px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u99_normal {
+    background-image: url('../直播页面_files/u87_normal.png');
+}
+
+.u99_container {
+    position:absolute;
+    left:14px;
+    top:66px;
+    width:2px;
+    height:30px;
+}
+
+#u99_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:8px;
+    height:36px;
+}
+
+.u100 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:1px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u101_normal {
+    background-image: url('../直播页面_files/u87_normal.png');
+}
+
+.u101_container {
+    position:absolute;
+    left:14px;
+    top:113px;
+    width:2px;
+    height:30px;
+}
+
+#u101_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:8px;
+    height:36px;
+}
+
+.u102 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:1px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u103_normal {
+    background-image: url('../直播页面_files/u82_normal.png');
+}
+
+.u103_container {
+    position:absolute;
+    left:4px;
+    top:141px;
+    width:21px;
+    height:20px;
+}
+
+#u103_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:27px;
+    height:26px;
+}
+
+.u104 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:17px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u105 {
+    position:absolute;
+    left:40px;
+    top:140px;
+    width:220px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u106_normal {
+    background-image: url('../直播页面_files/u106_normal.png');
+}
+
+.u106_container {
+    position:absolute;
+    left:10px;
+    top:147px;
+    width:9px;
+    height:1px;
+}
+
+#u106_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:15px;
+    height:7px;
+}
+
+.u107 {
+    position:absolute;
+    left:2px;
+    top:-8px;
+    width:5px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u108_normal {
+    background-image: url('../直播页面_files/u106_normal.png');
+}
+
+.u108_container {
+    position:absolute;
+    left:10px;
+    top:151px;
+    width:9px;
+    height:1px;
+}
+
+#u108_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:15px;
+    height:7px;
+}
+
+.u109 {
+    position:absolute;
+    left:2px;
+    top:-8px;
+    width:5px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u110_normal {
+    background-image: url('../直播页面_files/u106_normal.png');
+}
+
+.u110_container {
+    position:absolute;
+    left:10px;
+    top:155px;
+    width:9px;
+    height:1px;
+}
+
+#u110_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:15px;
+    height:7px;
+}
+
+.u111 {
+    position:absolute;
+    left:2px;
+    top:-8px;
+    width:5px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u112 {
+    position:absolute;
+    left:40px;
+    top:186px;
+    width:220px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u113_normal {
+    background-image: url('../直播页面_files/u113_normal.png');
+}
+
+.u113_container {
+    position:absolute;
+    left:14px;
+    top:203px;
+    width:2px;
+    height:30px;
+}
+
+#u113_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:8px;
+    height:36px;
+}
+
+.u114 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:1px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u115_normal {
+    background-image: url('../直播页面_files/u115_normal.png');
+}
+
+.u115_container {
+    position:absolute;
+    left:4px;
+    top:229px;
+    width:21px;
+    height:20px;
+}
+
+#u115_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:27px;
+    height:26px;
+}
+
+.u116 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:17px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u117_normal {
+    background-image: url('../直播页面_files/u85_normal.png');
+}
+
+.u117_container {
+    position:absolute;
+    left:10px;
+    top:233px;
+    width:10px;
+    height:13px;
+}
+
+#u117_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:16px;
+    height:19px;
+}
+
+.u118 {
+    position:absolute;
+    left:2px;
+    top:-2px;
+    width:6px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u119 {
+    position:absolute;
+    left:40px;
+    top:229px;
+    width:290px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u120_normal {
+    background-image: url('../直播页面_files/u115_normal.png');
+}
+
+.u120_container {
+    position:absolute;
+    left:4px;
+    top:274px;
+    width:21px;
+    height:20px;
+}
+
+#u120_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:27px;
+    height:26px;
+}
+
+.u121 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:17px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u122_normal {
+    background-image: url('../直播页面_files/u85_normal.png');
+}
+
+.u122_container {
+    position:absolute;
+    left:10px;
+    top:278px;
+    width:10px;
+    height:13px;
+}
+
+#u122_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:16px;
+    height:19px;
+}
+
+.u123 {
+    position:absolute;
+    left:2px;
+    top:-2px;
+    width:6px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u124 {
+    position:absolute;
+    left:40px;
+    top:280px;
+    width:220px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u125_normal {
+    background-image: url('../直播页面_files/u113_normal.png');
+}
+
+.u125_container {
+    position:absolute;
+    left:14px;
+    top:245px;
+    width:2px;
+    height:30px;
+}
+
+#u125_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:8px;
+    height:36px;
+}
+
+.u126 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:1px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u127_normal {
+    background-image: url('../直播页面_files/u113_normal.png');
+}
+
+.u127_container {
+    position:absolute;
+    left:14px;
+    top:292px;
+    width:2px;
+    height:30px;
+}
+
+#u127_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:8px;
+    height:36px;
+}
+
+.u128 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:1px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u129_normal {
+    background-image: url('../直播页面_files/u115_normal.png');
+}
+
+.u129_container {
+    position:absolute;
+    left:4px;
+    top:320px;
+    width:21px;
+    height:20px;
+}
+
+#u129_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:27px;
+    height:26px;
+}
+
+.u130 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:17px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u131 {
+    position:absolute;
+    left:40px;
+    top:326px;
+    width:220px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u132_normal {
+    background-image: url('../直播页面_files/u106_normal.png');
+}
+
+.u132_container {
+    position:absolute;
+    left:10px;
+    top:326px;
+    width:9px;
+    height:1px;
+}
+
+#u132_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:15px;
+    height:7px;
+}
+
+.u133 {
+    position:absolute;
+    left:2px;
+    top:-8px;
+    width:5px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u134_normal {
+    background-image: url('../直播页面_files/u106_normal.png');
+}
+
+.u134_container {
+    position:absolute;
+    left:10px;
+    top:330px;
+    width:9px;
+    height:1px;
+}
+
+#u134_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:15px;
+    height:7px;
+}
+
+.u135 {
+    position:absolute;
+    left:2px;
+    top:-8px;
+    width:5px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u136_normal {
+    background-image: url('../直播页面_files/u106_normal.png');
+}
+
+.u136_container {
+    position:absolute;
+    left:10px;
+    top:334px;
+    width:9px;
+    height:1px;
+}
+
+#u136_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:15px;
+    height:7px;
+}
+
+.u137 {
+    position:absolute;
+    left:2px;
+    top:-8px;
+    width:5px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u138_normal {
+    background-image: url('../直播页面_files/u87_normal.png');
+}
+
+.u138_container {
+    position:absolute;
+    left:13px;
+    top:159px;
+    width:2px;
+    height:30px;
+}
+
+#u138_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:8px;
+    height:36px;
+}
+
+.u139 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:1px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u140_normal {
+    background-image: url('../直播页面_files/u82_normal.png');
+}
+
+.u140_container {
+    position:absolute;
+    left:4px;
+    top:183px;
+    width:21px;
+    height:20px;
+}
+
+#u140_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:27px;
+    height:26px;
+}
+
+.u141 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:17px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u142_normal {
+    background-image: url('../直播页面_files/u85_normal.png');
+}
+
+.u142_container {
+    position:absolute;
+    left:10px;
+    top:187px;
+    width:10px;
+    height:13px;
+}
+
+#u142_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:16px;
+    height:19px;
+}
+
+.u143 {
+    position:absolute;
+    left:2px;
+    top:-2px;
+    width:6px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u144_normal {
+    background-image: url('../直播页面_files/u144_normal.png');
+}
+
+.u144_container {
+    position:absolute;
+    left:835px;
+    top:41px;
+    width:85px;
+    height:37px;
+}
+
+#u144_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:91px;
+    height:43px;
+}
+
+.u145 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:81px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u146 {
+    position:absolute;
+    left:23px;
+    top:141px;
+    width:813px;
+    height:424px;
+    overflow:hidden;
+}
+
+#pd0u146 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:813px;
+    height:424px;
+    
+}
+
+.u147_normal {
+    background-image: url('../直播页面_files/u147_normal.png');
+}
+
+.u147_container {
+    position:absolute;
+    left:13px;
+    top:6px;
+    width:797px;
+    height:414px;
+}
+
+#u147_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:803px;
+    height:420px;
+}
+
+.u148 {
+    position:absolute;
+    left:2px;
+    top:199px;
+    width:793px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u149 {
+    position:absolute;
+    left:70px;
+    top:50px;
+    width:290px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u151 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u153 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u155 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u156 {
+    position:absolute;
+    left:28px;
+    top:50px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u157 {
+    position:absolute;
+    left:70px;
+    top:150px;
+    width:290px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u159 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u161 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u163 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u164 {
+    position:absolute;
+    left:28px;
+    top:150px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u165_line {
+    background-image: url('../直播页面_files/u165_line.png');
+}
+
+.u165_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:696px;
+    height:3px;
+}
+
+.u165 {
+    position:absolute;
+    left:24px;
+    top:130px;
+    width:696px;
+    height:10px;
+    
+}
+
+.u166_normal {
+    background-image: url('../直播页面_files/u166_normal.png');
+}
+
+.u166_container {
+    position:absolute;
+    left:60px;
+    top:381px;
+    width:100px;
+    height:25px;
+}
+
+#u166_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:31px;
+}
+
+.u167 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u168 {
+    position:absolute;
+    left:68px;
+    top:260px;
+    width:290px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u170 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u172 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u174 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u175 {
+    position:absolute;
+    left:26px;
+    top:260px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u176_line {
+    background-image: url('../直播页面_files/u176_line.png');
+}
+
+.u176_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:696px;
+    height:3px;
+}
+
+.u176 {
+    position:absolute;
+    left:20px;
+    top:240px;
+    width:696px;
+    height:10px;
+    
+}
+
+.u177 {
+    position:absolute;
+    left:28px;
+    top:14px;
+    width:352px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u178 {
+    position:absolute;
+    left:20px;
+    top:346px;
+    width:201px;
+    height:71px;
+    overflow:hidden;
+}
+
+#pd0u178 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:201px;
+    height:71px;
+    
+}
+
+.u179_normal {
+    background-image: url('../直播页面_files/u166_normal.png');
+}
+
+.u179_container {
+    position:absolute;
+    left:40px;
+    top:35px;
+    width:100px;
+    height:25px;
+}
+
+#u179_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:31px;
+}
+
+.u180 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u181 {
+    position:absolute;
+    left:40px;
+    top:3px;
+    width:150px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u182_normal {
+    background-image: url('../直播页面_files/u166_normal.png');
+}
+
+.u182_container {
+    position:absolute;
+    left:725px;
+    top:574px;
+    width:100px;
+    height:25px;
+}
+
+#u182_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:31px;
+}
+
+.u183 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u184 {
+    position:absolute;
+    left:23px;
+    top:141px;
+    width:813px;
+    height:424px;
+    overflow:hidden;
+}
+
+#pd0u184 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:813px;
+    height:424px;
+    
+}
+
+.u185_normal {
+    background-image: url('../直播页面_files/u147_normal.png');
+}
+
+.u185_container {
+    position:absolute;
+    left:13px;
+    top:6px;
+    width:797px;
+    height:414px;
+}
+
+#u185_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:803px;
+    height:420px;
+}
+
+.u186 {
+    position:absolute;
+    left:2px;
+    top:199px;
+    width:793px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u187_normal {
+    background-image: url('../直播页面_files/u166_normal.png');
+}
+
+.u187_container {
+    position:absolute;
+    left:60px;
+    top:381px;
+    width:100px;
+    height:25px;
+}
+
+#u187_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:31px;
+}
+
+.u188 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u189 {
+    position:absolute;
+    left:48px;
+    top:40px;
+    width:572px;
+    height:171px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u190_normal {
+    background-image: url('../直播页面_files/u166_normal.png');
+}
+
+.u190_container {
+    position:absolute;
+    left:190px;
+    top:381px;
+    width:100px;
+    height:25px;
+}
+
+#u190_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:31px;
+}
+
+.u191 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

@@ -1,0 +1,3370 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_normal {
+    background-image: url('../head_files/u6_normal.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:30px;
+    top:118px;
+    width:980px;
+    height:32px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:986px;
+    height:38px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:976px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2_normal {
+    background-image: url('../head_files/u8_normal.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:30px;
+    top:27px;
+    width:980px;
+    height:91px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:986px;
+    height:97px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:38px;
+    width:976px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4_normal {
+    background-image: url('../head_files/u10_normal.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:30px;
+    top:1px;
+    width:980px;
+    height:26px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:986px;
+    height:32px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:976px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6_normal {
+    background-image: url('../head_files/u12_normal.png');
+}
+
+.u6_container {
+    position:absolute;
+    left:40px;
+    top:47px;
+    width:70px;
+    height:50px;
+}
+
+#u6_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:76px;
+    height:56px;
+}
+
+.u7 {
+    position:absolute;
+    left:2px;
+    top:17px;
+    width:66px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8 {
+    position:absolute;
+    left:130px;
+    top:61px;
+    width:150px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9 {
+    position:absolute;
+    left:1030px;
+    top:8px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10 {
+    position:absolute;
+    left:925px;
+    top:6px;
+    width:50px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u11 {
+    position:absolute;
+    left:605px;
+    top:61px;
+    width:270px;
+    height:30px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#CCCCCC;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u12_normal {
+    background-image: url('../head_files/u18_normal.png');
+}
+
+.u12_container {
+    position:absolute;
+    left:895px;
+    top:61px;
+    width:80px;
+    height:30px;
+}
+
+#u12_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:86px;
+    height:36px;
+}
+
+.u13 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:76px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_normal {
+    background-image: url('../head_files/u20_normal.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:985px;
+    top:7px;
+    width:20px;
+    height:16px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:26px;
+    height:22px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:-2px;
+    width:16px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16_menu {
+    background-image: url('../head_files/u22_menu.png');
+}
+
+.u16_menu {
+    position:absolute;
+    left:27px;
+    top:115px;
+    width:409px;
+    height:41px;
+}
+
+#u16_menu {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:406px;
+    height:38px;
+}
+
+#u17 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:405px;
+    height:37px
+}
+
+.u18_mouseOver {
+    background-image: url('../head_files/u24_mouseOver.png');
+}
+
+.u18_normal {
+    background-image: url('../head_files/u24_mouseOver.png');
+}
+
+.u18_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100px;
+    height:32px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:38px;
+}
+
+.u19 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20_mouseOver {
+    background-image: url('../head_files/u24_mouseOver.png');
+}
+
+.u20_normal {
+    background-image: url('../head_files/u26_normal.png');
+}
+
+.u20_container {
+    position:absolute;
+    left:100px;
+    top:0px;
+    width:100px;
+    height:32px;
+}
+
+#u20_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:38px;
+}
+
+.u21 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22_mouseOver {
+    background-image: url('../head_files/u24_mouseOver.png');
+}
+
+.u22_normal {
+    background-image: url('../head_files/u26_normal.png');
+}
+
+.u22_container {
+    position:absolute;
+    left:200px;
+    top:0px;
+    width:100px;
+    height:32px;
+}
+
+#u22_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:38px;
+}
+
+.u23 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24_mouseOver {
+    background-image: url('../head_files/u24_mouseOver.png');
+}
+
+.u24_normal {
+    background-image: url('../head_files/u26_normal.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:300px;
+    top:0px;
+    width:100px;
+    height:32px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:38px;
+}
+
+.u25 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26 {
+    position:absolute;
+    left:35px;
+    top:8px;
+    width:155px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27_normal {
+    background-image: url('../head_files/u33_normal.png');
+}
+
+.u27_container {
+    position:absolute;
+    left:837px;
+    top:121px;
+    width:100px;
+    height:25px;
+}
+
+#u27_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:106px;
+    height:31px;
+}
+
+.u28 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:96px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u29 {
+    position:absolute;
+    left:946px;
+    top:125px;
+    width:60px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u30 {
+    position:absolute;
+    left:875px;
+    top:28px;
+    width:136px;
+    height:134px;
+    overflow:hidden;
+}
+
+#pd0u30 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:136px;
+    height:134px;
+    
+}
+
+.u31_menu {
+    background-image: url('../head_files/u37_menu.png');
+}
+
+.u31_menu {
+    position:absolute;
+    left:-2px;
+    top:-1px;
+    width:140px;
+    height:139px;
+}
+
+#u31_menu {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:137px;
+    height:136px;
+}
+
+#u32 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:136px;
+    height:135px
+}
+
+.u33_mouseOver {
+    background-image: url('../head_files/u39_mouseOver.png');
+}
+
+.u33_normal {
+    background-image: url('../head_files/u39_normal.png');
+}
+
+.u33_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:131px;
+    height:26px;
+}
+
+#u33_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:137px;
+    height:32px;
+}
+
+.u34 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:127px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u35_mouseOver {
+    background-image: url('../head_files/u39_mouseOver.png');
+}
+
+.u35_normal {
+    background-image: url('../head_files/u39_normal.png');
+}
+
+.u35_container {
+    position:absolute;
+    left:0px;
+    top:26px;
+    width:131px;
+    height:26px;
+}
+
+#u35_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:137px;
+    height:32px;
+}
+
+.u36 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:127px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u37_mouseOver {
+    background-image: url('../head_files/u39_mouseOver.png');
+}
+
+.u37_normal {
+    background-image: url('../head_files/u39_normal.png');
+}
+
+.u37_container {
+    position:absolute;
+    left:0px;
+    top:52px;
+    width:131px;
+    height:26px;
+}
+
+#u37_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:137px;
+    height:32px;
+}
+
+.u38 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:127px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u39_mouseOver {
+    background-image: url('../head_files/u39_mouseOver.png');
+}
+
+.u39_normal {
+    background-image: url('../head_files/u39_normal.png');
+}
+
+.u39_container {
+    position:absolute;
+    left:0px;
+    top:78px;
+    width:131px;
+    height:26px;
+}
+
+#u39_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:137px;
+    height:32px;
+}
+
+.u40 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:127px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u41_mouseOver {
+    background-image: url('../head_files/u39_mouseOver.png');
+}
+
+.u41_normal {
+    background-image: url('../head_files/u39_normal.png');
+}
+
+.u41_container {
+    position:absolute;
+    left:0px;
+    top:104px;
+    width:131px;
+    height:26px;
+}
+
+#u41_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:137px;
+    height:32px;
+}
+
+.u42 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:127px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u43_normal {
+    background-image: url('../head_files/u49_normal.png');
+}
+
+.u43_container {
+    position:absolute;
+    left:830px;
+    top:1px;
+    width:19px;
+    height:22px;
+}
+
+#u43_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:19px;
+    height:22px;
+}
+
+.u44 {
+    position:absolute;
+    left:2px;
+    top:3px;
+    width:15px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u45 {
+    position:absolute;
+    left:854px;
+    top:6px;
+    width:61px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u46 {
+    position:absolute;
+    left:640px;
+    top:23px;
+    width:266px;
+    height:208px;
+    overflow:hidden;
+}
+
+#pd0u46 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:266px;
+    height:208px;
+    
+}
+
+.u47_normal {
+    background-image: url('../head_files/u53_normal.png');
+}
+
+.u47_container {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:260px;
+    height:198px;
+}
+
+#u47_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:266px;
+    height:204px;
+}
+
+.u48 {
+    position:absolute;
+    left:2px;
+    top:91px;
+    width:256px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49_normal {
+    background-image: url('../head_files/u55_normal.png');
+}
+
+.u49_container {
+    position:absolute;
+    left:195px;
+    top:161px;
+    width:52px;
+    height:25px;
+}
+
+#u49_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:58px;
+    height:31px;
+}
+
+.u50 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:48px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51_line {
+    background-image: url('../head_files/u57_line.png');
+}
+
+.u51_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:235px;
+    height:3px;
+}
+
+.u51 {
+    position:absolute;
+    left:10px;
+    top:70px;
+    width:235px;
+    height:10px;
+    
+}
+
+.u53 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u54_normal {
+    background-image: url('../head_files/u60_normal.png');
+}
+
+.u54_container {
+    position:absolute;
+    left:35px;
+    top:22px;
+    width:40px;
+    height:40px;
+}
+
+#u54_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:40px;
+    height:40px;
+}
+
+.u55 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:36px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u56 {
+    position:absolute;
+    left:82px;
+    top:34px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u57 {
+    position:absolute;
+    left:210px;
+    top:34px;
+    width:35px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u58_line {
+    background-image: url('../head_files/u64_line.png');
+}
+
+.u58_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:235px;
+    height:3px;
+}
+
+.u58 {
+    position:absolute;
+    left:10px;
+    top:139px;
+    width:235px;
+    height:10px;
+    
+}
+
+.u60 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:82px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u61_normal {
+    background-image: url('../head_files/u60_normal.png');
+}
+
+.u61_container {
+    position:absolute;
+    left:35px;
+    top:91px;
+    width:40px;
+    height:40px;
+}
+
+#u61_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:40px;
+    height:40px;
+}
+
+.u62 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:36px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u63 {
+    position:absolute;
+    left:82px;
+    top:96px;
+    width:115px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u64 {
+    position:absolute;
+    left:210px;
+    top:103px;
+    width:35px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u65 {
+    position:absolute;
+    left:10px;
+    top:164px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u67 {
+    position:absolute;
+    left:16px;
+    top:0px;
+    width:2px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u68 {
+    position:absolute;
+    left:36px;
+    top:164px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u69 {
+    position:absolute;
+    left:232px;
+    top:34px;
+    width:21px;
+    height:21px;
+    overflow:hidden;
+}
+
+#pd0u69 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:21px;
+    height:21px;
+    
+}
+
+.u70_normal {
+    background-image: url('../head_files/u76_normal.png');
+}
+
+.u70_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:20px;
+    height:20px;
+}
+
+#u70_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:26px;
+    height:26px;
+}
+
+.u71 {
+    position:absolute;
+    left:2px;
+    top:2px;
+    width:16px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u73_normal {
+    background-image: url('../foot_files/u79_normal.png');
+}
+
+.u73_container {
+    position:absolute;
+    left:39px;
+    top:2072px;
+    width:970px;
+    height:98px;
+}
+
+#u73_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:976px;
+    height:104px;
+}
+
+.u74 {
+    position:absolute;
+    left:2px;
+    top:41px;
+    width:966px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u75 {
+    position:absolute;
+    left:231px;
+    top:2097px;
+    width:574px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u76_normal {
+    background-image: url('../foot_files/u82_normal.png');
+}
+
+.u76_container {
+    position:absolute;
+    left:39px;
+    top:2032px;
+    width:970px;
+    height:40px;
+}
+
+#u76_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:976px;
+    height:46px;
+}
+
+.u77 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:966px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u78_normal {
+    background-image: url('../foot_files/u84_normal.png');
+}
+
+.u78_container {
+    position:absolute;
+    left:295px;
+    top:2038px;
+    width:38px;
+    height:28px;
+}
+
+#u78_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:44px;
+    height:34px;
+}
+
+.u79 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:34px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u80 {
+    position:absolute;
+    left:343px;
+    top:2044px;
+    width:60px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u81_normal {
+    background-image: url('../foot_files/u84_normal.png');
+}
+
+.u81_container {
+    position:absolute;
+    left:471px;
+    top:2038px;
+    width:38px;
+    height:28px;
+}
+
+#u81_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:44px;
+    height:34px;
+}
+
+.u82 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:34px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u83 {
+    position:absolute;
+    left:519px;
+    top:2044px;
+    width:60px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u84_normal {
+    background-image: url('../foot_files/u84_normal.png');
+}
+
+.u84_container {
+    position:absolute;
+    left:647px;
+    top:2038px;
+    width:38px;
+    height:28px;
+}
+
+#u84_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:44px;
+    height:34px;
+}
+
+.u85 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:34px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u86 {
+    position:absolute;
+    left:695px;
+    top:2042px;
+    width:60px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u88 {
+    position:absolute;
+    left:30px;
+    top:160px;
+    width:180px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u89 {
+    position:absolute;
+    left:30px;
+    top:455px;
+    width:150px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u90 {
+    position:absolute;
+    left:30px;
+    top:933px;
+    width:150px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u91_normal {
+    background-image: url('../岗位选择引导_files/u91_normal.png');
+}
+
+.u91_container {
+    position:absolute;
+    left:30px;
+    top:489px;
+    width:230px;
+    height:180px;
+}
+
+#u91_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:236px;
+    height:186px;
+}
+
+.u92 {
+    position:absolute;
+    left:2px;
+    top:82px;
+    width:226px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u93 {
+    position:absolute;
+    left:30px;
+    top:693px;
+    width:150px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u94_normal {
+    background-image: url('../岗位选择引导_files/u91_normal.png');
+}
+
+.u94_container {
+    position:absolute;
+    left:30px;
+    top:727px;
+    width:230px;
+    height:180px;
+}
+
+#u94_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:236px;
+    height:186px;
+}
+
+.u95 {
+    position:absolute;
+    left:2px;
+    top:82px;
+    width:226px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u96 {
+    position:absolute;
+    left:40px;
+    top:738px;
+    width:170px;
+    height:120px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u97 {
+    position:absolute;
+    left:40px;
+    top:497px;
+    width:170px;
+    height:120px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u98_normal {
+    background-image: url('../岗位选择引导_files/u98_normal.png');
+}
+
+.u98_container {
+    position:absolute;
+    left:30px;
+    top:981px;
+    width:230px;
+    height:202px;
+}
+
+#u98_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:230px;
+    height:202px;
+}
+
+.u99 {
+    position:absolute;
+    left:2px;
+    top:93px;
+    width:226px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u100_normal {
+    background-image: url('../岗位选择引导_files/u100_normal.png');
+}
+
+.u100_container {
+    position:absolute;
+    left:30px;
+    top:1183px;
+    width:230px;
+    height:40px;
+}
+
+#u100_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:236px;
+    height:46px;
+}
+
+.u101 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:226px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u102_normal {
+    background-image: url('../岗位选择引导_files/u98_normal.png');
+}
+
+.u102_container {
+    position:absolute;
+    left:30px;
+    top:1253px;
+    width:230px;
+    height:202px;
+}
+
+#u102_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:230px;
+    height:202px;
+}
+
+.u103 {
+    position:absolute;
+    left:2px;
+    top:93px;
+    width:226px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u104_normal {
+    background-image: url('../岗位选择引导_files/u100_normal.png');
+}
+
+.u104_container {
+    position:absolute;
+    left:30px;
+    top:1455px;
+    width:230px;
+    height:40px;
+}
+
+#u104_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:236px;
+    height:46px;
+}
+
+.u105 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:226px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u106 {
+    position:absolute;
+    left:689px;
+    top:200px;
+    width:250px;
+    height:25px;
+    ;
+    ;
+    text-align: left;;
+    font-family:'Arial';
+    font-size: 13px;
+    color:#999999;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u107_normal {
+    background-image: url('../岗位选择引导_files/u107_normal.png');
+}
+
+.u107_container {
+    position:absolute;
+    left:959px;
+    top:200px;
+    width:50px;
+    height:25px;
+}
+
+#u107_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:56px;
+    height:31px;
+}
+
+.u108 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:46px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u109 {
+    position:absolute;
+    left:220px;
+    top:459px;
+    width:40px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u110 {
+    position:absolute;
+    left:220px;
+    top:697px;
+    width:40px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u111_normal {
+    background-image: url('../岗位选择引导_files/u111_normal.png');
+}
+
+.u111_container {
+    position:absolute;
+    left:310px;
+    top:328px;
+    width:90px;
+    height:80px;
+}
+
+#u111_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:96px;
+    height:86px;
+}
+
+.u112 {
+    position:absolute;
+    left:2px;
+    top:32px;
+    width:86px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u113 {
+    position:absolute;
+    left:430px;
+    top:328px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u114_normal {
+    background-image: url('../岗位选择引导_files/u114_normal.png');
+}
+
+.u114_container {
+    position:absolute;
+    left:890px;
+    top:333px;
+    width:90px;
+    height:25px;
+}
+
+#u114_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:96px;
+    height:31px;
+}
+
+.u115 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:86px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u116 {
+    position:absolute;
+    left:920px;
+    top:374px;
+    width:30px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u117 {
+    position:absolute;
+    left:430px;
+    top:357px;
+    width:440px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u118_line {
+    background-image: url('../岗位选择引导_files/u118_line.png');
+}
+
+.u118_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:670px;
+    height:3px;
+}
+
+.u118 {
+    position:absolute;
+    left:310px;
+    top:428px;
+    width:670px;
+    height:10px;
+    
+}
+
+.u119_normal {
+    background-image: url('../岗位选择引导_files/u111_normal.png');
+}
+
+.u119_container {
+    position:absolute;
+    left:310px;
+    top:462px;
+    width:90px;
+    height:80px;
+}
+
+#u119_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:96px;
+    height:86px;
+}
+
+.u120 {
+    position:absolute;
+    left:2px;
+    top:32px;
+    width:86px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u121 {
+    position:absolute;
+    left:430px;
+    top:462px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u122_normal {
+    background-image: url('../岗位选择引导_files/u114_normal.png');
+}
+
+.u122_container {
+    position:absolute;
+    left:890px;
+    top:467px;
+    width:90px;
+    height:25px;
+}
+
+#u122_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:96px;
+    height:31px;
+}
+
+.u123 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:86px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u124 {
+    position:absolute;
+    left:920px;
+    top:508px;
+    width:30px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u125 {
+    position:absolute;
+    left:430px;
+    top:491px;
+    width:440px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u126_line {
+    background-image: url('../岗位选择引导_files/u126_line.png');
+}
+
+.u126_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:670px;
+    height:3px;
+}
+
+.u126 {
+    position:absolute;
+    left:310px;
+    top:562px;
+    width:670px;
+    height:10px;
+    
+}
+
+.u127_normal {
+    background-image: url('../岗位选择引导_files/u111_normal.png');
+}
+
+.u127_container {
+    position:absolute;
+    left:310px;
+    top:598px;
+    width:90px;
+    height:80px;
+}
+
+#u127_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:96px;
+    height:86px;
+}
+
+.u128 {
+    position:absolute;
+    left:2px;
+    top:32px;
+    width:86px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u129 {
+    position:absolute;
+    left:430px;
+    top:598px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u130_normal {
+    background-image: url('../岗位选择引导_files/u114_normal.png');
+}
+
+.u130_container {
+    position:absolute;
+    left:890px;
+    top:603px;
+    width:90px;
+    height:25px;
+}
+
+#u130_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:96px;
+    height:31px;
+}
+
+.u131 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:86px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u132 {
+    position:absolute;
+    left:920px;
+    top:644px;
+    width:30px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u133 {
+    position:absolute;
+    left:430px;
+    top:627px;
+    width:440px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u134_line {
+    background-image: url('../岗位选择引导_files/u134_line.png');
+}
+
+.u134_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:670px;
+    height:3px;
+}
+
+.u134 {
+    position:absolute;
+    left:310px;
+    top:698px;
+    width:670px;
+    height:10px;
+    
+}
+
+.u135_normal {
+    background-image: url('../岗位选择引导_files/u111_normal.png');
+}
+
+.u135_container {
+    position:absolute;
+    left:310px;
+    top:733px;
+    width:90px;
+    height:80px;
+}
+
+#u135_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:96px;
+    height:86px;
+}
+
+.u136 {
+    position:absolute;
+    left:2px;
+    top:32px;
+    width:86px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u137 {
+    position:absolute;
+    left:430px;
+    top:733px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u138_normal {
+    background-image: url('../岗位选择引导_files/u114_normal.png');
+}
+
+.u138_container {
+    position:absolute;
+    left:890px;
+    top:738px;
+    width:90px;
+    height:25px;
+}
+
+#u138_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:96px;
+    height:31px;
+}
+
+.u139 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:86px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u140 {
+    position:absolute;
+    left:920px;
+    top:779px;
+    width:30px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u141 {
+    position:absolute;
+    left:430px;
+    top:762px;
+    width:440px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u142_line {
+    background-image: url('../岗位选择引导_files/u142_line.png');
+}
+
+.u142_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:670px;
+    height:3px;
+}
+
+.u142 {
+    position:absolute;
+    left:310px;
+    top:833px;
+    width:670px;
+    height:10px;
+    
+}
+
+.u143_normal {
+    background-image: url('../岗位选择引导_files/u111_normal.png');
+}
+
+.u143_container {
+    position:absolute;
+    left:310px;
+    top:863px;
+    width:90px;
+    height:80px;
+}
+
+#u143_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:96px;
+    height:86px;
+}
+
+.u144 {
+    position:absolute;
+    left:2px;
+    top:32px;
+    width:86px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u145 {
+    position:absolute;
+    left:430px;
+    top:863px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u146_normal {
+    background-image: url('../岗位选择引导_files/u114_normal.png');
+}
+
+.u146_container {
+    position:absolute;
+    left:890px;
+    top:868px;
+    width:90px;
+    height:25px;
+}
+
+#u146_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:96px;
+    height:31px;
+}
+
+.u147 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:86px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u148 {
+    position:absolute;
+    left:920px;
+    top:909px;
+    width:30px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u149 {
+    position:absolute;
+    left:430px;
+    top:892px;
+    width:440px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u150_line {
+    background-image: url('../岗位选择引导_files/u150_line.png');
+}
+
+.u150_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:670px;
+    height:3px;
+}
+
+.u150 {
+    position:absolute;
+    left:310px;
+    top:963px;
+    width:670px;
+    height:10px;
+    
+}
+
+.u151_normal {
+    background-image: url('../岗位选择引导_files/u111_normal.png');
+}
+
+.u151_container {
+    position:absolute;
+    left:310px;
+    top:997px;
+    width:90px;
+    height:80px;
+}
+
+#u151_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:96px;
+    height:86px;
+}
+
+.u152 {
+    position:absolute;
+    left:2px;
+    top:32px;
+    width:86px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u153 {
+    position:absolute;
+    left:430px;
+    top:997px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u154_normal {
+    background-image: url('../岗位选择引导_files/u114_normal.png');
+}
+
+.u154_container {
+    position:absolute;
+    left:890px;
+    top:1002px;
+    width:90px;
+    height:25px;
+}
+
+#u154_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:96px;
+    height:31px;
+}
+
+.u155 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:86px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u156 {
+    position:absolute;
+    left:920px;
+    top:1043px;
+    width:30px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u157 {
+    position:absolute;
+    left:430px;
+    top:1026px;
+    width:440px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u158_line {
+    background-image: url('../岗位选择引导_files/u158_line.png');
+}
+
+.u158_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:670px;
+    height:3px;
+}
+
+.u158 {
+    position:absolute;
+    left:310px;
+    top:1097px;
+    width:670px;
+    height:10px;
+    
+}
+
+.u159_normal {
+    background-image: url('../岗位选择引导_files/u111_normal.png');
+}
+
+.u159_container {
+    position:absolute;
+    left:310px;
+    top:1133px;
+    width:90px;
+    height:80px;
+}
+
+#u159_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:96px;
+    height:86px;
+}
+
+.u160 {
+    position:absolute;
+    left:2px;
+    top:32px;
+    width:86px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u161 {
+    position:absolute;
+    left:430px;
+    top:1133px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u162_normal {
+    background-image: url('../岗位选择引导_files/u114_normal.png');
+}
+
+.u162_container {
+    position:absolute;
+    left:890px;
+    top:1138px;
+    width:90px;
+    height:25px;
+}
+
+#u162_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:96px;
+    height:31px;
+}
+
+.u163 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:86px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u164 {
+    position:absolute;
+    left:920px;
+    top:1179px;
+    width:30px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u165 {
+    position:absolute;
+    left:430px;
+    top:1162px;
+    width:440px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u166_line {
+    background-image: url('../岗位选择引导_files/u166_line.png');
+}
+
+.u166_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:670px;
+    height:3px;
+}
+
+.u166 {
+    position:absolute;
+    left:310px;
+    top:1233px;
+    width:670px;
+    height:10px;
+    
+}
+
+.u167_normal {
+    background-image: url('../岗位选择引导_files/u111_normal.png');
+}
+
+.u167_container {
+    position:absolute;
+    left:310px;
+    top:1268px;
+    width:90px;
+    height:80px;
+}
+
+#u167_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:96px;
+    height:86px;
+}
+
+.u168 {
+    position:absolute;
+    left:2px;
+    top:32px;
+    width:86px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u169 {
+    position:absolute;
+    left:430px;
+    top:1268px;
+    width:150px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u170_normal {
+    background-image: url('../岗位选择引导_files/u114_normal.png');
+}
+
+.u170_container {
+    position:absolute;
+    left:890px;
+    top:1273px;
+    width:90px;
+    height:25px;
+}
+
+#u170_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:96px;
+    height:31px;
+}
+
+.u171 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:86px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u172 {
+    position:absolute;
+    left:920px;
+    top:1314px;
+    width:30px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u173 {
+    position:absolute;
+    left:430px;
+    top:1297px;
+    width:440px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u174_line {
+    background-image: url('../岗位选择引导_files/u174_line.png');
+}
+
+.u174_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:670px;
+    height:3px;
+}
+
+.u174 {
+    position:absolute;
+    left:310px;
+    top:1368px;
+    width:670px;
+    height:10px;
+    
+}
+
+.u175_normal {
+    background-image: url('../岗位选择引导_files/u175_normal.png');
+}
+
+.u175_container {
+    position:absolute;
+    left:310px;
+    top:1373px;
+    width:670px;
+    height:40px;
+}
+
+#u175_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:676px;
+    height:46px;
+}
+
+.u176 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:666px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u177 {
+    position:absolute;
+    left:430px;
+    top:399px;
+    width:30px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u178 {
+    position:absolute;
+    left:460px;
+    top:400px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u179 {
+    position:absolute;
+    left:310px;
+    top:265px;
+    width:290px;
+    height:24px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u180 {
+    position:absolute;
+    left:25px;
+    top:252px;
+    width:726px;
+    height:433px;
+    overflow:hidden;
+}
+
+#pd0u180 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:726px;
+    height:433px;
+    
+}
+
+.u181_menu {
+    background-image: url('../岗位选择引导_files/行业一级_u181_menu.png');
+}
+
+.u181_menu {
+    position:absolute;
+    left:1px;
+    top:37px;
+    width:239px;
+    height:129px;
+}
+
+#u181_menu {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:236px;
+    height:126px;
+}
+
+#u182 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:235px;
+    height:125px
+}
+
+.u183_normal {
+    background-image: url('../岗位选择引导_files/物流行业_u183_normal.png');
+}
+
+.u183_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:230px;
+    height:30px;
+}
+
+#u183_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:236px;
+    height:36px;
+}
+
+.u184 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:226px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u185_normal {
+    background-image: url('../岗位选择引导_files/物流行业_u183_normal.png');
+}
+
+.u185_container {
+    position:absolute;
+    left:0px;
+    top:30px;
+    width:230px;
+    height:30px;
+}
+
+#u185_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:236px;
+    height:36px;
+}
+
+.u186 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:226px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u187_normal {
+    background-image: url('../岗位选择引导_files/物流行业_u183_normal.png');
+}
+
+.u187_container {
+    position:absolute;
+    left:0px;
+    top:60px;
+    width:230px;
+    height:30px;
+}
+
+#u187_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:236px;
+    height:36px;
+}
+
+.u188 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:226px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u189_normal {
+    background-image: url('../岗位选择引导_files/物流行业_u183_normal.png');
+}
+
+.u189_container {
+    position:absolute;
+    left:0px;
+    top:90px;
+    width:230px;
+    height:30px;
+}
+
+#u189_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:236px;
+    height:36px;
+}
+
+.u190 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:226px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+#u191 {
+    position:absolute;
+    left:234px;
+    top:40px;
+    width:487px;
+    height:391px;
+    overflow:hidden;
+}
+
+#pd0u191 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:487px;
+    height:391px;
+    
+}
+
+.u192_normal {
+    background-image: url('../岗位选择引导_files/u192_normal.png');
+}
+
+.u192_container {
+    position:absolute;
+    left:3px;
+    top:2px;
+    width:476px;
+    height:386px;
+}
+
+#u192_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:482px;
+    height:392px;
+}
+
+.u193 {
+    position:absolute;
+    left:2px;
+    top:185px;
+    width:472px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u194 {
+    position:absolute;
+    left:20px;
+    top:18px;
+    width:70px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u195 {
+    position:absolute;
+    left:90px;
+    top:18px;
+    width:70px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u196 {
+    position:absolute;
+    left:270px;
+    top:18px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u197 {
+    position:absolute;
+    left:350px;
+    top:18px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u198 {
+    position:absolute;
+    left:20px;
+    top:44px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u199 {
+    position:absolute;
+    left:90px;
+    top:44px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u200 {
+    position:absolute;
+    left:160px;
+    top:18px;
+    width:100px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u201_normal {
+    background-image: url('../岗位选择引导_files/u201_normal.png');
+}
+
+.u201_container {
+    position:absolute;
+    left:4px;
+    top:10px;
+    width:230px;
+    height:30px;
+}
+
+#u201_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:236px;
+    height:36px;
+}
+
+.u202 {
+    position:absolute;
+    left:2px;
+    top:7px;
+    width:226px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u203 {
+    position:absolute;
+    left:110px;
+    top:508px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u204 {
+    position:absolute;
+    left:180px;
+    top:508px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u205 {
+    position:absolute;
+    left:360px;
+    top:508px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u206 {
+    position:absolute;
+    left:110px;
+    top:544px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u207 {
+    position:absolute;
+    left:220px;
+    top:544px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u208 {
+    position:absolute;
+    left:320px;
+    top:544px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u209 {
+    position:absolute;
+    left:250px;
+    top:508px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+

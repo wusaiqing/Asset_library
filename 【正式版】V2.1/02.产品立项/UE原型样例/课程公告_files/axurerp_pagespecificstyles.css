@@ -1,0 +1,1080 @@
+body {
+    margin: 0px;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+#main_container {
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0 {
+    position:absolute;
+    left:30px;
+    top:306px;
+    width:150px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u1_menu {
+    background-image: url('../课程详情页导航_files/u230_menu.png');
+}
+
+.u1_menu {
+    position:absolute;
+    left:27px;
+    top:337px;
+    width:239px;
+    height:117px;
+}
+
+#u1_menu {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:236px;
+    height:114px;
+}
+
+#u2 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:235px;
+    height:113px
+}
+
+.u3_mouseOver {
+    background-image: url('../课程详情页导航_files/u232_mouseOver.png');
+}
+
+.u3_normal {
+    background-image: url('../课程详情页导航_files/u232_normal.png');
+}
+
+.u3_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:230px;
+    height:36px;
+}
+
+#u3_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:236px;
+    height:42px;
+}
+
+.u4 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:226px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u5_mouseOver {
+    background-image: url('../课程详情页导航_files/u232_mouseOver.png');
+}
+
+.u5_normal {
+    background-image: url('../课程详情页导航_files/u232_normal.png');
+}
+
+.u5_container {
+    position:absolute;
+    left:0px;
+    top:36px;
+    width:230px;
+    height:36px;
+}
+
+#u5_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:236px;
+    height:42px;
+}
+
+.u6 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:226px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u7_mouseOver {
+    background-image: url('../课程详情页导航_files/u232_mouseOver.png');
+}
+
+.u7_normal {
+    background-image: url('../课程详情页导航_files/u232_normal.png');
+}
+
+.u7_container {
+    position:absolute;
+    left:0px;
+    top:72px;
+    width:230px;
+    height:36px;
+}
+
+#u7_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:236px;
+    height:42px;
+}
+
+.u8 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:226px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u9_menu {
+    background-image: url('../课程详情页导航_files/u238_menu.png');
+}
+
+.u9_menu {
+    position:absolute;
+    left:27px;
+    top:507px;
+    width:239px;
+    height:81px;
+}
+
+#u9_menu {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:236px;
+    height:78px;
+}
+
+#u10 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:235px;
+    height:77px
+}
+
+.u11_mouseOver {
+    background-image: url('../课程详情页导航_files/u232_mouseOver.png');
+}
+
+.u11_normal {
+    background-image: url('../课程详情页导航_files/u232_mouseOver.png');
+}
+
+.u11_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:230px;
+    height:36px;
+}
+
+#u11_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:236px;
+    height:42px;
+}
+
+.u12 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:226px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u13_mouseOver {
+    background-image: url('../课程详情页导航_files/u232_mouseOver.png');
+}
+
+.u13_normal {
+    background-image: url('../课程详情页导航_files/u232_normal.png');
+}
+
+.u13_container {
+    position:absolute;
+    left:0px;
+    top:36px;
+    width:230px;
+    height:36px;
+}
+
+#u13_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:236px;
+    height:42px;
+}
+
+.u14 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:226px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u15 {
+    position:absolute;
+    left:30px;
+    top:478px;
+    width:150px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16_menu {
+    background-image: url('../课程详情页导航_files/u245_menu.png');
+}
+
+.u16_menu {
+    position:absolute;
+    left:27px;
+    top:709px;
+    width:239px;
+    height:45px;
+}
+
+#u16_menu {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:236px;
+    height:42px;
+}
+
+#u17 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:235px;
+    height:41px
+}
+
+.u18_mouseOver {
+    background-image: url('../课程详情页导航_files/u232_mouseOver.png');
+}
+
+.u18_normal {
+    background-image: url('../课程详情页导航_files/u232_normal.png');
+}
+
+.u18_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:230px;
+    height:36px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:236px;
+    height:42px;
+}
+
+.u19 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:226px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20 {
+    position:absolute;
+    left:30px;
+    top:680px;
+    width:150px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u21_menu {
+    background-image: url('../课程详情页导航_files/u250_menu.png');
+}
+
+.u21_menu {
+    position:absolute;
+    left:27px;
+    top:579px;
+    width:239px;
+    height:81px;
+}
+
+#u21_menu {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:236px;
+    height:78px;
+}
+
+#u22 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:235px;
+    height:77px
+}
+
+.u23_mouseOver {
+    background-image: url('../课程详情页导航_files/u232_mouseOver.png');
+}
+
+.u23_normal {
+    background-image: url('../课程详情页导航_files/u232_normal.png');
+}
+
+.u23_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:230px;
+    height:36px;
+}
+
+#u23_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:236px;
+    height:42px;
+}
+
+.u24 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:226px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u25_mouseOver {
+    background-image: url('../课程详情页导航_files/u232_mouseOver.png');
+}
+
+.u25_normal {
+    background-image: url('../课程详情页导航_files/u232_normal.png');
+}
+
+.u25_container {
+    position:absolute;
+    left:0px;
+    top:36px;
+    width:230px;
+    height:36px;
+}
+
+#u25_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:236px;
+    height:42px;
+}
+
+.u26 {
+    position:absolute;
+    left:2px;
+    top:10px;
+    width:226px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u27_normal {
+    background-image: url('../课程详情页导航_files/u256_normal.png');
+}
+
+.u27_container {
+    position:absolute;
+    left:239px;
+    top:521px;
+    width:10px;
+    height:16px;
+}
+
+#u27_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:16px;
+    height:22px;
+}
+
+.u28 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:6px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30_normal {
+    background-image: url('../课程公告_files/u30_normal.png');
+}
+
+.u30_container {
+    position:absolute;
+    left:30px;
+    top:140px;
+    width:230px;
+    height:133px;
+}
+
+#u30_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:230px;
+    height:133px;
+}
+
+.u31 {
+    position:absolute;
+    left:2px;
+    top:58px;
+    width:226px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32 {
+    position:absolute;
+    left:310px;
+    top:140px;
+    width:150px;
+    height:26px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u33_line {
+    background-image: url('../课程公告_files/u33_line.png');
+}
+
+.u33_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:701px;
+    height:3px;
+}
+
+.u33 {
+    position:absolute;
+    left:310px;
+    top:174px;
+    width:701px;
+    height:10px;
+    
+}
+
+.u34_normal {
+    background-image: url('../课程公告_files/u34_normal.png');
+}
+
+.u34_container {
+    position:absolute;
+    left:30px;
+    top:40px;
+    width:981px;
+    height:80px;
+}
+
+#u34_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:987px;
+    height:86px;
+}
+
+.u35 {
+    position:absolute;
+    left:2px;
+    top:32px;
+    width:977px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36_normal {
+    background-image: url('../课程公告_files/u36_normal.png');
+}
+
+.u36_container {
+    position:absolute;
+    left:70px;
+    top:60px;
+    width:70px;
+    height:40px;
+}
+
+#u36_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:76px;
+    height:46px;
+}
+
+.u37 {
+    position:absolute;
+    left:2px;
+    top:4px;
+    width:66px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38 {
+    position:absolute;
+    left:160px;
+    top:72px;
+    width:90px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u39 {
+    position:absolute;
+    left:310px;
+    top:63px;
+    width:427px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40 {
+    position:absolute;
+    left:310px;
+    top:92px;
+    width:150px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u41_normal {
+    background-image: url('../课程公告_files/u41_normal.png');
+}
+
+.u41_container {
+    position:absolute;
+    left:30px;
+    top:0px;
+    width:980px;
+    height:26px;
+}
+
+#u41_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:986px;
+    height:32px;
+}
+
+.u42 {
+    position:absolute;
+    left:2px;
+    top:5px;
+    width:976px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u43 {
+    position:absolute;
+    left:925px;
+    top:5px;
+    width:50px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44_normal {
+    background-image: url('../课程公告_files/u44_normal.png');
+}
+
+.u44_container {
+    position:absolute;
+    left:985px;
+    top:6px;
+    width:20px;
+    height:16px;
+}
+
+#u44_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:26px;
+    height:22px;
+}
+
+.u45 {
+    position:absolute;
+    left:2px;
+    top:-2px;
+    width:16px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u46 {
+    position:absolute;
+    left:840px;
+    top:3px;
+    width:100px;
+    height:19px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u47 {
+    position:absolute;
+    left:35px;
+    top:7px;
+    width:110px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48 {
+    position:absolute;
+    left:310px;
+    top:214px;
+    width:701px;
+    height:209px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49 {
+    position:absolute;
+    left:311px;
+    top:480px;
+    width:700px;
+    height:290px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u50_line {
+    background-image: url('../课程公告_files/u50_line.png');
+}
+
+.u50_line {
+    position:absolute;
+    left:0px;
+    top:4px;
+    width:701px;
+    height:3px;
+}
+
+.u50 {
+    position:absolute;
+    left:310px;
+    top:440px;
+    width:701px;
+    height:10px;
+    
+}
+
+.u51_normal {
+    background-image: url('../foot_files/u83_normal.png');
+}
+
+.u51_container {
+    position:absolute;
+    left:30px;
+    top:935px;
+    width:970px;
+    height:98px;
+}
+
+#u51_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:976px;
+    height:104px;
+}
+
+.u52 {
+    position:absolute;
+    left:2px;
+    top:41px;
+    width:966px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u53 {
+    position:absolute;
+    left:222px;
+    top:960px;
+    width:574px;
+    height:48px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u54_normal {
+    background-image: url('../foot_files/u86_normal.png');
+}
+
+.u54_container {
+    position:absolute;
+    left:30px;
+    top:895px;
+    width:970px;
+    height:40px;
+}
+
+#u54_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:976px;
+    height:46px;
+}
+
+.u55 {
+    position:absolute;
+    left:2px;
+    top:12px;
+    width:966px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u56_normal {
+    background-image: url('../foot_files/u88_normal.png');
+}
+
+.u56_container {
+    position:absolute;
+    left:286px;
+    top:901px;
+    width:38px;
+    height:28px;
+}
+
+#u56_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:44px;
+    height:34px;
+}
+
+.u57 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:34px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u58 {
+    position:absolute;
+    left:334px;
+    top:907px;
+    width:60px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u59_normal {
+    background-image: url('../foot_files/u88_normal.png');
+}
+
+.u59_container {
+    position:absolute;
+    left:462px;
+    top:901px;
+    width:38px;
+    height:28px;
+}
+
+#u59_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:44px;
+    height:34px;
+}
+
+.u60 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:34px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u61 {
+    position:absolute;
+    left:510px;
+    top:907px;
+    width:60px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u62_normal {
+    background-image: url('../foot_files/u88_normal.png');
+}
+
+.u62_container {
+    position:absolute;
+    left:638px;
+    top:901px;
+    width:38px;
+    height:28px;
+}
+
+#u62_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:44px;
+    height:34px;
+}
+
+.u63 {
+    position:absolute;
+    left:2px;
+    top:6px;
+    width:34px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u64 {
+    position:absolute;
+    left:686px;
+    top:905px;
+    width:60px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
