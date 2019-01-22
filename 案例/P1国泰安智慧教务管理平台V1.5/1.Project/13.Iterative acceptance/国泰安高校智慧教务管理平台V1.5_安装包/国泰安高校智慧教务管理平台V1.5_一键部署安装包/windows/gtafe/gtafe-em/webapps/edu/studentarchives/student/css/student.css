@@ -1,0 +1,8 @@
+.relative{position:relative;}
+@media (min-width: 768px){
+  .form-control.sel-mall {
+    position: relative;
+    width: 32.6%;
+    display: inline-block;
+  }
+}

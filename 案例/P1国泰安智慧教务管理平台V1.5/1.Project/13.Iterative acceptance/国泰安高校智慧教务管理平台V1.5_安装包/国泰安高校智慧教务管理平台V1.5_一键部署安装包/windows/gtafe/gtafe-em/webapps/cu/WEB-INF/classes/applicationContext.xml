@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:tx="http://www.springframework.org/schema/tx" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	 xmlns:cache="http://www.springframework.org/schema/cache"  
+	  xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+         http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context/spring-context-4.2.xsd
+         http://www.springframework.org/schema/tx
+     	 http://www.springframework.org/schema/tx/spring-tx-4.2.xsd
+         http://www.springframework.org/schema/aop 
+         http://www.springframework.org/schema/aop/spring-aop-4.2.xsd
+		 http://www.springframework.org/schema/mvc 
+		 http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd
+		 http://www.springframework.org/schema/cache
+     	 http://www.springframework.org/schema/cache/spring-cache.xsd
+		http://www.springframework.org/schema/task
+		http://www.springframework.org/schema/task/spring-task.xsd
+     	 ">
+
+	<!-- 开启IOC注解扫描 -->
+	<aop:aspectj-autoproxy/>
+    <aop:aspectj-autoproxy proxy-target-class="true" />
+	<context:component-scan base-package="com.gtafe" />
+	<cache:annotation-driven />
+	 <!-- 支持异步方法执行 -->
+	 <task:annotation-driven/>
+	<!-- 开启MVC注解扫描 -->
+	<mvc:annotation-driven />
+
+	<!-- 以下为数据库和hibernate配置 -->
+	<context:property-placeholder location="classpath:db.properties" />
+	<!-- 配置数据源 -->
+	<bean name="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+		<!-- 初始化连接大小 -->
+		<!-- <property name="initialSize" value="50" /> -->
+		<property name="initialSize" value="5" /> 
+		<!-- 连接池最大使用连接数量 -->
+		<property name="maxActive" value="200" />
+		<property name="minIdle" value="5" />
+		<!-- <property name="maxActive" value="300" /> -->
+		<!-- <property name="minIdle" value="5" /> -->
+		
+		<!-- 获取连接最大等待时间 -->
+		<!-- <property name="maxWait" value="10000" /> -->
+		<property name="maxWait" value="20000" />
+
+		<property name="validationQuery" value="select 1 from dual" />
+		<property name="testOnBorrow" value="false" />
+		<property name="testOnReturn" value="false" />
+		<property name="testWhileIdle" value="true" />
+
+		<!-- 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒 -->
+		<property name="timeBetweenEvictionRunsMillis" value="60000" />
+		<!-- 配置一个连接在池中最小生存的时间，单位是毫秒 -->
+		<property name="minEvictableIdleTimeMillis" value="300000" />
+
+		<!-- 打开removeAbandoned功能 -->
+		<property name="removeAbandoned" value="true" />
+		<!-- 1800秒，也就是30分钟 -->
+		<property name="removeAbandonedTimeout" value="1800" />
+		<!-- 关闭abanded连接时输出错误日志 -->
+		<property name="logAbandoned" value="true" />
+		<property name="poolPreparedStatements" value="false" />
+
+		<!-- 监控数据库 -->
+		<!-- <property name="filters" value="stat" /> -->
+	</bean>
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="packagesToScan">
+			<list>
+				<value>com.gtafe</value>
+			</list>
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">${hibernate.dialect}</prop>
+				<prop key="hibernate.show_sql">false</prop>
+				<prop key="hibernate.format_sql">false</prop>
+				<prop key="hibernate.hbm2ddl.auto">none</prop>
+			</props>
+		</property>
+	</bean>
+	<bean id="hibernateTemplate" class="org.springframework.orm.hibernate5.HibernateTemplate">
+		<property name="sessionFactory" ref="sessionFactory"></property>
+	</bean>
+	
+	<!-- 定义事务管理器（声明式的事务） -->
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+	
+	   <bean id="poolConfig" class="redis.clients.jedis.JedisPoolConfig">  
+    </bean>  
+      
+    <bean id="connectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"  
+        p:host-name="${redis.host}" p:port="${redis.port}" p:password="${redis.pass}"  p:pool-config-ref="poolConfig"/>  
+      
+    <bean id="redisTemplate" class="org.springframework.data.redis.core.StringRedisTemplate">  
+        <property name="connectionFactory"   ref="connectionFactory" />  
+        <property name="keySerializer">
+            <bean class="org.springframework.data.redis.serializer.StringRedisSerializer"/>
+        </property>
+        <property name="valueSerializer">
+            <bean class="org.springframework.data.redis.serializer.JdkSerializationRedisSerializer"/>
+        </property>
+    </bean>  
+    <!-- spring自己的缓存管理器，这里定义了缓存位置名称 ，即注解中的value -->    
+     <bean id="cacheManager" class="org.springframework.cache.support.SimpleCacheManager">    
+         <property name="caches">    
+            <set>    
+                <bean class="com.gtafe.component.cache.RedisCache">    
+                     <property name="redisTemplate" ref="redisTemplate" />    
+                     <property name="name" value="dictionaryCache"/>    
+                     <!-- common名称要在类或方法的注解中使用 -->  
+                </bean>  
+                 <bean class="com.gtafe.component.cache.RedisCache">    
+                     <property name="redisTemplate" ref="redisTemplate" />    
+                     <property name="name" value="default"/>    
+                     <!-- common名称要在类或方法的注解中使用 -->  
+                </bean>  
+            </set>    
+         </property>    
+     </bean>    
+	
+	<!-- 拦截器 -->
+	<mvc:interceptors>
+		<!-- 登录认证拦截器 -->
+		<mvc:interceptor>
+			<mvc:mapping path="/**"/>
+			<bean class="com.gtafe.component.authority.AuthenticationInterceptor"></bean>
+		</mvc:interceptor>
+		<!-- 授权验证拦截器 -->
+		<mvc:interceptor>
+			<mvc:mapping path="/**"/>
+			<bean class="com.gtafe.component.authority.AuthorizationInterceptor"></bean>
+		</mvc:interceptor>
+	</mvc:interceptors>
+	<tx:annotation-driven transaction-manager="transactionManager" />
+	<bean id="exceptionHandler" class="com.gtafe.component.interceptor.UnifiedExceptionHandler"/>  
+	 <bean id="config"
+          class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+        <property name="locations">
+            <list>
+                <value>classpath:config.properties</value>
+            </list>
+        </property>
+        <!-- 设置编码格式 -->
+        <property name="fileEncoding" value="UTF-8"></property>
+    </bean>
+    
+</beans>

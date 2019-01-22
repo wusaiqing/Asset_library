@@ -1,0 +1,2919 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>补考成绩录入（V1.5调整）</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/补考成绩录入（v1_5调整）/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/补考成绩录入（v1_5调整）/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (形状) -->
+      <div id="u0" class="ax_文本段落">
+        <img id="u0_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u1" class="text">
+          <p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">【</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">说明</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">】由管理人员在此录入补考成绩</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">并送审</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">；教师则在教师服务端录入；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">&nbsp;</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">【查询条件】</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">1.学年学期：</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">来源排课系统校历设置</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">，默认当前学年学期</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">2.是否已排考：包括是、否，默认为否；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">3</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">.考试批次：</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">若是否已排考为是，则</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">来源考务管理</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">中补考批次，与学年学期级联</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">，</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">默认</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">全部</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">且必须选择</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">；</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">若是否已排考为否，则考试批次为只读；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">4</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">.开课单位：来源培养方案</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">；</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">默认</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">请选择</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">；</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">显示用户数据权限中有的开课单位；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">5</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">.课程：</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">若是否已排考为是，则</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">与</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">考务批次，</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">开课单位级联；</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">若是否已排考为否，</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">与开课单位</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">、学年学期</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">级联</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">且只显示有成绩未通过的课程（查询有效成绩</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">中</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">修读学年学期为查询条件中的学年学期且成绩小于60分</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">或成绩标记为缓考</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">的课程）</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">；</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">[课程号]课程名称组合显示；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">6</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">.年级：来源培养层次；</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">默认全部；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">7</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">.院系：来源基础数据单位信息中教学类型为教学院系的单位；默认为全部；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">8</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">.专业：来源基础数据，与年级</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">、院系</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">级联</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">；</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">默认全部；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">9</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">.班级：来源学籍管理，与专业级联；默认全部；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">10</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">.点击查询，若未选择课程则提示“请先选择课程！”；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">&nbsp;</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">【</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">展示</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">信息】</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">1.点击查询后，</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">是否已排考为是，则</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">显示查询条件中的</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">考试批次、课程</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">；</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">是否已排考为否，则显示查询条件中的课程；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">&nbsp;</span></p><p><span style="font-family:'Arial Negreta', 'Arial';font-weight:700;color:#FF0000;">是否已排考为否：</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">【列表】</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">1.默认无数据，需要选择</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">课程</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">点击</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">查询后，</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">显示</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">课程</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">下</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">所有</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">的</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">此课程成绩不及格</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">或成绩标记为缓考</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">的学生（查有效总评成绩）</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">2.</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">按学号升序排列；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">3</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">.</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">取得学年学期：默认</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">为查询条件中的学年学期，下拉中只显示大于等于查询条件中的学年学期；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">4</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">.总评成绩：</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">根据</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">列表上方</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">设置的分制</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">，显示成输入框或下拉选择等级；若输入框则限制0-100，保留一位小数；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">5</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">.特殊情况</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">：来源于成绩特殊情况设置中启用的数据</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">，</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">默认为请选择；</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">若选择了具体的特殊情况</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">且设置了总评成绩固定的分值</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">，</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">则直接将此学生的总评成绩</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">设置成特殊情况的分值</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">且不能修改</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">（</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">若特殊情况的分值与设置的</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">分制</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">不一样，则自动转换成对应的分制</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">）</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">6</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">.备注：最多50字符；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">&nbsp;</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">【操作】</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">1</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">.</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">分制：来源于分制设置，默认为百分制；</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">一个课程对应一个分制；若已保存部分录入数据，当修改分制后，</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">已录入的数据</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">清空需要重新录入</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">2.</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">保存：点击，保存已录入的数据</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">，提示成功</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">3</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">.</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">送审</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">：</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">点击</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">，则</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">弹出确认提示“</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">送审</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">后</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">成绩</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">将不能再修改，确定</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">送审</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">吗？”</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">，待用户确定后，</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">保存数据并送审</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">，</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">成绩记录标记为</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">待审核</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">状态</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">，提示送审成功</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">4.若成绩还未审核，则再次进入页面显示当前待审核的数据，不能再修改，分制、保存、送审置灰；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">5.若成绩已送审，则再次进入页面</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">清空页面</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">，</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">可再次录入补考成绩</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">&nbsp;</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">【补充说明】</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">1.</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">成绩</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">的</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">取得学年</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">学期为当前录入时的学年学期；</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">修读学年学期为课程开设的学年学期；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">2.每条成绩需要保存当前的录入人及时间；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">3</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">.</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">录入的数据：录入方式为录入，成绩类型为</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">补考</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">4.录入时，可以在页面中通过tab键切换输入框；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">&nbsp;</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">【</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">V1.5调整】</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">1.单条成绩送审后，只单条成绩不能再修改；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">2.</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">送审时，若</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">学生课程</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">当前有成绩</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">待审核</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">，</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">则</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">弹出提示“有</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">学生课程</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">成绩</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">待</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">审核，此</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">学生新录入的课程</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">成绩不能送审，确定送审其他</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">学生的</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">课程成绩吗？”，待用户确定后，则此</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">学生的</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">课程新录入的成绩不送审，将其他</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">学生的</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">课程成绩送审；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">3.增加是否缓考后补考字段，根据学生课程成绩最近录入的一条的特殊情况来判断，若最近一条成绩标记为缓考，则是否缓考后补考字段显示为是，否则显示为否；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">4</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">.</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">其他模块录入的成绩，</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">若已</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">送审</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">，则只</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">显示且不能修改；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#0000FF;">&nbsp;</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#0000FF;">补录的成绩，若只保存，</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#0000FF;">此处也不能修改，只以lab的形式显示补录时的成绩</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#0000FF;">。</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#0000FF;">送审时只能送审录入的课程成绩，不能送审补录的成绩，补录的成绩只显示，不能保存和送审。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#1E1E1E;">&nbsp;</span></p><p><span style="font-family:'Arial Negreta', 'Arial';font-weight:700;color:#FF0000;">是否已排考为是</span><span style="font-family:'Arial Negreta', 'Arial';font-weight:700;color:#FF0000;">：</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">【</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">列表】</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">1.默认无数据，</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">数据来源于考务批次、课程下的学生</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">，</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">需要选择</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">考试批次、</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">开课单位、课程</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">，</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">查询后，</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">显示</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">课程</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">下</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">所有</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">的学生</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">数据；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">2.按学号升序排列；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">3</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">.</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">列表上方显示</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">查询</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">的记录中未完成录入的数量</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">（总评成绩完成录入</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">或已进行特殊情况标识</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">）</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">4</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">.总评成绩：</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">根据</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">列表上方</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">设置的分制</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">，显示成输入框或下拉选择等级；若输入框则限制0-100，保留一位小数；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">5</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">.特殊情况</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">：来源于成绩特殊情况设置中启用的数据</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">，</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">默认为请选择；</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">若选择了具体的特殊情况</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">且设置了总评成绩固定的分值</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">，</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">则直接将此学生的总评成绩</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">设置成特殊情况的分值</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">且不能修改</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">（</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">若特殊情况的分值与设置的</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">分制</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">不一样，则自动转换成对应的分制</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">）</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">6</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">.备注：最多50字符；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">&nbsp;</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">【操作】</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">1</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">.</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">分制：来源于分制设置，默认为百分制；</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">一个考试批次、课程下对应一个分制；若已保存部分录入数据，当修改分制后，</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">已录入的数据</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">清空需要重新录入</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">2.</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">保存：点击，保存已录入的数据</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">，提示成功</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">3</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">.</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">送审</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">：</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">当所有记录都已得到总评成绩或进行了特殊情况标识，则表示已完成所有成绩录入；</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">点击，</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">若未完成录入，则显示提示</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">“请先完成所有学生的成绩录入！”</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">；若已完成所有记录的录入，则</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">弹出确认提示“</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">送审</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">后将不能再修改，确定</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">送审</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">吗？”</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">，待用户确定后，</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">保存数据并送审</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">，</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">成绩记录标记为</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">待审核</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">状态；</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">送审后再次进入到页面都为只读状态，不能再录入此</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">课程</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">的成绩</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">，</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">分制、</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">保存、送审按钮置灰；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">&nbsp;</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">【补充说明】</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">1.</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">成绩</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">的</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">取得学年</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">学期为当前录入时的学年学期；</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">修读学年学期为课程开设的学年学期；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">2.每条成绩需要保存当前的录入人及时间；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">3</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">.</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">录入的数据：录入方式为录入，成绩类型为</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">补考</span><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">；</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FF0000;">4.录入时，可以在页面中通过tab键切换输入框；</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u2" class="ax_形状">
+        <img id="u2_img" class="img " src="images/分制设置（v1_5）/u0.png"/>
+        <!-- Unnamed () -->
+        <div id="u3" class="text">
+          <p><span style="text-decoration:underline;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (主框架) -->
+
+      <!-- Unnamed (形状) -->
+      <div id="u5" class="ax_形状">
+        <img id="u5_img" class="img " src="images/分制设置（v1_5）/u3.png"/>
+        <!-- Unnamed () -->
+        <div id="u6" class="text">
+          <p><span style="text-decoration:underline;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u7" class="ax_image">
+        <img id="u7_img" class="img " src="images/分制设置（v1_5）/u5.png"/>
+        <!-- Unnamed () -->
+        <div id="u8" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u9" class="ax_形状">
+        <img id="u9_img" class="img " src="images/分制设置（v1_5）/u7.png"/>
+        <!-- Unnamed () -->
+        <div id="u10" class="text">
+          <p><span style="text-decoration:underline;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u11" class="ax_文本段落">
+        <img id="u11_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u12" class="text">
+          <p><span>国泰安科技大学</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u13" class="ax_文本段落">
+        <img id="u13_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u14" class="text">
+          <p><span>教务管理系统</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u15" class="ax_形状">
+        <img id="u15_img" class="img " src="images/分制设置（v1_5）/u13.png"/>
+        <!-- Unnamed () -->
+        <div id="u16" class="text">
+          <p><span style="text-decoration:underline;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u17" class="ax_image">
+        <img id="u17_img" class="img " src="images/分制设置（v1_5）/u15.png"/>
+        <!-- Unnamed () -->
+        <div id="u18" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u19" class="ax_文本段落">
+        <img id="u19_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u20" class="text">
+          <p><span>导航</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u21" class="ax_image">
+        <img id="u21_img" class="img " src="images/分制设置（v1_5）/u15.png"/>
+        <!-- Unnamed () -->
+        <div id="u22" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u23" class="ax_文本段落">
+        <img id="u23_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u24" class="text">
+          <p><span>主题</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u25" class="ax_image">
+        <img id="u25_img" class="img " src="images/分制设置（v1_5）/u15.png"/>
+        <!-- Unnamed () -->
+        <div id="u26" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u27" class="ax_文本段落">
+        <img id="u27_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u28" class="text">
+          <p><span>帮助</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u29" class="ax_image">
+        <img id="u29_img" class="img " src="images/分制设置（v1_5）/u15.png"/>
+        <!-- Unnamed () -->
+        <div id="u30" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u31" class="ax_文本段落">
+        <img id="u31_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u32" class="text">
+          <p><span>系统管理员</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u33" class="ax_文本段落">
+        <img id="u33_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u34" class="text">
+          <p><span>▽</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Image) -->
+      <div id="u35" class="ax_image">
+        <img id="u35_img" class="img " src="images/分制设置（v1_5）/u15.png"/>
+        <!-- Unnamed () -->
+        <div id="u36" class="text">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u37" class="ax_文本段落">
+        <img id="u37_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u38" class="text">
+          <p><span>桌面</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u39" class="ax_文本段落">
+        <img id="u39_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u40" class="text">
+          <p><span>补考成绩录入</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u41" class="ax_水平线">
+        <img id="u41_start" class="img " src="resources/images/transparent.gif" alt="u41_start"/>
+        <img id="u41_end" class="img " src="resources/images/transparent.gif" alt="u41_end"/>
+        <img id="u41_line" class="img " src="images/分制设置（v1_5）/u39_line.png" alt="u41_line"/>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u42" class="ax_形状">
+        <img id="u42_img" class="img " src="images/补考成绩录入（v1_5调整）/u42.png"/>
+        <!-- Unnamed () -->
+        <div id="u43" class="text">
+          <p><span style="text-decoration:underline;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u44" class="ax_文本段落">
+        <img id="u44_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u45" class="text">
+          <p><span>学</span><span>年学期：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u46" class="ax_下拉列表框">
+        <select id="u46_input">
+          <option value="2017-2018学年 第一学期">2017-2018学年 第一学期</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (提交按钮) -->
+      <div id="u47" class="ax_提交按钮">
+        <input id="u47_input" type="submit" value="查询"/>
+      </div>
+
+      <!-- 是否已排考 (动态面板) -->
+      <div id="u48" class="ax_动态面板" data-label="是否已排考">
+        <div id="u48_state0" class="panel_state" data-label="否">
+          <div id="u48_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (表格) -->
+            <div id="u49" class="ax_表格">
+
+              <!-- Unnamed (单元格) -->
+              <div id="u50" class="ax_单元格">
+                <img id="u50_img" class="img " src="images/补考成绩录入（v1_5调整）/u50.png"/>
+                <!-- Unnamed () -->
+                <div id="u51" class="text">
+                  <p><span>序</span><span>号</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u52" class="ax_单元格">
+                <img id="u52_img" class="img " src="images/补考成绩录入（v1_5调整）/u52.png"/>
+                <!-- Unnamed () -->
+                <div id="u53" class="text">
+                  <p><span>学</span><span>号</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u54" class="ax_单元格">
+                <img id="u54_img" class="img " src="images/补考成绩录入（v1_5调整）/u54.png"/>
+                <!-- Unnamed () -->
+                <div id="u55" class="text">
+                  <p><span>姓</span><span>名</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u56" class="ax_单元格">
+                <img id="u56_img" class="img " src="images/补考成绩录入（v1_5调整）/u50.png"/>
+                <!-- Unnamed () -->
+                <div id="u57" class="text">
+                  <p><span>性</span><span>别</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u58" class="ax_单元格">
+                <img id="u58_img" class="img " src="images/补考成绩录入（v1_5调整）/u58.png"/>
+                <!-- Unnamed () -->
+                <div id="u59" class="text">
+                  <p><span>是</span><span>否缓考后补考</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u60" class="ax_单元格">
+                <img id="u60_img" class="img " src="images/补考成绩录入（v1_5调整）/u60.png"/>
+                <!-- Unnamed () -->
+                <div id="u61" class="text">
+                  <p><span>取</span><span>得学年学期</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u62" class="ax_单元格">
+                <img id="u62_img" class="img " src="images/课程成绩录入（v1_5调整）/u65.png"/>
+                <!-- Unnamed () -->
+                <div id="u63" class="text">
+                  <p><span>总评</span><span>成绩</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u64" class="ax_单元格">
+                <img id="u64_img" class="img " src="images/教师选择-批量/u18.png"/>
+                <!-- Unnamed () -->
+                <div id="u65" class="text">
+                  <p><span>特殊情况</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u66" class="ax_单元格">
+                <img id="u66_img" class="img " src="images/补考成绩录入（v1_5调整）/u66.png"/>
+                <!-- Unnamed () -->
+                <div id="u67" class="text">
+                  <p><span>备</span><span>注</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u68" class="ax_单元格">
+                <img id="u68_img" class="img " src="images/补考成绩录入（v1_5调整）/u68.png"/>
+                <!-- Unnamed () -->
+                <div id="u69" class="text">
+                  <p><span>1</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u70" class="ax_单元格">
+                <img id="u70_img" class="img " src="images/补考成绩录入（v1_5调整）/u70.png"/>
+                <!-- Unnamed () -->
+                <div id="u71" class="text">
+                  <p><span>1</span><span>7021302</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u72" class="ax_单元格">
+                <img id="u72_img" class="img " src="images/补考成绩录入（v1_5调整）/u72.png"/>
+                <!-- Unnamed () -->
+                <div id="u73" class="text">
+                  <p><span>张</span><span>三</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u74" class="ax_单元格">
+                <img id="u74_img" class="img " src="images/补考成绩录入（v1_5调整）/u68.png"/>
+                <!-- Unnamed () -->
+                <div id="u75" class="text">
+                  <p><span>男</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u76" class="ax_单元格">
+                <img id="u76_img" class="img " src="images/补考成绩录入（v1_5调整）/u76.png"/>
+                <!-- Unnamed () -->
+                <div id="u77" class="text">
+                  <p><span>是</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u78" class="ax_单元格">
+                <img id="u78_img" class="img " src="images/补考成绩录入（v1_5调整）/u78.png"/>
+                <!-- Unnamed () -->
+                <div id="u79" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u80" class="ax_单元格">
+                <img id="u80_img" class="img " src="images/课程成绩录入（v1_5调整）/u87.png"/>
+                <!-- Unnamed () -->
+                <div id="u81" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u82" class="ax_单元格">
+                <img id="u82_img" class="img " src="images/教师选择-批量/u32.png"/>
+                <!-- Unnamed () -->
+                <div id="u83" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u84" class="ax_单元格">
+                <img id="u84_img" class="img " src="images/补考成绩录入（v1_5调整）/u84.png"/>
+                <!-- Unnamed () -->
+                <div id="u85" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u86" class="ax_单元格">
+                <img id="u86_img" class="img " src="images/补考成绩录入（v1_5调整）/u68.png"/>
+                <!-- Unnamed () -->
+                <div id="u87" class="text">
+                  <p><span>2</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u88" class="ax_单元格">
+                <img id="u88_img" class="img " src="images/补考成绩录入（v1_5调整）/u70.png"/>
+                <!-- Unnamed () -->
+                <div id="u89" class="text">
+                  <p><span>1</span><span>7021302</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u90" class="ax_单元格">
+                <img id="u90_img" class="img " src="images/补考成绩录入（v1_5调整）/u72.png"/>
+                <!-- Unnamed () -->
+                <div id="u91" class="text">
+                  <p><span>李四</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u92" class="ax_单元格">
+                <img id="u92_img" class="img " src="images/补考成绩录入（v1_5调整）/u68.png"/>
+                <!-- Unnamed () -->
+                <div id="u93" class="text">
+                  <p><span>女</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u94" class="ax_单元格">
+                <img id="u94_img" class="img " src="images/补考成绩录入（v1_5调整）/u76.png"/>
+                <!-- Unnamed () -->
+                <div id="u95" class="text">
+                  <p><span>否</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u96" class="ax_单元格">
+                <img id="u96_img" class="img " src="images/补考成绩录入（v1_5调整）/u78.png"/>
+                <!-- Unnamed () -->
+                <div id="u97" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u98" class="ax_单元格">
+                <img id="u98_img" class="img " src="images/课程成绩录入（v1_5调整）/u87.png"/>
+                <!-- Unnamed () -->
+                <div id="u99" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u100" class="ax_单元格">
+                <img id="u100_img" class="img " src="images/教师选择-批量/u32.png"/>
+                <!-- Unnamed () -->
+                <div id="u101" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u102" class="ax_单元格">
+                <img id="u102_img" class="img " src="images/补考成绩录入（v1_5调整）/u84.png"/>
+                <!-- Unnamed () -->
+                <div id="u103" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u104" class="ax_单元格">
+                <img id="u104_img" class="img " src="images/补考成绩录入（v1_5调整）/u68.png"/>
+                <!-- Unnamed () -->
+                <div id="u105" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u106" class="ax_单元格">
+                <img id="u106_img" class="img " src="images/补考成绩录入（v1_5调整）/u70.png"/>
+                <!-- Unnamed () -->
+                <div id="u107" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u108" class="ax_单元格">
+                <img id="u108_img" class="img " src="images/补考成绩录入（v1_5调整）/u72.png"/>
+                <!-- Unnamed () -->
+                <div id="u109" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u110" class="ax_单元格">
+                <img id="u110_img" class="img " src="images/补考成绩录入（v1_5调整）/u68.png"/>
+                <!-- Unnamed () -->
+                <div id="u111" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u112" class="ax_单元格">
+                <img id="u112_img" class="img " src="images/补考成绩录入（v1_5调整）/u76.png"/>
+                <!-- Unnamed () -->
+                <div id="u113" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u114" class="ax_单元格">
+                <img id="u114_img" class="img " src="images/补考成绩录入（v1_5调整）/u78.png"/>
+                <!-- Unnamed () -->
+                <div id="u115" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u116" class="ax_单元格">
+                <img id="u116_img" class="img " src="images/课程成绩录入（v1_5调整）/u87.png"/>
+                <!-- Unnamed () -->
+                <div id="u117" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u118" class="ax_单元格">
+                <img id="u118_img" class="img " src="images/教师选择-批量/u32.png"/>
+                <!-- Unnamed () -->
+                <div id="u119" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u120" class="ax_单元格">
+                <img id="u120_img" class="img " src="images/补考成绩录入（v1_5调整）/u84.png"/>
+                <!-- Unnamed () -->
+                <div id="u121" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u122" class="ax_单元格">
+                <img id="u122_img" class="img " src="images/补考成绩录入（v1_5调整）/u68.png"/>
+                <!-- Unnamed () -->
+                <div id="u123" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u124" class="ax_单元格">
+                <img id="u124_img" class="img " src="images/补考成绩录入（v1_5调整）/u70.png"/>
+                <!-- Unnamed () -->
+                <div id="u125" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u126" class="ax_单元格">
+                <img id="u126_img" class="img " src="images/补考成绩录入（v1_5调整）/u72.png"/>
+                <!-- Unnamed () -->
+                <div id="u127" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u128" class="ax_单元格">
+                <img id="u128_img" class="img " src="images/补考成绩录入（v1_5调整）/u68.png"/>
+                <!-- Unnamed () -->
+                <div id="u129" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u130" class="ax_单元格">
+                <img id="u130_img" class="img " src="images/补考成绩录入（v1_5调整）/u76.png"/>
+                <!-- Unnamed () -->
+                <div id="u131" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u132" class="ax_单元格">
+                <img id="u132_img" class="img " src="images/补考成绩录入（v1_5调整）/u78.png"/>
+                <!-- Unnamed () -->
+                <div id="u133" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u134" class="ax_单元格">
+                <img id="u134_img" class="img " src="images/课程成绩录入（v1_5调整）/u87.png"/>
+                <!-- Unnamed () -->
+                <div id="u135" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u136" class="ax_单元格">
+                <img id="u136_img" class="img " src="images/教师选择-批量/u32.png"/>
+                <!-- Unnamed () -->
+                <div id="u137" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u138" class="ax_单元格">
+                <img id="u138_img" class="img " src="images/补考成绩录入（v1_5调整）/u84.png"/>
+                <!-- Unnamed () -->
+                <div id="u139" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u140" class="ax_单元格">
+                <img id="u140_img" class="img " src="images/补考成绩录入（v1_5调整）/u140.png"/>
+                <!-- Unnamed () -->
+                <div id="u141" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u142" class="ax_单元格">
+                <img id="u142_img" class="img " src="images/补考成绩录入（v1_5调整）/u142.png"/>
+                <!-- Unnamed () -->
+                <div id="u143" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u144" class="ax_单元格">
+                <img id="u144_img" class="img " src="images/补考成绩录入（v1_5调整）/u144.png"/>
+                <!-- Unnamed () -->
+                <div id="u145" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u146" class="ax_单元格">
+                <img id="u146_img" class="img " src="images/补考成绩录入（v1_5调整）/u140.png"/>
+                <!-- Unnamed () -->
+                <div id="u147" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u148" class="ax_单元格">
+                <img id="u148_img" class="img " src="images/补考成绩录入（v1_5调整）/u148.png"/>
+                <!-- Unnamed () -->
+                <div id="u149" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u150" class="ax_单元格">
+                <img id="u150_img" class="img " src="images/补考成绩录入（v1_5调整）/u150.png"/>
+                <!-- Unnamed () -->
+                <div id="u151" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u152" class="ax_单元格">
+                <img id="u152_img" class="img " src="images/课程成绩录入（v1_5调整）/u175.png"/>
+                <!-- Unnamed () -->
+                <div id="u153" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u154" class="ax_单元格">
+                <img id="u154_img" class="img " src="images/教师选择-批量/u130.png"/>
+                <!-- Unnamed () -->
+                <div id="u155" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u156" class="ax_单元格">
+                <img id="u156_img" class="img " src="images/补考成绩录入（v1_5调整）/u156.png"/>
+                <!-- Unnamed () -->
+                <div id="u157" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (提交按钮) -->
+            <div id="u158" class="ax_提交按钮">
+              <input id="u158_input" type="submit" value="保存"/>
+            </div>
+
+            <!-- Unnamed (下拉列表框) -->
+            <div id="u159" class="ax_下拉列表框">
+              <select id="u159_input">
+                <option value="百分制">百分制</option>
+                <option value="五级制">五级制</option>
+                <option value="两级制">两级制</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u160" class="ax_文本段落">
+              <img id="u160_img" class="img " src="resources/images/transparent.gif"/>
+              <!-- Unnamed () -->
+              <div id="u161" class="text">
+                <p><span>分</span><span>制：</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (文本框) -->
+            <div id="u162" class="ax_文本框">
+              <input id="u162_input" type="text" value=""/>
+            </div>
+
+            <!-- Unnamed (文本框) -->
+            <div id="u163" class="ax_文本框">
+              <input id="u163_input" type="text" value=""/>
+            </div>
+
+            <!-- Unnamed (下拉列表框) -->
+            <div id="u164" class="ax_下拉列表框">
+              <select id="u164_input">
+                <option value="   ">&nbsp;&nbsp; </option>
+                <option value="舞弊">舞弊</option>
+                <option value="缺考">缺考</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (下拉列表框) -->
+            <div id="u165" class="ax_下拉列表框">
+              <select id="u165_input">
+                <option value="   ">&nbsp;&nbsp; </option>
+                <option value="舞弊">舞弊</option>
+                <option value="缺考">缺考</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (提交按钮) -->
+            <div id="u166" class="ax_提交按钮">
+              <input id="u166_input" type="submit" value="送审"/>
+            </div>
+
+            <!-- Unnamed (文本框) -->
+            <div id="u167" class="ax_文本框">
+              <input id="u167_input" type="text" value=""/>
+            </div>
+
+            <!-- Unnamed (文本框) -->
+            <div id="u168" class="ax_文本框">
+              <input id="u168_input" type="text" value=""/>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u169" class="ax_形状">
+              <img id="u169_img" class="img " src="images/补考成绩录入（v1_5调整）/u169.png"/>
+              <!-- Unnamed () -->
+              <div id="u170" class="text">
+                <p><span style="text-decoration:underline;"></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u171" class="ax_文本段落">
+              <img id="u171_img" class="img " src="resources/images/transparent.gif"/>
+              <!-- Unnamed () -->
+              <div id="u172" class="text">
+                <p><span>课程：</span><span>[232342]</span><span>J</span><span>AVA程序设计</span><span>&nbsp; </span><span>&nbsp; </span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (下拉列表框) -->
+            <div id="u173" class="ax_下拉列表框">
+              <select id="u173_input">
+                <option value="2017-2018学年 第一学期">2017-2018学年 第一学期</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (下拉列表框) -->
+            <div id="u174" class="ax_下拉列表框">
+              <select id="u174_input">
+                <option value="2017-2018学年 第一学期">2017-2018学年 第一学期</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div id="u48_state1" class="panel_state" data-label="是">
+          <div id="u48_state1_content" class="panel_state_content">
+
+            <!-- Unnamed (表格) -->
+            <div id="u175" class="ax_表格">
+
+              <!-- Unnamed (单元格) -->
+              <div id="u176" class="ax_单元格">
+                <img id="u176_img" class="img " src="images/补考成绩录入（v1_5调整）/u176.png"/>
+                <!-- Unnamed () -->
+                <div id="u177" class="text">
+                  <p><span>序</span><span>号</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u178" class="ax_单元格">
+                <img id="u178_img" class="img " src="images/补考成绩录入（v1_5调整）/u178.png"/>
+                <!-- Unnamed () -->
+                <div id="u179" class="text">
+                  <p><span>学</span><span>号</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u180" class="ax_单元格">
+                <img id="u180_img" class="img " src="images/环节成绩录入（v1_5调整）/u58.png"/>
+                <!-- Unnamed () -->
+                <div id="u181" class="text">
+                  <p><span>姓</span><span>名</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u182" class="ax_单元格">
+                <img id="u182_img" class="img " src="images/补考成绩录入（v1_5调整）/u50.png"/>
+                <!-- Unnamed () -->
+                <div id="u183" class="text">
+                  <p><span>性</span><span>别</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u184" class="ax_单元格">
+                <img id="u184_img" class="img " src="images/补考成绩录入（v1_5调整）/u54.png"/>
+                <!-- Unnamed () -->
+                <div id="u185" class="text">
+                  <p><span>是否缓考后补考</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u186" class="ax_单元格">
+                <img id="u186_img" class="img " src="images/补考成绩录入（v1_5调整）/u186.png"/>
+                <!-- Unnamed () -->
+                <div id="u187" class="text">
+                  <p><span>总评</span><span>成绩</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u188" class="ax_单元格">
+                <img id="u188_img" class="img " src="images/补考成绩录入（v1_5调整）/u188.png"/>
+                <!-- Unnamed () -->
+                <div id="u189" class="text">
+                  <p><span>特殊情况</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u190" class="ax_单元格">
+                <img id="u190_img" class="img " src="images/补考成绩录入（v1_5调整）/u66.png"/>
+                <!-- Unnamed () -->
+                <div id="u191" class="text">
+                  <p><span>备</span><span>注</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u192" class="ax_单元格">
+                <img id="u192_img" class="img " src="images/环节成绩分制设置/u93.png"/>
+                <!-- Unnamed () -->
+                <div id="u193" class="text">
+                  <p><span>1</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u194" class="ax_单元格">
+                <img id="u194_img" class="img " src="images/补考成绩录入（v1_5调整）/u194.png"/>
+                <!-- Unnamed () -->
+                <div id="u195" class="text">
+                  <p><span>1</span><span>7021302</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u196" class="ax_单元格">
+                <img id="u196_img" class="img " src="images/环节成绩录入（v1_5调整）/u74.png"/>
+                <!-- Unnamed () -->
+                <div id="u197" class="text">
+                  <p><span>张</span><span>三</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u198" class="ax_单元格">
+                <img id="u198_img" class="img " src="images/补考成绩录入（v1_5调整）/u68.png"/>
+                <!-- Unnamed () -->
+                <div id="u199" class="text">
+                  <p><span>男</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u200" class="ax_单元格">
+                <img id="u200_img" class="img " src="images/补考成绩录入（v1_5调整）/u72.png"/>
+                <!-- Unnamed () -->
+                <div id="u201" class="text">
+                  <p><span>是</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u202" class="ax_单元格">
+                <img id="u202_img" class="img " src="images/补考成绩录入（v1_5调整）/u202.png"/>
+                <!-- Unnamed () -->
+                <div id="u203" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u204" class="ax_单元格">
+                <img id="u204_img" class="img " src="images/补考成绩录入（v1_5调整）/u204.png"/>
+                <!-- Unnamed () -->
+                <div id="u205" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u206" class="ax_单元格">
+                <img id="u206_img" class="img " src="images/补考成绩录入（v1_5调整）/u84.png"/>
+                <!-- Unnamed () -->
+                <div id="u207" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u208" class="ax_单元格">
+                <img id="u208_img" class="img " src="images/环节成绩分制设置/u93.png"/>
+                <!-- Unnamed () -->
+                <div id="u209" class="text">
+                  <p><span>2</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u210" class="ax_单元格">
+                <img id="u210_img" class="img " src="images/补考成绩录入（v1_5调整）/u194.png"/>
+                <!-- Unnamed () -->
+                <div id="u211" class="text">
+                  <p><span>1</span><span>7021302</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u212" class="ax_单元格">
+                <img id="u212_img" class="img " src="images/环节成绩录入（v1_5调整）/u74.png"/>
+                <!-- Unnamed () -->
+                <div id="u213" class="text">
+                  <p><span>李四</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u214" class="ax_单元格">
+                <img id="u214_img" class="img " src="images/补考成绩录入（v1_5调整）/u68.png"/>
+                <!-- Unnamed () -->
+                <div id="u215" class="text">
+                  <p><span>女</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u216" class="ax_单元格">
+                <img id="u216_img" class="img " src="images/补考成绩录入（v1_5调整）/u72.png"/>
+                <!-- Unnamed () -->
+                <div id="u217" class="text">
+                  <p><span>否</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u218" class="ax_单元格">
+                <img id="u218_img" class="img " src="images/补考成绩录入（v1_5调整）/u202.png"/>
+                <!-- Unnamed () -->
+                <div id="u219" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u220" class="ax_单元格">
+                <img id="u220_img" class="img " src="images/补考成绩录入（v1_5调整）/u204.png"/>
+                <!-- Unnamed () -->
+                <div id="u221" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u222" class="ax_单元格">
+                <img id="u222_img" class="img " src="images/补考成绩录入（v1_5调整）/u84.png"/>
+                <!-- Unnamed () -->
+                <div id="u223" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u224" class="ax_单元格">
+                <img id="u224_img" class="img " src="images/环节成绩分制设置/u93.png"/>
+                <!-- Unnamed () -->
+                <div id="u225" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u226" class="ax_单元格">
+                <img id="u226_img" class="img " src="images/补考成绩录入（v1_5调整）/u194.png"/>
+                <!-- Unnamed () -->
+                <div id="u227" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u228" class="ax_单元格">
+                <img id="u228_img" class="img " src="images/环节成绩录入（v1_5调整）/u74.png"/>
+                <!-- Unnamed () -->
+                <div id="u229" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u230" class="ax_单元格">
+                <img id="u230_img" class="img " src="images/补考成绩录入（v1_5调整）/u68.png"/>
+                <!-- Unnamed () -->
+                <div id="u231" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u232" class="ax_单元格">
+                <img id="u232_img" class="img " src="images/补考成绩录入（v1_5调整）/u72.png"/>
+                <!-- Unnamed () -->
+                <div id="u233" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u234" class="ax_单元格">
+                <img id="u234_img" class="img " src="images/补考成绩录入（v1_5调整）/u202.png"/>
+                <!-- Unnamed () -->
+                <div id="u235" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u236" class="ax_单元格">
+                <img id="u236_img" class="img " src="images/补考成绩录入（v1_5调整）/u204.png"/>
+                <!-- Unnamed () -->
+                <div id="u237" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u238" class="ax_单元格">
+                <img id="u238_img" class="img " src="images/补考成绩录入（v1_5调整）/u84.png"/>
+                <!-- Unnamed () -->
+                <div id="u239" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u240" class="ax_单元格">
+                <img id="u240_img" class="img " src="images/环节成绩分制设置/u93.png"/>
+                <!-- Unnamed () -->
+                <div id="u241" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u242" class="ax_单元格">
+                <img id="u242_img" class="img " src="images/补考成绩录入（v1_5调整）/u194.png"/>
+                <!-- Unnamed () -->
+                <div id="u243" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u244" class="ax_单元格">
+                <img id="u244_img" class="img " src="images/环节成绩录入（v1_5调整）/u74.png"/>
+                <!-- Unnamed () -->
+                <div id="u245" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u246" class="ax_单元格">
+                <img id="u246_img" class="img " src="images/补考成绩录入（v1_5调整）/u68.png"/>
+                <!-- Unnamed () -->
+                <div id="u247" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u248" class="ax_单元格">
+                <img id="u248_img" class="img " src="images/补考成绩录入（v1_5调整）/u72.png"/>
+                <!-- Unnamed () -->
+                <div id="u249" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u250" class="ax_单元格">
+                <img id="u250_img" class="img " src="images/补考成绩录入（v1_5调整）/u202.png"/>
+                <!-- Unnamed () -->
+                <div id="u251" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u252" class="ax_单元格">
+                <img id="u252_img" class="img " src="images/补考成绩录入（v1_5调整）/u204.png"/>
+                <!-- Unnamed () -->
+                <div id="u253" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u254" class="ax_单元格">
+                <img id="u254_img" class="img " src="images/补考成绩录入（v1_5调整）/u84.png"/>
+                <!-- Unnamed () -->
+                <div id="u255" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u256" class="ax_单元格">
+                <img id="u256_img" class="img " src="images/补考成绩录入（v1_5调整）/u256.png"/>
+                <!-- Unnamed () -->
+                <div id="u257" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u258" class="ax_单元格">
+                <img id="u258_img" class="img " src="images/补考成绩录入（v1_5调整）/u258.png"/>
+                <!-- Unnamed () -->
+                <div id="u259" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u260" class="ax_单元格">
+                <img id="u260_img" class="img " src="images/环节成绩录入（v1_5调整）/u138.png"/>
+                <!-- Unnamed () -->
+                <div id="u261" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u262" class="ax_单元格">
+                <img id="u262_img" class="img " src="images/补考成绩录入（v1_5调整）/u140.png"/>
+                <!-- Unnamed () -->
+                <div id="u263" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u264" class="ax_单元格">
+                <img id="u264_img" class="img " src="images/补考成绩录入（v1_5调整）/u144.png"/>
+                <!-- Unnamed () -->
+                <div id="u265" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u266" class="ax_单元格">
+                <img id="u266_img" class="img " src="images/补考成绩录入（v1_5调整）/u266.png"/>
+                <!-- Unnamed () -->
+                <div id="u267" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u268" class="ax_单元格">
+                <img id="u268_img" class="img " src="images/补考成绩录入（v1_5调整）/u268.png"/>
+                <!-- Unnamed () -->
+                <div id="u269" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u270" class="ax_单元格">
+                <img id="u270_img" class="img " src="images/补考成绩录入（v1_5调整）/u156.png"/>
+                <!-- Unnamed () -->
+                <div id="u271" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (提交按钮) -->
+            <div id="u272" class="ax_提交按钮">
+              <input id="u272_input" type="submit" value="保存"/>
+            </div>
+
+            <!-- Unnamed (下拉列表框) -->
+            <div id="u273" class="ax_下拉列表框">
+              <select id="u273_input">
+                <option value="百分制">百分制</option>
+                <option value="五级制">五级制</option>
+                <option value="两级制">两级制</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u274" class="ax_文本段落">
+              <img id="u274_img" class="img " src="resources/images/transparent.gif"/>
+              <!-- Unnamed () -->
+              <div id="u275" class="text">
+                <p><span>分</span><span>制：</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (文本框) -->
+            <div id="u276" class="ax_文本框">
+              <input id="u276_input" type="text" value=""/>
+            </div>
+
+            <!-- Unnamed (文本框) -->
+            <div id="u277" class="ax_文本框">
+              <input id="u277_input" type="text" value=""/>
+            </div>
+
+            <!-- Unnamed (下拉列表框) -->
+            <div id="u278" class="ax_下拉列表框">
+              <select id="u278_input">
+                <option value="   ">&nbsp;&nbsp; </option>
+                <option value="舞弊">舞弊</option>
+                <option value="缺考">缺考</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (下拉列表框) -->
+            <div id="u279" class="ax_下拉列表框">
+              <select id="u279_input">
+                <option value="   ">&nbsp;&nbsp; </option>
+                <option value="舞弊">舞弊</option>
+                <option value="缺考">缺考</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (提交按钮) -->
+            <div id="u280" class="ax_提交按钮">
+              <input id="u280_input" type="submit" value="送审"/>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u281" class="ax_文本段落">
+              <img id="u281_img" class="img " src="resources/images/transparent.gif"/>
+              <!-- Unnamed () -->
+              <div id="u282" class="text">
+                <p><span style="color:#333333;">温馨提示：</span><span style="color:#333333;">课程</span><span style="color:#333333;">共有</span><span style="color:#FF0000;">2</span><span style="color:#333333;">条</span><span style="color:#333333;">未</span><span style="color:#333333;">完成</span><span style="color:#333333;">录入</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Image) -->
+            <div id="u283" class="ax_image">
+              <img id="u283_img" class="img " src="images/课程成绩构成设置/u287.png"/>
+              <!-- Unnamed () -->
+              <div id="u284" class="text">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (文本框) -->
+            <div id="u285" class="ax_文本框">
+              <input id="u285_input" type="text" value=""/>
+            </div>
+
+            <!-- Unnamed (文本框) -->
+            <div id="u286" class="ax_文本框">
+              <input id="u286_input" type="text" value=""/>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u287" class="ax_形状">
+              <img id="u287_img" class="img " src="images/补考成绩录入（v1_5调整）/u169.png"/>
+              <!-- Unnamed () -->
+              <div id="u288" class="text">
+                <p><span style="text-decoration:underline;"></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u289" class="ax_文本段落">
+              <img id="u289_img" class="img " src="resources/images/transparent.gif"/>
+              <!-- Unnamed () -->
+              <div id="u290" class="text">
+                <p><span>考试批次：</span><span>2017-</span><span>2018学年 第一学期补考&nbsp; </span><span>&nbsp;</span><span>课程：</span><span>[232342]</span><span>J</span><span>AVA程序设计</span><span>&nbsp; </span><span>&nbsp; </span><span>任课教师：</span><span>[24232]张三</span><span>&nbsp;</span><span>&nbsp;</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u291" class="ax_文本段落">
+        <img id="u291_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u292" class="text">
+          <p><span>院系：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u293" class="ax_下拉列表框">
+        <select id="u293_input">
+          <option value="全部">全部</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u294" class="ax_文本段落">
+        <img id="u294_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u295" class="text">
+          <p><span>年级</span><span>：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u296" class="ax_下拉列表框">
+        <select id="u296_input">
+          <option value="全部">全部</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u297" class="ax_文本段落">
+        <img id="u297_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u298" class="text">
+          <p><span style="color:#FF0000;">*</span><span style="color:#333333;">考试批次：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u299" class="ax_下拉列表框">
+        <select id="u299_input" disabled>
+          <option value="--请选择--">--请选择--</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u300" class="ax_文本段落">
+        <img id="u300_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u301" class="text">
+          <p><span style="color:#FF0000;">*</span><span style="color:#333333;">开课单位</span><span style="color:#333333;">：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u302" class="ax_下拉列表框">
+        <select id="u302_input">
+          <option value="--请选择--">--请选择--</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u303" class="ax_文本段落">
+        <img id="u303_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u304" class="text">
+          <p><span style="color:#FF0000;">*</span><span style="color:#333333;">课程</span><span style="color:#333333;">：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u305" class="ax_下拉列表框">
+        <select id="u305_input">
+          <option value="--请选择--">--请选择--</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u306" class="ax_文本段落">
+        <img id="u306_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u307" class="text">
+          <p><span>专</span><span>业：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u308" class="ax_下拉列表框">
+        <select id="u308_input">
+          <option value="全部">全部</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u309" class="ax_文本段落">
+        <img id="u309_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u310" class="text">
+          <p><span>班</span><span>级：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u311" class="ax_下拉列表框">
+        <select id="u311_input">
+          <option value="全部">全部</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (表格) -->
+      <div id="u312" class="ax_表格">
+
+        <!-- Unnamed (单元格) -->
+        <div id="u313" class="ax_单元格">
+          <img id="u313_img" class="img " src="images/分制设置（v1_5）/u103.png"/>
+          <!-- Unnamed () -->
+          <div id="u314" class="text">
+            <p><span>成绩录入</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u315" class="ax_单元格">
+          <img id="u315_img" class="img " src="images/课程历史成绩导入/u86.png"/>
+          <!-- Unnamed () -->
+          <div id="u316" class="text">
+            <p><span>历</span><span>史成绩导入</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u317" class="ax_单元格">
+          <img id="u317_img" class="img " src="images/课程历史成绩导入/u86.png"/>
+          <!-- Unnamed () -->
+          <div id="u318" class="text">
+            <p><span>理</span><span>论课程成绩录入</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u319" class="ax_单元格">
+          <img id="u319_img" class="img " src="images/课程历史成绩导入/u86.png"/>
+          <!-- Unnamed () -->
+          <div id="u320" class="text">
+            <p><span>实践环节成绩录入</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u321" class="ax_单元格">
+          <img id="u321_img" class="img " src="images/课程历史成绩导入/u86.png"/>
+          <!-- Unnamed () -->
+          <div id="u322" class="text">
+            <p><span>补</span><span>考成绩录入</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u323" class="ax_单元格">
+          <img id="u323_img" class="img " src="images/分制设置（v1_5）/u107.png"/>
+          <!-- Unnamed () -->
+          <div id="u324" class="text">
+            <p><span>补</span><span>考成绩录入人设置</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u325" class="ax_单元格">
+          <img id="u325_img" class="img " src="images/分制设置（v1_5）/u107.png"/>
+          <!-- Unnamed () -->
+          <div id="u326" class="text">
+            <p><span>补</span><span>考成绩登记册</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u327" class="ax_单元格">
+          <img id="u327_img" class="img " src="images/分制设置（v1_5）/u105.png"/>
+          <!-- Unnamed () -->
+          <div id="u328" class="text">
+            <p><span>补</span><span>考成绩录入</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u329" class="ax_单元格">
+          <img id="u329_img" class="img " src="images/课程成绩构成设置/u275.png"/>
+          <!-- Unnamed () -->
+          <div id="u330" class="text">
+            <p><span>未</span><span>设考试批次</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u331" class="ax_单元格">
+          <img id="u331_img" class="img " src="images/课程历史成绩导入/u86.png"/>
+          <!-- Unnamed () -->
+          <div id="u332" class="text">
+            <p><span>成</span><span>绩补录</span></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (单元格) -->
+        <div id="u333" class="ax_单元格">
+          <img id="u333_img" class="img " src="images/课程历史成绩导入/u102.png"/>
+          <!-- Unnamed () -->
+          <div id="u334" class="text">
+            <p><span>成</span><span>绩修改</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u335" class="ax_文本段落">
+        <img id="u335_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u336" class="text">
+          <p><span>是否已排考：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u337" class="ax_下拉列表框">
+        <select id="u337_input">
+          <option value="否">否</option>
+          <option value="是">是</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u338" class="ax_形状">
+        <img id="u338_img" class="img " src="images/分制设置（v1_5）/u0.png"/>
+        <!-- Unnamed () -->
+        <div id="u339" class="text">
+          <p><span style="text-decoration:underline;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u340" class="ax_文本段落">
+        <img id="u340_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u341" class="text">
+          <p><span>补考成绩录入</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u342" class="ax_水平线">
+        <img id="u342_start" class="img " src="resources/images/transparent.gif" alt="u342_start"/>
+        <img id="u342_end" class="img " src="resources/images/transparent.gif" alt="u342_end"/>
+        <img id="u342_line" class="img " src="images/分制设置（v1_5）/u39_line.png" alt="u342_line"/>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u343" class="ax_形状">
+        <img id="u343_img" class="img " src="images/补考成绩录入（v1_5调整）/u42.png"/>
+        <!-- Unnamed () -->
+        <div id="u344" class="text">
+          <p><span style="text-decoration:underline;"></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u345" class="ax_文本段落">
+        <img id="u345_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u346" class="text">
+          <p><span>学</span><span>年学期：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u347" class="ax_下拉列表框">
+        <select id="u347_input">
+          <option value="2017-2018学年 第一学期">2017-2018学年 第一学期</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (提交按钮) -->
+      <div id="u348" class="ax_提交按钮">
+        <input id="u348_input" type="submit" value="查询"/>
+      </div>
+
+      <!-- 是否已排考 (动态面板) -->
+      <div id="u349" class="ax_动态面板" data-label="是否已排考">
+        <div id="u349_state0" class="panel_state" data-label="是">
+          <div id="u349_state0_content" class="panel_state_content">
+
+            <!-- Unnamed (表格) -->
+            <div id="u350" class="ax_表格">
+
+              <!-- Unnamed (单元格) -->
+              <div id="u351" class="ax_单元格">
+                <img id="u351_img" class="img " src="images/补考成绩录入（v1_5调整）/u176.png"/>
+                <!-- Unnamed () -->
+                <div id="u352" class="text">
+                  <p><span>序</span><span>号</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u353" class="ax_单元格">
+                <img id="u353_img" class="img " src="images/补考成绩录入（v1_5调整）/u178.png"/>
+                <!-- Unnamed () -->
+                <div id="u354" class="text">
+                  <p><span>学</span><span>号</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u355" class="ax_单元格">
+                <img id="u355_img" class="img " src="images/环节成绩录入（v1_5调整）/u58.png"/>
+                <!-- Unnamed () -->
+                <div id="u356" class="text">
+                  <p><span>姓</span><span>名</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u357" class="ax_单元格">
+                <img id="u357_img" class="img " src="images/补考成绩录入（v1_5调整）/u50.png"/>
+                <!-- Unnamed () -->
+                <div id="u358" class="text">
+                  <p><span>性</span><span>别</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u359" class="ax_单元格">
+                <img id="u359_img" class="img " src="images/补考成绩录入（v1_5调整）/u54.png"/>
+                <!-- Unnamed () -->
+                <div id="u360" class="text">
+                  <p><span>是否缓考后补考</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u361" class="ax_单元格">
+                <img id="u361_img" class="img " src="images/补考成绩录入（v1_5调整）/u186.png"/>
+                <!-- Unnamed () -->
+                <div id="u362" class="text">
+                  <p><span>总评</span><span>成绩</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u363" class="ax_单元格">
+                <img id="u363_img" class="img " src="images/补考成绩录入（v1_5调整）/u188.png"/>
+                <!-- Unnamed () -->
+                <div id="u364" class="text">
+                  <p><span>特殊情况</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u365" class="ax_单元格">
+                <img id="u365_img" class="img " src="images/补考成绩录入（v1_5调整）/u66.png"/>
+                <!-- Unnamed () -->
+                <div id="u366" class="text">
+                  <p><span>备</span><span>注</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u367" class="ax_单元格">
+                <img id="u367_img" class="img " src="images/环节成绩分制设置/u93.png"/>
+                <!-- Unnamed () -->
+                <div id="u368" class="text">
+                  <p><span>1</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u369" class="ax_单元格">
+                <img id="u369_img" class="img " src="images/补考成绩录入（v1_5调整）/u194.png"/>
+                <!-- Unnamed () -->
+                <div id="u370" class="text">
+                  <p><span>1</span><span>7021302</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u371" class="ax_单元格">
+                <img id="u371_img" class="img " src="images/环节成绩录入（v1_5调整）/u74.png"/>
+                <!-- Unnamed () -->
+                <div id="u372" class="text">
+                  <p><span>张</span><span>三</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u373" class="ax_单元格">
+                <img id="u373_img" class="img " src="images/补考成绩录入（v1_5调整）/u68.png"/>
+                <!-- Unnamed () -->
+                <div id="u374" class="text">
+                  <p><span>男</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u375" class="ax_单元格">
+                <img id="u375_img" class="img " src="images/补考成绩录入（v1_5调整）/u72.png"/>
+                <!-- Unnamed () -->
+                <div id="u376" class="text">
+                  <p><span>是</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u377" class="ax_单元格">
+                <img id="u377_img" class="img " src="images/补考成绩录入（v1_5调整）/u202.png"/>
+                <!-- Unnamed () -->
+                <div id="u378" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u379" class="ax_单元格">
+                <img id="u379_img" class="img " src="images/补考成绩录入（v1_5调整）/u204.png"/>
+                <!-- Unnamed () -->
+                <div id="u380" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u381" class="ax_单元格">
+                <img id="u381_img" class="img " src="images/补考成绩录入（v1_5调整）/u84.png"/>
+                <!-- Unnamed () -->
+                <div id="u382" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u383" class="ax_单元格">
+                <img id="u383_img" class="img " src="images/环节成绩分制设置/u93.png"/>
+                <!-- Unnamed () -->
+                <div id="u384" class="text">
+                  <p><span>2</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u385" class="ax_单元格">
+                <img id="u385_img" class="img " src="images/补考成绩录入（v1_5调整）/u194.png"/>
+                <!-- Unnamed () -->
+                <div id="u386" class="text">
+                  <p><span>1</span><span>7021302</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u387" class="ax_单元格">
+                <img id="u387_img" class="img " src="images/环节成绩录入（v1_5调整）/u74.png"/>
+                <!-- Unnamed () -->
+                <div id="u388" class="text">
+                  <p><span>李四</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u389" class="ax_单元格">
+                <img id="u389_img" class="img " src="images/补考成绩录入（v1_5调整）/u68.png"/>
+                <!-- Unnamed () -->
+                <div id="u390" class="text">
+                  <p><span>女</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u391" class="ax_单元格">
+                <img id="u391_img" class="img " src="images/补考成绩录入（v1_5调整）/u72.png"/>
+                <!-- Unnamed () -->
+                <div id="u392" class="text">
+                  <p><span>否</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u393" class="ax_单元格">
+                <img id="u393_img" class="img " src="images/补考成绩录入（v1_5调整）/u202.png"/>
+                <!-- Unnamed () -->
+                <div id="u394" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u395" class="ax_单元格">
+                <img id="u395_img" class="img " src="images/补考成绩录入（v1_5调整）/u204.png"/>
+                <!-- Unnamed () -->
+                <div id="u396" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u397" class="ax_单元格">
+                <img id="u397_img" class="img " src="images/补考成绩录入（v1_5调整）/u84.png"/>
+                <!-- Unnamed () -->
+                <div id="u398" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u399" class="ax_单元格">
+                <img id="u399_img" class="img " src="images/环节成绩分制设置/u93.png"/>
+                <!-- Unnamed () -->
+                <div id="u400" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u401" class="ax_单元格">
+                <img id="u401_img" class="img " src="images/补考成绩录入（v1_5调整）/u194.png"/>
+                <!-- Unnamed () -->
+                <div id="u402" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u403" class="ax_单元格">
+                <img id="u403_img" class="img " src="images/环节成绩录入（v1_5调整）/u74.png"/>
+                <!-- Unnamed () -->
+                <div id="u404" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u405" class="ax_单元格">
+                <img id="u405_img" class="img " src="images/补考成绩录入（v1_5调整）/u68.png"/>
+                <!-- Unnamed () -->
+                <div id="u406" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u407" class="ax_单元格">
+                <img id="u407_img" class="img " src="images/补考成绩录入（v1_5调整）/u72.png"/>
+                <!-- Unnamed () -->
+                <div id="u408" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u409" class="ax_单元格">
+                <img id="u409_img" class="img " src="images/补考成绩录入（v1_5调整）/u202.png"/>
+                <!-- Unnamed () -->
+                <div id="u410" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u411" class="ax_单元格">
+                <img id="u411_img" class="img " src="images/补考成绩录入（v1_5调整）/u204.png"/>
+                <!-- Unnamed () -->
+                <div id="u412" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u413" class="ax_单元格">
+                <img id="u413_img" class="img " src="images/补考成绩录入（v1_5调整）/u84.png"/>
+                <!-- Unnamed () -->
+                <div id="u414" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u415" class="ax_单元格">
+                <img id="u415_img" class="img " src="images/环节成绩分制设置/u93.png"/>
+                <!-- Unnamed () -->
+                <div id="u416" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u417" class="ax_单元格">
+                <img id="u417_img" class="img " src="images/补考成绩录入（v1_5调整）/u194.png"/>
+                <!-- Unnamed () -->
+                <div id="u418" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u419" class="ax_单元格">
+                <img id="u419_img" class="img " src="images/环节成绩录入（v1_5调整）/u74.png"/>
+                <!-- Unnamed () -->
+                <div id="u420" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u421" class="ax_单元格">
+                <img id="u421_img" class="img " src="images/补考成绩录入（v1_5调整）/u68.png"/>
+                <!-- Unnamed () -->
+                <div id="u422" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u423" class="ax_单元格">
+                <img id="u423_img" class="img " src="images/补考成绩录入（v1_5调整）/u72.png"/>
+                <!-- Unnamed () -->
+                <div id="u424" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u425" class="ax_单元格">
+                <img id="u425_img" class="img " src="images/补考成绩录入（v1_5调整）/u202.png"/>
+                <!-- Unnamed () -->
+                <div id="u426" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u427" class="ax_单元格">
+                <img id="u427_img" class="img " src="images/补考成绩录入（v1_5调整）/u204.png"/>
+                <!-- Unnamed () -->
+                <div id="u428" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u429" class="ax_单元格">
+                <img id="u429_img" class="img " src="images/补考成绩录入（v1_5调整）/u84.png"/>
+                <!-- Unnamed () -->
+                <div id="u430" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u431" class="ax_单元格">
+                <img id="u431_img" class="img " src="images/补考成绩录入（v1_5调整）/u256.png"/>
+                <!-- Unnamed () -->
+                <div id="u432" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u433" class="ax_单元格">
+                <img id="u433_img" class="img " src="images/补考成绩录入（v1_5调整）/u258.png"/>
+                <!-- Unnamed () -->
+                <div id="u434" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u435" class="ax_单元格">
+                <img id="u435_img" class="img " src="images/环节成绩录入（v1_5调整）/u138.png"/>
+                <!-- Unnamed () -->
+                <div id="u436" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u437" class="ax_单元格">
+                <img id="u437_img" class="img " src="images/补考成绩录入（v1_5调整）/u140.png"/>
+                <!-- Unnamed () -->
+                <div id="u438" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u439" class="ax_单元格">
+                <img id="u439_img" class="img " src="images/补考成绩录入（v1_5调整）/u144.png"/>
+                <!-- Unnamed () -->
+                <div id="u440" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u441" class="ax_单元格">
+                <img id="u441_img" class="img " src="images/补考成绩录入（v1_5调整）/u266.png"/>
+                <!-- Unnamed () -->
+                <div id="u442" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u443" class="ax_单元格">
+                <img id="u443_img" class="img " src="images/补考成绩录入（v1_5调整）/u268.png"/>
+                <!-- Unnamed () -->
+                <div id="u444" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u445" class="ax_单元格">
+                <img id="u445_img" class="img " src="images/补考成绩录入（v1_5调整）/u156.png"/>
+                <!-- Unnamed () -->
+                <div id="u446" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (提交按钮) -->
+            <div id="u447" class="ax_提交按钮">
+              <input id="u447_input" type="submit" value="保存"/>
+            </div>
+
+            <!-- Unnamed (下拉列表框) -->
+            <div id="u448" class="ax_下拉列表框">
+              <select id="u448_input">
+                <option value="百分制">百分制</option>
+                <option value="五级制">五级制</option>
+                <option value="两级制">两级制</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u449" class="ax_文本段落">
+              <img id="u449_img" class="img " src="resources/images/transparent.gif"/>
+              <!-- Unnamed () -->
+              <div id="u450" class="text">
+                <p><span>分</span><span>制：</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (文本框) -->
+            <div id="u451" class="ax_文本框">
+              <input id="u451_input" type="text" value=""/>
+            </div>
+
+            <!-- Unnamed (文本框) -->
+            <div id="u452" class="ax_文本框">
+              <input id="u452_input" type="text" value=""/>
+            </div>
+
+            <!-- Unnamed (下拉列表框) -->
+            <div id="u453" class="ax_下拉列表框">
+              <select id="u453_input">
+                <option value="   ">&nbsp;&nbsp; </option>
+                <option value="舞弊">舞弊</option>
+                <option value="缺考">缺考</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (下拉列表框) -->
+            <div id="u454" class="ax_下拉列表框">
+              <select id="u454_input">
+                <option value="   ">&nbsp;&nbsp; </option>
+                <option value="舞弊">舞弊</option>
+                <option value="缺考">缺考</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (提交按钮) -->
+            <div id="u455" class="ax_提交按钮">
+              <input id="u455_input" type="submit" value="送审"/>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u456" class="ax_文本段落">
+              <img id="u456_img" class="img " src="resources/images/transparent.gif"/>
+              <!-- Unnamed () -->
+              <div id="u457" class="text">
+                <p><span style="color:#333333;">温馨提示：</span><span style="color:#333333;">课程</span><span style="color:#333333;">中，</span><span style="color:#333333;">共有</span><span style="color:#FF0000;">2</span><span style="color:#333333;">条</span><span style="color:#333333;">未</span><span style="color:#333333;">完成</span><span style="color:#333333;">录入</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (Image) -->
+            <div id="u458" class="ax_image">
+              <img id="u458_img" class="img " src="images/课程成绩构成设置/u287.png"/>
+              <!-- Unnamed () -->
+              <div id="u459" class="text">
+                <p><span></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (文本框) -->
+            <div id="u460" class="ax_文本框">
+              <input id="u460_input" type="text" value=""/>
+            </div>
+
+            <!-- Unnamed (文本框) -->
+            <div id="u461" class="ax_文本框">
+              <input id="u461_input" type="text" value=""/>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u462" class="ax_形状">
+              <img id="u462_img" class="img " src="images/补考成绩录入（v1_5调整）/u169.png"/>
+              <!-- Unnamed () -->
+              <div id="u463" class="text">
+                <p><span style="text-decoration:underline;"></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u464" class="ax_文本段落">
+              <img id="u464_img" class="img " src="resources/images/transparent.gif"/>
+              <!-- Unnamed () -->
+              <div id="u465" class="text">
+                <p><span>考试批次：</span><span>2017-</span><span>2018学年 第一学期补考&nbsp; </span><span>&nbsp;</span><span>课程：</span><span>[232342]</span><span>J</span><span>AVA程序设计</span><span>&nbsp; </span><span>&nbsp; </span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="u349_state1" class="panel_state" data-label="否">
+          <div id="u349_state1_content" class="panel_state_content">
+
+            <!-- Unnamed (表格) -->
+            <div id="u466" class="ax_表格">
+
+              <!-- Unnamed (单元格) -->
+              <div id="u467" class="ax_单元格">
+                <img id="u467_img" class="img " src="images/补考成绩录入（v1_5调整）/u467.png"/>
+                <!-- Unnamed () -->
+                <div id="u468" class="text">
+                  <p><span>序</span><span>号</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u469" class="ax_单元格">
+                <img id="u469_img" class="img " src="images/教师选择-单个_1/u18.png"/>
+                <!-- Unnamed () -->
+                <div id="u470" class="text">
+                  <p><span>学</span><span>号</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u471" class="ax_单元格">
+                <img id="u471_img" class="img " src="images/补考成绩录入（v1_5调整）/u471.png"/>
+                <!-- Unnamed () -->
+                <div id="u472" class="text">
+                  <p><span>姓</span><span>名</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u473" class="ax_单元格">
+                <img id="u473_img" class="img " src="images/补考成绩录入（v1_5调整）/u467.png"/>
+                <!-- Unnamed () -->
+                <div id="u474" class="text">
+                  <p><span>性</span><span>别</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u475" class="ax_单元格">
+                <img id="u475_img" class="img " src="images/补考成绩录入（v1_5调整）/u475.png"/>
+                <!-- Unnamed () -->
+                <div id="u476" class="text">
+                  <p><span>取</span><span>得学年学期</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u477" class="ax_单元格">
+                <img id="u477_img" class="img " src="images/补考成绩录入人设置/u59.png"/>
+                <!-- Unnamed () -->
+                <div id="u478" class="text">
+                  <p><span>总评</span><span>成绩</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u479" class="ax_单元格">
+                <img id="u479_img" class="img " src="images/课程历史成绩导入/u63.png"/>
+                <!-- Unnamed () -->
+                <div id="u480" class="text">
+                  <p><span>特殊情况</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u481" class="ax_单元格">
+                <img id="u481_img" class="img " src="images/课程成绩构成设置/u275.png"/>
+                <!-- Unnamed () -->
+                <div id="u482" class="text">
+                  <p><span>备</span><span>注</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u483" class="ax_单元格">
+                <img id="u483_img" class="img " src="images/补考成绩录入（v1_5调整）/u483.png"/>
+                <!-- Unnamed () -->
+                <div id="u484" class="text">
+                  <p><span>1</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u485" class="ax_单元格">
+                <img id="u485_img" class="img " src="images/教师选择-单个_1/u32.png"/>
+                <!-- Unnamed () -->
+                <div id="u486" class="text">
+                  <p><span>1</span><span>7021302</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u487" class="ax_单元格">
+                <img id="u487_img" class="img " src="images/补考成绩录入（v1_5调整）/u487.png"/>
+                <!-- Unnamed () -->
+                <div id="u488" class="text">
+                  <p><span>张</span><span>三</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u489" class="ax_单元格">
+                <img id="u489_img" class="img " src="images/补考成绩录入（v1_5调整）/u483.png"/>
+                <!-- Unnamed () -->
+                <div id="u490" class="text">
+                  <p><span>男</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u491" class="ax_单元格">
+                <img id="u491_img" class="img " src="images/补考成绩录入（v1_5调整）/u491.png"/>
+                <!-- Unnamed () -->
+                <div id="u492" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u493" class="ax_单元格">
+                <img id="u493_img" class="img " src="images/补考成绩录入人设置/u91.png"/>
+                <!-- Unnamed () -->
+                <div id="u494" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u495" class="ax_单元格">
+                <img id="u495_img" class="img " src="images/课程历史成绩导入/u71.png"/>
+                <!-- Unnamed () -->
+                <div id="u496" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u497" class="ax_单元格">
+                <img id="u497_img" class="img " src="images/分制设置（v1_5）/u107.png"/>
+                <!-- Unnamed () -->
+                <div id="u498" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u499" class="ax_单元格">
+                <img id="u499_img" class="img " src="images/补考成绩录入（v1_5调整）/u483.png"/>
+                <!-- Unnamed () -->
+                <div id="u500" class="text">
+                  <p><span>2</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u501" class="ax_单元格">
+                <img id="u501_img" class="img " src="images/教师选择-单个_1/u32.png"/>
+                <!-- Unnamed () -->
+                <div id="u502" class="text">
+                  <p><span>1</span><span>7021302</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u503" class="ax_单元格">
+                <img id="u503_img" class="img " src="images/补考成绩录入（v1_5调整）/u487.png"/>
+                <!-- Unnamed () -->
+                <div id="u504" class="text">
+                  <p><span>李四</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u505" class="ax_单元格">
+                <img id="u505_img" class="img " src="images/补考成绩录入（v1_5调整）/u483.png"/>
+                <!-- Unnamed () -->
+                <div id="u506" class="text">
+                  <p><span>女</span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u507" class="ax_单元格">
+                <img id="u507_img" class="img " src="images/补考成绩录入（v1_5调整）/u491.png"/>
+                <!-- Unnamed () -->
+                <div id="u508" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u509" class="ax_单元格">
+                <img id="u509_img" class="img " src="images/补考成绩录入人设置/u91.png"/>
+                <!-- Unnamed () -->
+                <div id="u510" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u511" class="ax_单元格">
+                <img id="u511_img" class="img " src="images/课程历史成绩导入/u71.png"/>
+                <!-- Unnamed () -->
+                <div id="u512" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u513" class="ax_单元格">
+                <img id="u513_img" class="img " src="images/分制设置（v1_5）/u107.png"/>
+                <!-- Unnamed () -->
+                <div id="u514" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u515" class="ax_单元格">
+                <img id="u515_img" class="img " src="images/补考成绩录入（v1_5调整）/u483.png"/>
+                <!-- Unnamed () -->
+                <div id="u516" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u517" class="ax_单元格">
+                <img id="u517_img" class="img " src="images/教师选择-单个_1/u32.png"/>
+                <!-- Unnamed () -->
+                <div id="u518" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u519" class="ax_单元格">
+                <img id="u519_img" class="img " src="images/补考成绩录入（v1_5调整）/u487.png"/>
+                <!-- Unnamed () -->
+                <div id="u520" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u521" class="ax_单元格">
+                <img id="u521_img" class="img " src="images/补考成绩录入（v1_5调整）/u483.png"/>
+                <!-- Unnamed () -->
+                <div id="u522" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u523" class="ax_单元格">
+                <img id="u523_img" class="img " src="images/补考成绩录入（v1_5调整）/u491.png"/>
+                <!-- Unnamed () -->
+                <div id="u524" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u525" class="ax_单元格">
+                <img id="u525_img" class="img " src="images/补考成绩录入人设置/u91.png"/>
+                <!-- Unnamed () -->
+                <div id="u526" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u527" class="ax_单元格">
+                <img id="u527_img" class="img " src="images/课程历史成绩导入/u71.png"/>
+                <!-- Unnamed () -->
+                <div id="u528" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u529" class="ax_单元格">
+                <img id="u529_img" class="img " src="images/分制设置（v1_5）/u107.png"/>
+                <!-- Unnamed () -->
+                <div id="u530" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u531" class="ax_单元格">
+                <img id="u531_img" class="img " src="images/补考成绩录入（v1_5调整）/u483.png"/>
+                <!-- Unnamed () -->
+                <div id="u532" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u533" class="ax_单元格">
+                <img id="u533_img" class="img " src="images/教师选择-单个_1/u32.png"/>
+                <!-- Unnamed () -->
+                <div id="u534" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u535" class="ax_单元格">
+                <img id="u535_img" class="img " src="images/补考成绩录入（v1_5调整）/u487.png"/>
+                <!-- Unnamed () -->
+                <div id="u536" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u537" class="ax_单元格">
+                <img id="u537_img" class="img " src="images/补考成绩录入（v1_5调整）/u483.png"/>
+                <!-- Unnamed () -->
+                <div id="u538" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u539" class="ax_单元格">
+                <img id="u539_img" class="img " src="images/补考成绩录入（v1_5调整）/u491.png"/>
+                <!-- Unnamed () -->
+                <div id="u540" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u541" class="ax_单元格">
+                <img id="u541_img" class="img " src="images/补考成绩录入人设置/u91.png"/>
+                <!-- Unnamed () -->
+                <div id="u542" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u543" class="ax_单元格">
+                <img id="u543_img" class="img " src="images/课程历史成绩导入/u71.png"/>
+                <!-- Unnamed () -->
+                <div id="u544" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u545" class="ax_单元格">
+                <img id="u545_img" class="img " src="images/分制设置（v1_5）/u107.png"/>
+                <!-- Unnamed () -->
+                <div id="u546" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u547" class="ax_单元格">
+                <img id="u547_img" class="img " src="images/补考成绩录入（v1_5调整）/u547.png"/>
+                <!-- Unnamed () -->
+                <div id="u548" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u549" class="ax_单元格">
+                <img id="u549_img" class="img " src="images/教师选择-单个_1/u130.png"/>
+                <!-- Unnamed () -->
+                <div id="u550" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u551" class="ax_单元格">
+                <img id="u551_img" class="img " src="images/补考成绩录入（v1_5调整）/u551.png"/>
+                <!-- Unnamed () -->
+                <div id="u552" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u553" class="ax_单元格">
+                <img id="u553_img" class="img " src="images/补考成绩录入（v1_5调整）/u547.png"/>
+                <!-- Unnamed () -->
+                <div id="u554" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u555" class="ax_单元格">
+                <img id="u555_img" class="img " src="images/补考成绩录入（v1_5调整）/u555.png"/>
+                <!-- Unnamed () -->
+                <div id="u556" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u557" class="ax_单元格">
+                <img id="u557_img" class="img " src="images/补考成绩录入人设置/u139.png"/>
+                <!-- Unnamed () -->
+                <div id="u558" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u559" class="ax_单元格">
+                <img id="u559_img" class="img " src="images/课程历史成绩导入/u79.png"/>
+                <!-- Unnamed () -->
+                <div id="u560" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+
+              <!-- Unnamed (单元格) -->
+              <div id="u561" class="ax_单元格">
+                <img id="u561_img" class="img " src="images/分制设置（v1_5）/u113.png"/>
+                <!-- Unnamed () -->
+                <div id="u562" class="text">
+                  <p><span></span></p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Unnamed (提交按钮) -->
+            <div id="u563" class="ax_提交按钮">
+              <input id="u563_input" type="submit" value="保存"/>
+            </div>
+
+            <!-- Unnamed (下拉列表框) -->
+            <div id="u564" class="ax_下拉列表框">
+              <select id="u564_input">
+                <option value="百分制">百分制</option>
+                <option value="五级制">五级制</option>
+                <option value="两级制">两级制</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u565" class="ax_文本段落">
+              <img id="u565_img" class="img " src="resources/images/transparent.gif"/>
+              <!-- Unnamed () -->
+              <div id="u566" class="text">
+                <p><span>分</span><span>制：</span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (文本框) -->
+            <div id="u567" class="ax_文本框">
+              <input id="u567_input" type="text" value=""/>
+            </div>
+
+            <!-- Unnamed (文本框) -->
+            <div id="u568" class="ax_文本框">
+              <input id="u568_input" type="text" value=""/>
+            </div>
+
+            <!-- Unnamed (下拉列表框) -->
+            <div id="u569" class="ax_下拉列表框">
+              <select id="u569_input">
+                <option value="   ">&nbsp;&nbsp; </option>
+                <option value="舞弊">舞弊</option>
+                <option value="缺考">缺考</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (下拉列表框) -->
+            <div id="u570" class="ax_下拉列表框">
+              <select id="u570_input">
+                <option value="   ">&nbsp;&nbsp; </option>
+                <option value="舞弊">舞弊</option>
+                <option value="缺考">缺考</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (提交按钮) -->
+            <div id="u571" class="ax_提交按钮">
+              <input id="u571_input" type="submit" value="送审"/>
+            </div>
+
+            <!-- Unnamed (文本框) -->
+            <div id="u572" class="ax_文本框">
+              <input id="u572_input" type="text" value=""/>
+            </div>
+
+            <!-- Unnamed (文本框) -->
+            <div id="u573" class="ax_文本框">
+              <input id="u573_input" type="text" value=""/>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u574" class="ax_形状">
+              <img id="u574_img" class="img " src="images/补考成绩录入（v1_5调整）/u169.png"/>
+              <!-- Unnamed () -->
+              <div id="u575" class="text">
+                <p><span style="text-decoration:underline;"></span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (形状) -->
+            <div id="u576" class="ax_文本段落">
+              <img id="u576_img" class="img " src="resources/images/transparent.gif"/>
+              <!-- Unnamed () -->
+              <div id="u577" class="text">
+                <p><span>课程：</span><span>[232342]</span><span>J</span><span>AVA程序设计</span><span>&nbsp; </span><span>&nbsp; </span><span>任课教师：</span><span>[24232]张三</span><span>&nbsp; &nbsp; &nbsp; </span></p>
+              </div>
+            </div>
+
+            <!-- Unnamed (下拉列表框) -->
+            <div id="u578" class="ax_下拉列表框">
+              <select id="u578_input">
+                <option value="2017-2018学年 第一学期">2017-2018学年 第一学期</option>
+              </select>
+            </div>
+
+            <!-- Unnamed (下拉列表框) -->
+            <div id="u579" class="ax_下拉列表框">
+              <select id="u579_input">
+                <option value="2017-2018学年 第一学期">2017-2018学年 第一学期</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u580" class="ax_文本段落">
+        <img id="u580_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u581" class="text">
+          <p><span>院系：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u582" class="ax_下拉列表框">
+        <select id="u582_input">
+          <option value="全部">全部</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u583" class="ax_文本段落">
+        <img id="u583_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u584" class="text">
+          <p><span>年级</span><span>：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u585" class="ax_下拉列表框">
+        <select id="u585_input">
+          <option value="全部">全部</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u586" class="ax_文本段落">
+        <img id="u586_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u587" class="text">
+          <p><span style="color:#FF0000;">*</span><span style="color:#333333;">考试批次：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u588" class="ax_下拉列表框">
+        <select id="u588_input">
+          <option value="--请选择--">--请选择--</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u589" class="ax_文本段落">
+        <img id="u589_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u590" class="text">
+          <p><span style="color:#FF0000;">*</span><span style="color:#333333;">开课单位</span><span style="color:#333333;">：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u591" class="ax_下拉列表框">
+        <select id="u591_input">
+          <option value="--请选择--">--请选择--</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u592" class="ax_文本段落">
+        <img id="u592_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u593" class="text">
+          <p><span style="color:#FF0000;">*</span><span style="color:#333333;">课程</span><span style="color:#333333;">：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u594" class="ax_下拉列表框">
+        <select id="u594_input">
+          <option value="--请选择--">--请选择--</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u595" class="ax_文本段落">
+        <img id="u595_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u596" class="text">
+          <p><span>专</span><span>业：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u597" class="ax_下拉列表框">
+        <select id="u597_input">
+          <option value="全部">全部</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u598" class="ax_文本段落">
+        <img id="u598_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u599" class="text">
+          <p><span>班</span><span>级：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u600" class="ax_下拉列表框">
+        <select id="u600_input">
+          <option value="全部">全部</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u601" class="ax_文本段落">
+        <img id="u601_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u602" class="text">
+          <p><span>是否已排考：</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (下拉列表框) -->
+      <div id="u603" class="ax_下拉列表框">
+        <select id="u603_input">
+          <option value="否">否</option>
+          <option selected value="是">是</option>
+        </select>
+      </div>
+
+      <!-- Unnamed (形状) -->
+      <div id="u604" class="ax_文本段落">
+        <img id="u604_img" class="img " src="resources/images/transparent.gif"/>
+        <!-- Unnamed () -->
+        <div id="u605" class="text">
+          <p><span>是</span><span>否已排考为是如下：</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

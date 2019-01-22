@@ -1,0 +1,289 @@
+﻿body {
+  margin:0px;
+  background-image:none;
+  position:static;
+  left:auto;
+  width:650px;
+  margin-left:0;
+  margin-right:0;
+  text-align:left;
+}
+#base {
+  position:absolute;
+  z-index:0;
+}
+#u0 {
+  position:absolute;
+  left:55px;
+  top:70px;
+  width:540px;
+  height:390px;
+}
+#u0_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:540px;
+  height:390px;
+}
+#u1 {
+  position:absolute;
+  left:2px;
+  top:187px;
+  width:536px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u3 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:650px;
+  height:30px;
+  color:#FFFFFF;
+  text-align:left;
+}
+#u3_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:650px;
+  height:30px;
+}
+#u4 {
+  position:absolute;
+  left:2px;
+  top:7px;
+  width:646px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u5 {
+  position:absolute;
+  left:0px;
+  top:29px;
+  width:650px;
+  height:520px;
+}
+#u5_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:650px;
+  height:520px;
+}
+#u6 {
+  position:absolute;
+  left:2px;
+  top:252px;
+  width:646px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u7 {
+  position:absolute;
+  left:55px;
+  top:70px;
+  width:545px;
+  height:95px;
+}
+#u8 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:56px;
+  height:30px;
+  text-align:center;
+}
+#u8_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:56px;
+  height:30px;
+}
+#u9 {
+  position:absolute;
+  left:2px;
+  top:7px;
+  width:52px;
+  word-wrap:break-word;
+}
+#u10 {
+  position:absolute;
+  left:56px;
+  top:0px;
+  width:484px;
+  height:30px;
+  text-align:center;
+}
+#u10_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:484px;
+  height:30px;
+}
+#u11 {
+  position:absolute;
+  left:2px;
+  top:7px;
+  width:480px;
+  word-wrap:break-word;
+}
+#u12 {
+  position:absolute;
+  left:0px;
+  top:30px;
+  width:56px;
+  height:30px;
+  text-align:center;
+}
+#u12_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:56px;
+  height:30px;
+}
+#u13 {
+  position:absolute;
+  left:2px;
+  top:7px;
+  width:52px;
+  word-wrap:break-word;
+}
+#u14 {
+  position:absolute;
+  left:56px;
+  top:30px;
+  width:484px;
+  height:30px;
+  text-align:center;
+}
+#u14_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:484px;
+  height:30px;
+}
+#u15 {
+  position:absolute;
+  left:2px;
+  top:7px;
+  width:480px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u16 {
+  position:absolute;
+  left:0px;
+  top:60px;
+  width:56px;
+  height:30px;
+  text-align:center;
+}
+#u16_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:56px;
+  height:30px;
+}
+#u17 {
+  position:absolute;
+  left:2px;
+  top:7px;
+  width:52px;
+  word-wrap:break-word;
+}
+#u18 {
+  position:absolute;
+  left:56px;
+  top:60px;
+  width:484px;
+  height:30px;
+  text-align:center;
+}
+#u18_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:484px;
+  height:30px;
+}
+#u19 {
+  position:absolute;
+  left:2px;
+  top:7px;
+  width:480px;
+  visibility:hidden;
+  word-wrap:break-word;
+}
+#u20 {
+  position:absolute;
+  left:11px;
+  top:8px;
+  width:66px;
+  height:16px;
+  color:#FFFFFF;
+}
+#u20_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:66px;
+  height:16px;
+}
+#u21 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:66px;
+  white-space:nowrap;
+}
+#u22 {
+  position:absolute;
+  left:630px;
+  top:4px;
+  width:17px;
+  height:19px;
+  font-size:16px;
+  color:#FFFFFF;
+}
+#u22_img {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:17px;
+  height:19px;
+}
+#u23 {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:17px;
+  word-wrap:break-word;
+}
+#u24 {
+  position:absolute;
+  left:275px;
+  top:495px;
+  width:100px;
+  height:25px;
+}
+#u24_input {
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:100px;
+  height:25px;
+  font-family:'Arial Normal', 'Arial';
+  font-weight:400;
+  font-style:normal;
+  font-size:13px;
+  text-decoration:none;
+  color:#000000;
+  text-align:center;
+}
