@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>教师端-创建竞赛-基本资料</title>
+	<link rel="stylesheet" href="css/general.css">
+	<link rel="stylesheet" href="css/calendar.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/newStyle.css">
+</head>
+<body>
+	<!--头部开始-->
+	<div class="head-wrap the-bg head-new">
+		<div class="wid-fixed">
+			<div class="fl marl-20">
+				<div class="logo fl">
+					<img src="images/logo.png" alt="">
+				</div>
+				<div class="logo-text fl"><i class="white-circle"></i>金融大赛系统</div>
+			</div>
+			<div class="fr head-right">
+				<div class="fl head-por">
+					<div class="por-ha-up">
+						<div class="fl por-img"><img src="images/headpor.png" alt=""></div>
+						<div class="fl cur-user">tsacher-001</div>
+						<div class="fl per-dire"></div>
+					</div>
+					<ul class="por-ha-low">
+						<li >安娜乔布斯</li>
+						<li >退&nbsp;&nbsp;出</li>
+					</ul>
+
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<!--头部结束-->
+
+	<!--内容部分开始-->
+	<div class="mian new-layout">
+		<div class="wid-fixed">
+			<div class="top-bar"></div>
+			<div class="main-left fl">
+				<ul class="ma-le-ul">
+					<li class="ma-le-li-fir-hover the-bor-co active"><span class="ma-le-li-fir"></span><span>竞赛列表</span></li>
+					<li class="ma-le-li-sec-hover the-bor-co"><span class="ma-le-li-sec"></span><span>我的竞赛</span></li>
+					<li class="ma-le-li-fir-hover the-bor-co"><span class="ma-le-li-fir"></span><span>竞赛排名</span></li>
+					<li class="ma-le-li-sec-hover the-bor-co"><span class="ma-le-li-sec"></span><span>高校排行榜</span></li>
+				</ul>
+			</div>
+			<!--右侧内容开始-->
+			<div class="main-right fl">
+				<div class="main-right-con">
+					<h2 class="box__case__tit">
+						创建竞赛
+						<a href="javascript:void(0)"><i>&lt;</i>返回</a>
+					</h2>
+					<div class="stepInfo">
+						<ul>
+							<li></li>
+							<li></li>
+						</ul>
+						<div class="stepIco stepIco1 current">
+							<div class="stepText">1.填写信息信息</div>
+						</div>
+						<div class="stepIco stepIco2">
+							<div class="stepText">2.配置应用内容</div>
+						</div>
+						<div class="stepIco stepIco3">
+							<div class="stepText">3.完成</div>
+						</div>
+					</div>
+					<div class="new-race-box">
+						<ul class="box__ul">
+							<li>
+								<span><em>*</em>竞赛名称：</span>
+								<input type="text" class="box__inp">
+							</li>
+							<li>
+								<span><em>*</em>报名时间：</span>
+								<div class="hei-30">
+									<div class="fl date-bar">
+										<div class="date fl">
+											<input type="text" class="col-7f startime">
+											<div class="time-icon startime"></div>
+											<div class="time star-time"></div>
+										</div>
+										<div class="date-line fl"></div>
+										<div class="date fl">
+											<input type="text" class="col-7f endtime">
+											<div class="time-icon endtime"></div>
+											<div class="time end-time " ></div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span><em>*</em>封面图片：</span>
+								<div class="uploader green">
+									<input type="text" class="filename" readonly/>
+									<input type="button" name="file" class="button" value="浏览"/>
+									<input type="file" size="30"/>
+								</div>
+ 							<li>
+								<span><em>*</em>竞赛类型：</span>
+								<div class="hei-30">
+									<label><input type="radio" name="race" checked><i></i>个人赛</label>
+									<label><input type="radio" name="race"> <i></i>团体赛</label>
+								</div>
+							</li>
+							<li>
+								<span><em>*</em>团队人数：</span>
+								<input type="text" class="box__inp w12per">人/队
+							</li>
+							<li>
+								<span class="marlf marlf-56"><em>*</em>是否允许跨校组队：</span>
+								<div class="hei-30">
+									<label><input type="radio" name="group"><i></i>允许</label>
+									<label><input type="radio" name="group" checked> <i></i>不允许</label>
+								</div>
+							</li>
+							<li>
+								<span class="marlf marlf-29"><em>*</em>参赛人数范围：</span>
+								 1-
+								<input type="text" class="box__inp w14per" placeholder="请输入数字">
+							</li>
+							<li>
+								<span class="marlf marlf-29"><em>*</em>竞赛阶段设置：</span>
+								<div class="hei-30">
+									<div class="fl">阶段数量：</div>
+									<div class="select fl" style="width:20%;">
+										<div class="select-text fl">1</div>
+										<div class="select-dire fr"></div>
+										<ul class="select-list-data the-bor stage">
+											<li class="active">1</li>
+											<li>2</li>
+										</ul>
+									</div>
+									<div class="warn-tip">
+										<i class="warn-btn"></i>
+										<div class="warn-drop">
+											<p>备注：</p>
+											<p>1.最多设置6个竞争阶段；</p>
+											<p>2.最多设置6个竞争阶段，最多设置6个竞争阶段，最多设置6个竞争阶段最多设置6个竞争阶段，最多设置6个竞争阶段。</p>
+											<p>3.最多设置6个竞争阶段，最多设置6个竞争阶段，最多设置6个竞争阶段最多设置6个竞争阶段，最多设置6个竞争阶段。</p>
+										</div>
+									</div>
+								</div>
+								<div class="stage-box">
+									<div class="stage-title">
+										<h4>第一阶段
+											<input type="text" class="box__inp" placeholder="请输入阶段名称，如“初赛”">
+										</h4>
+									</div>
+									<div class="stage-con">
+										<ul class="box__ul">
+											<li>
+												<span><em>*</em>比赛时间：</span>
+												<div class="hei-30">
+													<div class="fl date-bar">
+														<div class="date fl">
+															<input type="text" class="col-7f startime">
+															<div class="time-icon startime"></div>
+															<div class="time star-time"></div>
+														</div>
+														<div class="date-line fl"></div>
+														<div class="date fl">
+															<input type="text" class="col-7f endtime">
+															<div class="time-icon endtime"></div>
+															<div class="time end-time " ></div>
+														</div>
+													</div>
+												</div>
+											</li>
+											<li>
+												<span><em>*</em>晋级规则：</span>
+												<div class="hei-30">
+													<label><input type="radio" name="rules"><i></i>固定数量<input type="text" class="box__inp"></label>
+													<label><input type="radio" name="rules" checked> <i></i>固定比例<input type="text" class="box__inp"><b>%</b></label>
+												</div>
+											</li>
+											<li>
+												<span><em>*</em>比赛方式：</span>
+												<div class="hei-30">
+													<label><input type="radio" name="way"><i></i>实训</label>
+													<label><input type="radio" name="way" > <i></i>理论</label>
+													<label><input type="radio" name="way" checked> <i></i>线下</label>
+												</div>
+											</li>
+											<li>
+												<span class="marlf marlf-28"><em>*</em>占总成绩权重：</span>
+												<div class="hei-30">
+													<input type="text" class="box__inp" style="margin-left: 0;"><b>%</b>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="stage-box mt10">
+									<div class="stage-title">
+										<h4>第二阶段
+											<input type="text" class="box__inp" placeholder="请输入阶段名称，如“初赛”">
+										</h4>
+									</div>
+									<div class="stage-con">
+										<ul class="box__ul">
+											<li>
+												<span><em>*</em>比赛时间：</span>
+												<div class="hei-30">
+													<div class="fl date-bar">
+														<div class="date fl">
+															<input type="text" class="col-7f startime">
+															<div class="time-icon startime"></div>
+															<div class="time star-time"></div>
+														</div>
+														<div class="date-line fl"></div>
+														<div class="date fl">
+															<input type="text" class="col-7f endtime">
+															<div class="time-icon endtime"></div>
+															<div class="time end-time " ></div>
+														</div>
+													</div>
+												</div>
+											</li>
+											<li>
+												<span><em>*</em>晋级规则：</span>
+												<div class="hei-30">
+													<label><input type="radio" name="rules2"><i></i>固定数量<input type="text" class="box__inp"></label>
+													<label><input type="radio" name="rules2" checked> <i></i>固定比例<input type="text" class="box__inp"><b>%</b></label>
+												</div>
+											</li>
+											<li>
+												<span><em>*</em>比赛方式：</span>
+												<div class="hei-30">
+													<label><input type="radio" name="way2"><i></i>实训</label>
+													<label><input type="radio" name="way2" > <i></i>理论</label>
+													<label><input type="radio" name="way2" checked> <i></i>线下</label>
+												</div>
+											</li>
+											<li>
+												<span class="marlf marlf-28"><em>*</em>占总成绩权重：</span>
+												<div class="hei-30">
+													<input type="text" class="box__inp" style="margin-left: 0;"><b>%</b>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li>
+								<span class="marlf marlf-41"><em>*</em>是否设置邀请码：</span>
+								<div class="hei-30">
+									<label><input type="radio" name="code" checked><i></i>需要</label>
+									<label><input type="radio" name="code"> <i></i>不需要</label>
+								</div>
+								<div class="code-attention">
+									<p><i></i>注：邀请码为报名时所输入的，设置后该竞赛报名学生必须输入正确的邀请码才可报名成功！</p>
+								</div>
+							</li>
+							<li>
+								<span class="marlf marlf-13"><em>*</em>报名邀请码：</span>
+								<input type="text" class="box__inp" style="width: 27%;">
+								<a href="" class="box__ul__btn high30">随机</a>
+							</li>
+							<li>
+								<span class="marlf marlf-5"><em>*</em>主办方/人：</span>
+								<input type="text" class="box__inp" style="width: 27%;">
+							</li>
+							<li>
+								<span><em>*</em>竞赛奖励：</span>
+								<textarea class="box__area"></textarea>
+							</li>
+						</ul>
+					</div>
+					<div class="txtc mt20">
+						<a class="box__submit">保存</a>
+						<a class="box__submit">下一步</a>
+					</div>
+				</div>
+			</div>
+			<!--右侧内容结束-->
+			<div class="clear"></div>
+		</div>
+		<div class="footer">
+			<p>版权所有：国泰安资源中心<span>技术支持：深圳国泰安教育技术股份有限公司</span></p>
+			<p>Copyright 2014 GTA All rights reserved.  粤ICP备05065871号</p>
+		</div>
+
+	</div>
+	<!--内容部分结束-->
+
+<!--遮罩-->
+<div class="mask" ></div>
+
+</body>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/general.js"></script>
+<script src="js/calendar.js"></script> 
+<script type="text/javascript">
+	//时间插件
+	$('.star-time').calendar({
+		trigger: '.startime',
+		zIndex: 999,
+		format: 'yyyy-mm-dd',
+		onSelected: function (view, date, data) {
+			console.log('event: onSelected')
+		},
+		onClose: function (view, date, data) {
+			console.log('event: onClose')
+			console.log('view:' + view)
+			console.log('date:' + date)
+			console.log('data:' + (data || 'None'));
+		}
+	});
+	$('.end-time').calendar({
+		trigger: '.endtime',
+		zIndex: 999,
+		format: 'yyyy-mm-dd',
+		onSelected: function (view, date, data) {
+			console.log('event: onSelected')
+		},
+		onClose: function (view, date, data) {
+			console.log('event: onClose')
+			console.log('view:' + view)
+			console.log('date:' + date)
+			console.log('data:' + (data || 'None'));
+		}
+	});
+
+	//时间插件
+	$('.end-acc-endtime').calendar({
+		trigger: '.acc-endtime',
+		zIndex: 999,
+		format: 'yyyy-mm-dd',
+		onSelected: function (view, date, data) {
+			console.log('event: onSelected')
+		},
+		onClose: function (view, date, data) {
+			console.log('event: onClose')
+			console.log('view:' + view)
+			console.log('date:' + date)
+			console.log('data:' + (data || 'None'));
+		}
+	});
+	$('.star-acc-startime').calendar({
+		trigger: '.acc-startime',
+		zIndex: 999,
+		format: 'yyyy-mm-dd',
+		onSelected: function (view, date, data) {
+			console.log('event: onSelected')
+		},
+		onClose: function (view, date, data) {
+			console.log('event: onClose')
+			console.log('view:' + view)
+			console.log('date:' + date)
+			console.log('data:' + (data || 'None'));
+		}
+	});
+
+	//竞赛类型
+	$(".direction-li li").click(function(){
+		$(".direction-li li").each(function(index, el) {
+			$(el).removeClass('active');
+		});
+		$(this).addClass('active');
+	});
+	//竞赛状态
+	$(".segmentation-li li").click(function(){
+		$(".segmentation-li li").each(function(index, el) {
+			$(el).removeClass('active');
+		});
+		$(this).addClass('active');
+	});
+	//竞赛时间
+	$(".pad-li li").click(function(){
+		$(".pad-li li").each(function(index, el) {
+			$(el).removeClass('active');
+		});
+		$(this).addClass('active');
+	});
+
+	//阶段数量
+	$(".stage li").click(function(){
+		clickli($(this));
+	});
+
+
+	(function(){
+		$('.stepInfo').css({
+			'height':$('.stepIco').css('height') //获取子元素的高度
+		});
+	})();
+
+
+	$(".warn-btn").click(function(){
+		$(".warn-drop").toggle();
+	})
+
+</script>
+</html>
