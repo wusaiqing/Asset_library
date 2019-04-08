@@ -1,0 +1,7 @@
+适用JIRA版本6.3.3
+1、用atlassian-extras-2.2.2.jar替换你的JIRA的安装目录的\atlassian-jira\WEB-INF\lib同名jar包。
+2、用atlassian-universal-plugin-manager-plugin-2.10.1.jar替换你的JIRA的安装目录的
+\atlassian-jira\atlassian-bundled-plugins.zip中的同名jar包。
+3、根据自己的情况，按照jira_key.txt的格式填写自己好自己license。
+4、重启JIRA，进如授权管理，将修改好的jira_key.txt文件中的内容黏贴到Licenes输入框中，更新。
+5、更新成功。

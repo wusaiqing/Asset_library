@@ -1,0 +1,21 @@
+CreationDate=2018-06-05,
+jira.LicenseEdition=ENTERPRISE,
+Evaluation=false,
+jira.LicenseTypeName=COMMERCIAL,
+jira.active=true,
+licenseVersion=2,
+MaintenanceExpiryDate=2099-12-31,
+Organisation=Evaluation license,
+SEN=SEN-L11817230, 
+ServerID=B5PE-JE75-NEQG-PU4X ,
+jira.NumberOfUsers=-1,
+LicenseID=AAABdg0ODAoPeNp9UctugkAU3fMVJN20CwjgMyYktTBpMIoUsOmimyledVodyJ3B1n59eTXViiazO
+TNzz+vexDmok5yrRk+1zFGnN+r2VceNVcswh8oaAfgmzTJAfcoS4ALIkkmWcpv4MQmD0IuI4ue7N
+8D5aiEAha2ZipNySRPp0x3Y3+wTePJxv0nljrKtnqQ75Z0h1c+mghyTDRXgUgl2Ka8Z/eIojXB8y
+KBidOazGQkdbzz9fSJfGcPD0dygnGtckFkh22ojAtwDeq790AuINiGDnuaTp0ctWHRfao8Zpss8k
+XoJNJGu5CdF0AtStgdbYg71t8vVtBTYlqOwyCVwypMLWa64Oeux0SlyTT03Ir42Nc2hObA6hlIg+
+/TmCnEkKUpAe0W3ApQ5rilnglYJl1RSxUGo0P99bWv958JO+dc6KQGKnJghE01/LogEWVaxTrxwr
+EaNvHpbr+fudaSSPd3mlVbt99IC2qo9Fj+e++Os8Q/ToAoaMC0CFQCU5H9Ymuc65wIPKYP6+COxG
++X3rAIUaK8exuFI3JPQS3M5uKSXLvdOw28=X02ia, 
+LicenseExpiryDate=2099-12-31, 
+PurchaseDate=2018-06-05

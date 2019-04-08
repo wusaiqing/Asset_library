@@ -1,0 +1,18 @@
+Description=JIRA: Commercial, 
+CreationDate=你的安装日期，格式（yyyy-mm-dd）, 
+jira.LicenseEdition=ENTERPRISE, 
+Evaluation=false, 
+jira.LicenseTypeName=COMMERCIAL, 
+jira.active=true, 
+licenseVersion=2, 
+MaintenanceExpiryDate=你想设置的失效日期如：2099-12-31, 
+Organisation=saper, 
+SEN=你申请到的SEN注意没有前缀LID, 
+ServerID=你申请到的ServerID, 
+jira.NumberOfUsers=-1, 
+LicenseID=LID你申请到的SEN，注意LID前缀不要丢掉, 
+LicenseExpiryDate=你想设置的失效日期如：2099-12-31, 
+PurchaseDate=你的安装日期，格式（yyyy-mm-dd）
+
+
+

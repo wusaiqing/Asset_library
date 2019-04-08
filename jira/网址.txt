@@ -1,0 +1,9 @@
+http://192.168.1.100:8081/jenkins/
+
+http://192.168.1.111/svn/djs_rd/test/demo1
+
+https://www.cnblogs.com/amberly/p/7201041.html
+
+https://wenku.baidu.com/view/4138459cc850ad02df80416a.html
+
+https://blog.csdn.net/TripleS_X/article/details/79280230
